@@ -1,5 +1,17 @@
 ---
-title: "Curriculum Vitae"
+title: "Shuai Ma"
+about:
+  template: trestles
+  image: profile2.jpeg
+  image-shape: round
+  image-width: 10em
+  links:
+    - icon: github
+      href: https://github.com/shuaima-research
+    - icon: file-earmark-pdf
+      text: Download PDF
+      href: cv.pdf
+
 ---
 
 ## Education
