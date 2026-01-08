@@ -1,7 +1,25 @@
 ---
-title: "My_GitHubPages"
+title: "Shuai Ma"
 ---
 
-This is a Quarto website.
+## About Me
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+I am an aspiring PhD researcher with interests in **urban development, housing policy, and the application of AI and machine learning to climate-resilient real estate and urban systems**.
+
+My research focuses on how data-driven and interpretable machine-learning models can support more equitable and climate-resilient urban planning and investment decisions.
+
+## Research Interests
+
+- Climate-Resilient Urban Development  
+- Housing Affordability and Real Estate Markets  
+- Interpretable Machine Learning for Policy Analysis  
+- Urban Data Science and Spatial Analytics  
+
+## Current Focus
+
+I am currently developing research ideas around **AI-enabled housing affordability modeling and climate risk assessment**, with an emphasis on policy-relevant and equity-aware frameworks.
+
+## Contact
+
+- Email: yourname@email.com  
+- GitHub: https://github.com/shuaima-research

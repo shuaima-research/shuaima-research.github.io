@@ -1,0 +1,30 @@
+---
+title: "Curriculum Vitae"
+---
+
+## Education
+
+- M.S. in [Your Degree], [University], Year  
+- B.S. in [Your Degree], [University], Year  
+
+## Research Interests
+
+- Urban Development and Planning  
+- Housing and Real Estate Economics  
+- Climate Resilience  
+- Machine Learning for Policy Analysis  
+
+## Experience
+
+- Urban Planning / Consulting Experience  
+- Data Analysis and Modeling Projects  
+
+## Skills
+
+- Programming: Python, R  
+- Data Analysis: Pandas, NumPy, GIS  
+- Machine Learning: scikit-learn, interpretable models  
+
+## Publications
+
+- Working papers in preparation
