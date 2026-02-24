@@ -2,7 +2,7 @@
 title: "Shuai Ma"
 about:
   template: trestles
-  image: profile3.png
+  image: profile2.jpeg
   image-shape: round
   image-width: 10em
   links:
