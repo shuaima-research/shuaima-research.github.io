@@ -4,21 +4,21 @@
     "href": "cv.html",
     "title": "Shuai Ma",
     "section": "",
-    "text": "M.S. in [Your Degree], [University], Year\n\nB.S. in [Your Degree], [University], Year"
+    "text": "Seattle University — M.S., Business Analytics (STEM), 2020\nUniversity of Cincinnati (DAAP) — M.S., Architecture (Urban Development), 2011\nHebei University of Technology — B.Eng., Urban Planning & Design, 2008"
   },
   {
     "objectID": "cv.html#education",
     "href": "cv.html#education",
     "title": "Shuai Ma",
     "section": "",
-    "text": "M.S. in [Your Degree], [University], Year\n\nB.S. in [Your Degree], [University], Year"
+    "text": "Seattle University — M.S., Business Analytics (STEM), 2020\nUniversity of Cincinnati (DAAP) — M.S., Architecture (Urban Development), 2011\nHebei University of Technology — B.Eng., Urban Planning & Design, 2008"
   },
   {
     "objectID": "cv.html#research-interests",
     "href": "cv.html#research-interests",
     "title": "Shuai Ma",
     "section": "Research Interests",
-    "text": "Research Interests\n\nUrban Development and Planning\n\nHousing and Real Estate Economics\n\nClimate Resilience\n\nMachine Learning for Policy Analysis"
+    "text": "Research Interests\n\nClimate-Resilient Urban Development & Sustainable Real Estate Investment: AI-based evaluation of climate risk and resilience benefits in real estate and urban development decisions.\nInterpretable, Equity-Aware ML for Modifiable Urban Form: identifying modifiable siting and built-form characteristics that reduce climate vulnerability and unequal impacts.\nPolicy Translation & Decision Rules: converting model insights into implementable public investment prioritization rules for capital improvement planning, hazard mitigation, and housing policy.\nBuilt-Environment Performance Modeling (for features/validation): CFD, thermal comfort, energy, daylight/radiation analysis to support feature generation and ground-truthing."
   },
   {
     "objectID": "cv.html#experience",
@@ -131,5 +131,40 @@
     "title": "About",
     "section": "",
     "text": "About this site"
+  },
+  {
+    "objectID": "CLAUDE.html",
+    "href": "CLAUDE.html",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.\n\n\nThis is a Quarto website project - a personal academic/research portfolio site deployed to GitHub Pages. The site is built from Quarto Markdown (.qmd) source files and outputs static HTML to the docs/ directory.\n\n\n\n# Render the site (generates HTML in docs/ directory)\nquarto render\n\n# Preview the site locally with live reload\nquarto preview\n\n# Publish to GitHub Pages\nquarto publish gh-pages\n\n\n\nSource → Output Flow: - Edit .qmd files in project root - Run quarto render to generate HTML in docs/ - GitHub Pages serves content from the docs/ directory on the main branch\nKey Configuration (_quarto.yml): - Output directory: docs/ - Theme: Cosmo with custom CSS overrides (styles.css) - Navigation: Home, Research, Projects, CV\nPage Structure: | Source | Page | |——–|——| | index.qmd | Home/About | | research.qmd | Research themes | | projects.qmd | Project portfolio | | cv.qmd | Curriculum Vitae (uses trestles template with profile photo) |\nCustom Styling: - styles.css contains CSS overrides for the Quarto theme - Currently adjusts the trestles template profile section width\n\n\n\n\nAlways run quarto render after editing .qmd files before committing\nThe docs/ directory contains generated files and should be committed for GitHub Pages deployment\nProfile images are in the root directory; profile2.jpeg is currently used in the CV page"
+  },
+  {
+    "objectID": "CLAUDE.html#project-overview",
+    "href": "CLAUDE.html#project-overview",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "This is a Quarto website project - a personal academic/research portfolio site deployed to GitHub Pages. The site is built from Quarto Markdown (.qmd) source files and outputs static HTML to the docs/ directory."
+  },
+  {
+    "objectID": "CLAUDE.html#build-commands",
+    "href": "CLAUDE.html#build-commands",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "# Render the site (generates HTML in docs/ directory)\nquarto render\n\n# Preview the site locally with live reload\nquarto preview\n\n# Publish to GitHub Pages\nquarto publish gh-pages"
+  },
+  {
+    "objectID": "CLAUDE.html#architecture",
+    "href": "CLAUDE.html#architecture",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "Source → Output Flow: - Edit .qmd files in project root - Run quarto render to generate HTML in docs/ - GitHub Pages serves content from the docs/ directory on the main branch\nKey Configuration (_quarto.yml): - Output directory: docs/ - Theme: Cosmo with custom CSS overrides (styles.css) - Navigation: Home, Research, Projects, CV\nPage Structure: | Source | Page | |——–|——| | index.qmd | Home/About | | research.qmd | Research themes | | projects.qmd | Project portfolio | | cv.qmd | Curriculum Vitae (uses trestles template with profile photo) |\nCustom Styling: - styles.css contains CSS overrides for the Quarto theme - Currently adjusts the trestles template profile section width"
+  },
+  {
+    "objectID": "CLAUDE.html#workflow-notes",
+    "href": "CLAUDE.html#workflow-notes",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "Always run quarto render after editing .qmd files before committing\nThe docs/ directory contains generated files and should be committed for GitHub Pages deployment\nProfile images are in the root directory; profile2.jpeg is currently used in the CV page"
   }
 ]

@@ -2,7 +2,7 @@
 title: "Shuai Ma"
 about:
   template: trestles
-  image: profile2.jpeg
+  image: profile3.png
   image-shape: round
   image-width: 10em
   links:
@@ -16,15 +16,16 @@ about:
 
 ## Education
 
-- M.S. in [Your Degree], [University], Year  
-- B.S. in [Your Degree], [University], Year  
+- **Seattle University** — M.S., Business Analytics (STEM), 2020
+- **University of Cincinnati (DAAP)** — M.S., Architecture (Urban Development), 2011
+- **Hebei University of Technology** — B.Eng., Urban Planning & Design, 2008  
 
 ## Research Interests
 
-- Urban Development and Planning  
-- Housing and Real Estate Economics  
-- Climate Resilience  
-- Machine Learning for Policy Analysis  
+- **Climate-Resilient Urban Development & Sustainable Real Estate Investment:** AI-based evaluation of climate risk and resilience benefits in real estate and urban development decisions.
+- **Interpretable, Equity-Aware ML for Modifiable Urban Form:** identifying *modifiable* siting and built-form characteristics that reduce climate vulnerability and unequal impacts.
+- **Policy Translation & Decision Rules:** converting model insights into implementable **public investment prioritization rules** for capital improvement planning, hazard mitigation, and housing policy.
+- **Built-Environment Performance Modeling (for features/validation):** CFD, thermal comfort, energy, daylight/radiation analysis to support feature generation and ground-truthing. 
 
 ## Experience
 
