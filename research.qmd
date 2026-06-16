@@ -1,0 +1,36 @@
+---
+title: "Research"
+---
+
+## Research Overview
+
+My research interests lie at the intersection of **urban planning, housing and real estate economics, climate resilience, and artificial intelligence**.
+
+I am particularly interested in developing **interpretable and policy-relevant machine-learning models** that can inform public investment and planning decisions.
+
+## Urban Development & Planning
+
+I study how urban form, land-use regulation, and infrastructure investment influence long-term urban resilience and social equity.
+
+Key themes include:
+- Urban spatial structure and risk exposure  
+- Planning institutions and policy constraints  
+- Climate adaptation in metropolitan regions  
+
+## Housing & Real Estate
+
+My work explores housing affordability and real estate dynamics under climate and economic uncertainty.
+
+Key topics:
+- Housing supply constraints and zoning  
+- Climate risk pricing in real estate markets  
+- Housing policy evaluation  
+
+## AI & Machine Learning Methods
+
+Methodologically, I focus on:
+- Interpretable machine-learning models  
+- Equity-aware and fairness-constrained modeling  
+- Spatial and temporal prediction  
+
+with an emphasis on **translating model insights into actionable policy rules**.
