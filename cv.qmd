@@ -1,43 +1,189 @@
 ---
-title: "Shuai Ma"
-about:
-  template: trestles
-  image: IMG_8948.JPG
-  image-shape: round
-  image-width: 10em
-  links:
-    - icon: github
-      href: https://github.com/shuaima-research
-    - icon: file-earmark-pdf
-      text: Download PDF
-      href: cv.pdf
+title: "Shuai Ma" 
+subtitle: "Email: mashuai@gmail.com | Web: shuaima-research.github.io | Shanghai, China" 
+date: today
+format:
+  pdf:
+    title-block-style: none
+    documentclass: article
+    pdf-engine: xelatex
+    mainfont: "Times New Roman"
+    CJKmainfont: "Songti SC"
+    fontsize: 10pt
+    geometry:
+      - top=0.55in
+      - bottom=0.6in
+      - left=0.7in
+      - right=0.7in
+    colorlinks: true
+    urlcolor: black
+    linkcolor: black
+    include-in-header:
+      text: |
+        \usepackage{enumitem}
+        \setlength{\parindent}{0pt}
+        \setlength{\parskip}{0.25em}
+        \setlist[itemize]{topsep=0.15em,itemsep=0.1em,leftmargin=1.25em}
 
+        \AtBeginDocument{
+         \let\maketitle\relax
+        }
+  html:
+    theme: cosmo
+    toc: false
+execute:
+  echo: false
 ---
+
+\begin{center}
+    {\LARGE \textbf{Shuai Ma}} \\
+    \vspace{0.3em}
+    {\footnotesize Email: mashuai@gmail.com | Tel: +86-186-1622-1985 | Shanghai, China}
+\end{center}
 
 ## Education
 
-- **Seattle University** — M.S., Business Analytics (STEM), 2020
-- **University of Cincinnati (DAAP)** — M.S., Architecture (Urban Development), 2011
-- **Hebei University of Technology** — B.Eng., Urban Planning & Design, 2008  
+**Seattle University** \hfill Seattle, WA, United States  
+Albers School of Business & Economics  
+**M.S. in Business Analytics**, STEM-designated \hfill 2018--2020
+
+- Relevant coursework: programming for business analytics, applied econometrics, statistical learning, forecasting, big-data analytics, data management, data visualization, and data architecture.
+- Capstone: *Influential Factors on Residential Property Prices Using Data-Mining Methods*; analyzed Pierce County housing transactions using statistical and machine-learning methods.
+
+**University of Cincinnati** \hfill Cincinnati, OH, United States  
+College of Design, Architecture, Art, and Planning  
+**M.S. in Architecture**, research-based program with an Urban Development focus \hfill 2009--2011
+
+- Research training: urban theory, research methods, pre-thesis research, social-science research for planners, land-use control, international development policy, and thesis-based scholarly writing.
+- Thesis: *Impact of High-Speed Rail Station Development on Surrounding Urban Form: The Beijing--Tianjin Case*.
+
+**Hebei University of Technology** \hfill Tianjin, China  
+Project 211 and Double First-Class university  
+**B.Eng. in Urban Planning and Design** \hfill 2003--2008
+
+- Undergraduate planning foundation: planning studios, regional planning, urban design, urban economics, urban geography, transportation planning, urban ecology, planning code, and spatial information technology.
+- NACES course-by-course evaluation: equivalent to a U.S. bachelor's degree in Urban and Regional Planning.
 
 ## Research Interests
 
-- **Climate-Resilient Urban Development & Sustainable Real Estate Investment:** AI-based evaluation of climate risk and resilience benefits in real estate and urban development decisions.
-- **Interpretable, Equity-Aware ML for Modifiable Urban Form:** identifying *modifiable* siting and built-form characteristics that reduce climate vulnerability and unequal impacts.
-- **Policy Translation & Decision Rules:** converting model insights into implementable **public investment prioritization rules** for capital improvement planning, hazard mitigation, and housing policy.
-- **Built-Environment Performance Modeling (for features/validation):** CFD, thermal comfort, energy, daylight/radiation analysis to support feature generation and ground-truthing. 
+Housing capitalization of flood risk and mitigation investment; distributional and environmental-justice effects of climate-adaptation policy in flood-prone communities; land-use regulation and real estate markets; causal inference and urban informatics, including GIS and explainable machine learning, for policy evaluation.
 
-## Experience
+## Research Papers and Writing Samples
 
-- Urban Planning / Consulting Experience  
-- Data Analysis and Modeling Projects  
+**Hazard or Amenity? Flood Risk, Waterway Proximity, and Neighborhood Inequality in Housing Prices** \hfill 2025--Present  
+Sole-authored PhD writing sample; empirical study of Pierce County, Washington
 
-## Skills
+- Examines how flood risk, waterway proximity, and neighborhood inequality are capitalized into housing prices using 47,763 single-family sales linked to parcel, FEMA flood-risk, and neighborhood data.
+- Estimates hedonic regression models with tract-clustered standard errors and conducts spatial analysis to evaluate whether flood-risk effects are bundled with waterfront amenity. 
+- Uses flood-income-waterway typologies, machine-learning models, and SHAP interpretation to motivate a future causal research agenda on flood-mitigation investment and distributional effects.
 
-- Programming: Python, R  
-- Data Analysis: Pandas, NumPy, GIS  
-- Machine Learning: scikit-learn, interpretable models  
+**Strategic Management's Foundational Silence** \hfill 2025--Present  
+First-author coauthored manuscript in revision with Rubina Mahsud and Greg Prussia; developed from a 2020 Strategic Management Society conference proposal
 
-## Publications
+- Built and cleaned a corpus of 3,202 Strategic Management Journal articles and applied classical natural language processing (NLP) methods, local open-source large language models (LLMs), and cloud-based LLMs to analyze the field's dominant vocabulary.
+- Develops the concept of "foundational silence" to argue that poverty, war, disease, hunger, homelessness, and related human concerns should be treated as central social contexts rather than peripheral externalities.
 
-- Working papers in preparation
+## Conference Presentations
+
+**Strategic Management Society 2060: From Effectiveness to Impact, from Success to Significance** \hfill October 2020  
+Strategic Management Society Annual Conference, London, United Kingdom  
+Mahsud, R., and Ma, S. Presented by Shuai Ma.  
+
+## Selected Analytical Projects
+
+**Sponge City and Low-Impact Development Technical Research and Application** \hfill 2017  
+Research leader; led a two-person, three-month applied research effort on stormwater adaptation
+
+- Synthesized sponge-city policies, Low Impact Development (LID) technologies, and multi-city case materials into technical guidance for runoff control, rainwater reuse, water-quality treatment, and urban flood-risk reduction.
+- Evaluated permeable paving, green roofs, bioswales, rain gardens, wetlands, detention facilities, and runoff-control scenarios using catchment analysis, water-balance calculations, and stormwater simulation outputs.
+
+**Empirical Analysis of Guangzhou Residential Rental Markets** \hfill 2021  
+Sole-authored applied econometric project using scraped public rental-listing data
+
+- Collected and cleaned approximately 3,000 publicly available online rental listings and modeled Guangzhou rent variation using structural housing attributes, rental type, floor information, and district-level location indicators.
+- Applied OLS regression, stepwise variable selection, VIF/kappa multicollinearity diagnostics, PCA, and exploratory clustering to evaluate key rental-price determinants.
+
+**Serviced Apartment and Long-Term Rental Housing Sector Studies** \hfill 2016; 2021  
+Sole-authored mixed-methods housing-market research using field visits, web-scraped data, R, and Python
+
+- Conducted field visits to dozens of serviced-apartment projects and compiled public online listing data to compare rents, occupancy, tenant profiles, product layouts, amenities, operators, and location patterns.
+- Analyzed 987 Guangzhou serviced-apartment listings using descriptive statistics, cross-tabulation, chi-square tests, and tree-based feature-importance models to evaluate brand, district, accessibility, and unit-level rent drivers.
+
+**Comparative Policy Study of New Industrial Land (M0) in the Greater Bay Area** \hfill 2021  
+Sole-authored study of land-use regulation, industrial redevelopment, and zoning-like reform
+
+- Compared M0 land-use policies across Shenzhen, Guangzhou, Dongguan, Foshan, Huizhou, Zhongshan, and Zhuhai, examining industry eligibility, site-selection rules, FAR requirements, subdivision and transfer restrictions, land tenure, and performance monitoring.
+- Synthesized national, provincial, and municipal policy documents to evaluate how regulatory design supports industrial upgrading while limiting speculative real-estate conversion of industrial land.
+
+**Highest and Best Use (HBU) Optimization for Business-Park Development** \hfill 2021  
+Initiated and led internal real estate analytics study using market research, regulatory constraints, and Python linear programming
+
+- Surveyed 11 competing business-park projects in Foshan to parameterize 16 candidate product typologies, including multi-floor manufacturing buildings, detached warehouses, and independent offices.
+- Formulated a Python PuLP optimization model to maximize gross development value under FAR, building-height, plot-coverage, and green-space-ratio constraints.
+- Tested alternative product-mix scenarios to compare value maximization with market absorption, translating HBU analysis into a data-driven development strategy.
+
+**Jiangsu Provincial Low-Carbon Urban System Strategy** \hfill 2011  
+Core ARUP project-team member; early-career foundation in regional carbon accounting and low-carbon planning
+
+- Contributed to an IPCC-based carbon-audit framework linking urban-system planning with activity-data and emissions-factor methods across land use, buildings, industry, transportation, water, waste, ecological space, and alternative energy.
+- Supported province-scale baseline emissions estimation for Jiangsu's urban system, translating carbon-accounting results into planning-relevant evidence for low-carbon strategy and policy design.
+
+## Technical Skills
+
+**Programming and Data Analysis:** Python (pandas, NumPy, GeoPandas, statsmodels, scikit-learn, SHAP, PuLP, Matplotlib, web scraping); R (tidyverse, ggplot2/GGally, R Markdown); SQL.
+
+**Statistical and Econometric Methods:** hedonic price modeling, OLS regression with clustered standard errors, model selection and diagnostics, PCA, clustering, and scenario analysis.
+
+**Machine Learning and Model Interpretation:** tree-based models (decision trees, random forests), feature-importance analysis, and SHAP-based model interpretation.
+
+**Text and AI-Based Analysis:** natural language processing (NLP), keyword-extraction methods, corpus construction, and large language models (LLMs), including open-source and cloud-based models.
+
+**GIS, Spatial, and Environmental Analysis:** QGIS; spatial data processing, floodplain mapping, spatial autocorrelation, catchment and water-balance analysis, stormwater simulation outputs, and IPCC-based carbon accounting.
+
+**Research Workflow and Reporting:** Quarto, LaTeX, Zotero (Better BibTeX), Git/GitHub, and Microsoft Excel.
+
+## Professional Experience
+
+**Founder & Principal Researcher, Beamlinked Consulting Co., Ltd.** \hfill 2023--Present
+
+- Founded an independent consulting and research practice focused on urban development, real estate markets, sustainable planning, and policy-oriented analytics.
+- Leads applied research and advisory work on business-park development, housing and real estate markets, land-use policy, and climate-related planning issues.
+- Develops AI-assisted research workflows, including diffusion-model applications for spatial-design exploration and customized language-model tools for sustainability disclosure review.
+
+**Vice Director, Property Asset Management, Ping An Group** \hfill 2020--2023
+
+- Directed planning and design review across the real estate portfolio, including new-town projects and business parks, and contributed to company-wide planning and design guidelines.
+- Served on the internal research think tank, producing regular analytical reports for senior management on real estate markets, urban policy, infrastructure investment, and industrial-park planning.
+- Participated as a core ESG committee member, reviewing project sustainability performance and supporting LEED v4.1 O+M Platinum certification work for the Ping An International Finance Center.
+- Delivered internal professional training as a company-certified lecturer, communicating planning, real estate, and sustainability knowledge to professional audiences.
+
+**Director, Planning and Development, China Fortune Land Development** \hfill 2017--2018
+
+- Directed town planning, urban design, land-use planning, statutory-planning coordination, and water-green-system planning for two public-private-partnership development districts of roughly 3,200 acres each.
+- Co-developed a group-wide green-development guideline adopted as a standard for new real estate development projects.
+
+**Project Manager, AtkinsRéalis / Atkins** \hfill 2013--2017
+
+- Led planning and design teams across town planning, master planning, business and industrial parks, commercial complexes, tourism districts, and sustainability-oriented urban development projects. 
+- Directed applied research on microclimate analysis, building physics, environmental simulation, and performance-based design methods, including CFD, PMV, whole-building energy simulation, and radiation analysis. 
+- Served as an internal sustainability consultant, helping project teams apply LEED, BREEAM, WELL, China Green Building Label, EEWH, and CASBEE standards.
+
+**Urban Planner, Arup** \hfill 2011--2013
+
+- Contributed as a project-team member to low-carbon planning, urban design, waterfront development, transit-oriented development, and regional planning projects.
+- Supported carbon-audit, green-building economics, low-carbon ecological planning, and cross-scalar planning research for department-level studies and publications.
+- Supported a National Basic Research Program study and contributed research materials later incorporated into two published department-led books: *Low-Carbon Ecological Space: Rethinking Cross-Dimensional Planning Methods* and *Study on the Economics of Green Buildings in China*.
+
+**Assistant Planner, Tongji University Urban Planning and Design Institute** \hfill 2007--2009
+
+- Supported regional planning, comprehensive urban development planning, tourism planning, historic-district design, and industrial-park planning projects.
+
+## Certifications and Professional Credentials
+
+**LEED AP Neighborhood Development**, U.S. Green Building Council
+ 
+## Honors and Awards
+
+- Dean's Honor List, Albers School of Business and Economics, Seattle University, Fall 2018.
+- Best Graduate Design Award, Hebei University of Technology, 2008.
+- Second Prize, National Undergraduate Urban Design Competition, Urban Planning Discipline Steering Committee, Ministry of Construction, China, 2007.
