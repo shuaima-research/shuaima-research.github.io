@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://shuaima-research.github.io/sitemap.xml
