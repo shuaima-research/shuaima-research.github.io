@@ -1,5 +1,61 @@
 [
   {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research interests lie at the intersection of urban planning, housing and real estate economics, climate resilience, and artificial intelligence.\nI am particularly interested in developing interpretable and policy-relevant machine-learning models that can inform public investment and planning decisions."
+  },
+  {
+    "objectID": "research.html#research-overview",
+    "href": "research.html#research-overview",
+    "title": "Research",
+    "section": "",
+    "text": "My research interests lie at the intersection of urban planning, housing and real estate economics, climate resilience, and artificial intelligence.\nI am particularly interested in developing interpretable and policy-relevant machine-learning models that can inform public investment and planning decisions."
+  },
+  {
+    "objectID": "research.html#urban-development-planning",
+    "href": "research.html#urban-development-planning",
+    "title": "Research",
+    "section": "Urban Development & Planning",
+    "text": "Urban Development & Planning\nI study how urban form, land-use regulation, and infrastructure investment influence long-term urban resilience and social equity.\nKey themes include: - Urban spatial structure and risk exposure\n- Planning institutions and policy constraints\n- Climate adaptation in metropolitan regions"
+  },
+  {
+    "objectID": "research.html#housing-real-estate",
+    "href": "research.html#housing-real-estate",
+    "title": "Research",
+    "section": "Housing & Real Estate",
+    "text": "Housing & Real Estate\nMy work explores housing affordability and real estate dynamics under climate and economic uncertainty.\nKey topics: - Housing supply constraints and zoning\n- Climate risk pricing in real estate markets\n- Housing policy evaluation"
+  },
+  {
+    "objectID": "research.html#ai-machine-learning-methods",
+    "href": "research.html#ai-machine-learning-methods",
+    "title": "Research",
+    "section": "AI & Machine Learning Methods",
+    "text": "AI & Machine Learning Methods\nMethodologically, I focus on: - Interpretable machine-learning models\n- Equity-aware and fairness-constrained modeling\n- Spatial and temporal prediction\nwith an emphasis on translating model insights into actionable policy rules."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Below are selected ongoing or completed projects related to my research interests.\n\n\n\nDescription:\nDeveloping machine-learning models to analyze housing affordability dynamics across U.S. metropolitan areas.\nData:\n- U.S. Census / ACS\n- Housing price indices\n- Climate risk indicators\nMethods:\n- Tree-based models\n- Feature importance and interpretability analysis\nStatus:\nIn progress\n\n\n\n\nDescription:\nExploring how climate vulnerability metrics can be incorporated into urban capital investment decision-making.\nFocus:\n- Flood and heat risk\n- Public infrastructure planning\nStatus:\nConceptual framework development"
+  },
+  {
+    "objectID": "projects.html#selected-projects",
+    "href": "projects.html#selected-projects",
+    "title": "Projects",
+    "section": "",
+    "text": "Below are selected ongoing or completed projects related to my research interests.\n\n\n\nDescription:\nDeveloping machine-learning models to analyze housing affordability dynamics across U.S. metropolitan areas.\nData:\n- U.S. Census / ACS\n- Housing price indices\n- Climate risk indicators\nMethods:\n- Tree-based models\n- Feature importance and interpretability analysis\nStatus:\nIn progress\n\n\n\n\nDescription:\nExploring how climate vulnerability metrics can be incorporated into urban capital investment decision-making.\nFocus:\n- Flood and heat risk\n- Public infrastructure planning\nStatus:\nConceptual framework development"
+  },
+  {
     "objectID": "cv.html",
     "href": "cv.html",
     "title": "Shuai Ma",
@@ -75,61 +131,5 @@
     "title": "Shuai Ma",
     "section": "Contact",
     "text": "Contact\n\nEmail: yourname@email.com\n\nGitHub: https://github.com/shuaima-research"
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
-    "section": "",
-    "text": "My research interests lie at the intersection of urban planning, housing and real estate economics, climate resilience, and artificial intelligence.\nI am particularly interested in developing interpretable and policy-relevant machine-learning models that can inform public investment and planning decisions."
-  },
-  {
-    "objectID": "research.html#research-overview",
-    "href": "research.html#research-overview",
-    "title": "Research",
-    "section": "",
-    "text": "My research interests lie at the intersection of urban planning, housing and real estate economics, climate resilience, and artificial intelligence.\nI am particularly interested in developing interpretable and policy-relevant machine-learning models that can inform public investment and planning decisions."
-  },
-  {
-    "objectID": "research.html#urban-development-planning",
-    "href": "research.html#urban-development-planning",
-    "title": "Research",
-    "section": "Urban Development & Planning",
-    "text": "Urban Development & Planning\nI study how urban form, land-use regulation, and infrastructure investment influence long-term urban resilience and social equity.\nKey themes include: - Urban spatial structure and risk exposure\n- Planning institutions and policy constraints\n- Climate adaptation in metropolitan regions"
-  },
-  {
-    "objectID": "research.html#housing-real-estate",
-    "href": "research.html#housing-real-estate",
-    "title": "Research",
-    "section": "Housing & Real Estate",
-    "text": "Housing & Real Estate\nMy work explores housing affordability and real estate dynamics under climate and economic uncertainty.\nKey topics: - Housing supply constraints and zoning\n- Climate risk pricing in real estate markets\n- Housing policy evaluation"
-  },
-  {
-    "objectID": "research.html#ai-machine-learning-methods",
-    "href": "research.html#ai-machine-learning-methods",
-    "title": "Research",
-    "section": "AI & Machine Learning Methods",
-    "text": "AI & Machine Learning Methods\nMethodologically, I focus on: - Interpretable machine-learning models\n- Equity-aware and fairness-constrained modeling\n- Spatial and temporal prediction\nwith an emphasis on translating model insights into actionable policy rules."
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Below are selected ongoing or completed projects related to my research interests.\n\n\n\nDescription:\nDeveloping machine-learning models to analyze housing affordability dynamics across U.S. metropolitan areas.\nData:\n- U.S. Census / ACS\n- Housing price indices\n- Climate risk indicators\nMethods:\n- Tree-based models\n- Feature importance and interpretability analysis\nStatus:\nIn progress\n\n\n\n\nDescription:\nExploring how climate vulnerability metrics can be incorporated into urban capital investment decision-making.\nFocus:\n- Flood and heat risk\n- Public infrastructure planning\nStatus:\nConceptual framework development"
-  },
-  {
-    "objectID": "projects.html#selected-projects",
-    "href": "projects.html#selected-projects",
-    "title": "Projects",
-    "section": "",
-    "text": "Below are selected ongoing or completed projects related to my research interests.\n\n\n\nDescription:\nDeveloping machine-learning models to analyze housing affordability dynamics across U.S. metropolitan areas.\nData:\n- U.S. Census / ACS\n- Housing price indices\n- Climate risk indicators\nMethods:\n- Tree-based models\n- Feature importance and interpretability analysis\nStatus:\nIn progress\n\n\n\n\nDescription:\nExploring how climate vulnerability metrics can be incorporated into urban capital investment decision-making.\nFocus:\n- Flood and heat risk\n- Public infrastructure planning\nStatus:\nConceptual framework development"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
   }
 ]
