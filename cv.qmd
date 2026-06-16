@@ -1,36 +1,16 @@
 ---
 title: "Shuai Ma" 
-subtitle: "Email: mashuai@gmail.com | Web: shuaima-research.github.io | Shanghai, China" 
+subtitle: "📧 mashuai@gmail.com <br> 🌐 shuaima-research.github.io <br> 📍 Shanghai, China"
 date: today
 format:
-  pdf:
-    title-block-style: none
-    documentclass: article
-    pdf-engine: xelatex
-    mainfont: "Times New Roman"
-    CJKmainfont: "Songti SC"
-    fontsize: 10pt
-    geometry:
-      - top=0.55in
-      - bottom=0.6in
-      - left=0.7in
-      - right=0.7in
-    colorlinks: true
-    urlcolor: black
-    linkcolor: black
-    include-in-header:
-      text: |
-        \usepackage{enumitem}
-        \setlength{\parindent}{0pt}
-        \setlength{\parskip}{0.25em}
-        \setlist[itemize]{topsep=0.15em,itemsep=0.1em,leftmargin=1.25em}
-
-        \AtBeginDocument{
-         \let\maketitle\relax
-        }
   html:
     theme: cosmo
     toc: false
+about:
+  template: trestles
+  image: IMG_8948.JPG
+  image-shape: round
+  image-width: 10em
 execute:
   echo: false
 ---

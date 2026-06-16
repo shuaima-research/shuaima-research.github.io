@@ -1,9 +1,33 @@
 /* css styles */
 
+/* Smaller subtitle under profile photo */
+.quarto-about-trestles .subtitle.lead {
+  font-size: 0.85rem;
+  color: #666;
+  line-height: 1.6;
+  text-align: left;
+}
+
+/* Hide published date on CV page */
+.quarto-title-meta,
+.quarto-title-meta-heading,
+.quarto-title-meta-contents {
+  display: none !important;
+}
+
 /* Make the left profile area narrower in trestles template */
 .quarto-about-trestles .about-entity {
-  flex: 0 0 250px !important;
-  max-width: 250px !important;
+  flex: 0 0 200px !important;
+  max-width: 200px !important;
+}
+
+/* Widen the overall CV content area */
+.quarto-about-trestles {
+  max-width: 1400px !important;
+}
+
+.quarto-about-trestles .about-contents {
+  flex: 1 1 auto !important;
 }
 
 /* Make the table of contents sidebar narrower on other pages */
