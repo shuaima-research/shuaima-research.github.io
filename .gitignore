@@ -4,3 +4,6 @@
 # macOS
 .DS_Store
 **/.DS_Store
+
+# Rendered output — managed by GitHub Actions
+/docs/
