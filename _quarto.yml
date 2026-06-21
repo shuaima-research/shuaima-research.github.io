@@ -3,17 +3,19 @@ project:
   output-dir: docs
 
 website:
-  title: "Shuai Ma Resarch"
+  title: "Shuai Ma"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - href: research.qmd
         text: Research
-      - href: projects.qmd
-        text: Projects
+      - href: practice.qmd
+        text: Practice
       - href: cv.qmd
         text: CV
+      - href: contact.qmd
+        text: Contact
 
 format:
   html:
@@ -21,7 +23,7 @@ format:
       - cosmo
       - brand
     css: styles.css
-    toc: true
+    toc: false
 
 
 

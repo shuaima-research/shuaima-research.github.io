@@ -8,7 +8,7 @@ format:
     toc: false
 about:
   template: trestles
-  image: IMG_8948.JPG
+  image: image7.jpeg
   image-shape: round
   image-width: 10em
 execute:
@@ -161,7 +161,7 @@ Core ARUP project-team member; early-career foundation in regional carbon accoun
 ## Certifications and Professional Credentials
 
 **LEED AP Neighborhood Development**, U.S. Green Building Council
- 
+
 ## Honors and Awards
 
 - Dean's Honor List, Albers School of Business and Economics, Seattle University, Fall 2018.

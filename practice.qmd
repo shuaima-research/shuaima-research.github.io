@@ -1,0 +1,40 @@
+---
+title: "Projects"
+---
+
+## Selected Projects
+
+Below are selected ongoing or completed projects related to my research interests.
+
+---
+
+### AI-Based Housing Affordability Modeling
+
+**Description:**  
+Developing machine-learning models to analyze housing affordability dynamics across U.S. metropolitan areas.
+
+**Data:**  
+- U.S. Census / ACS  
+- Housing price indices  
+- Climate risk indicators  
+
+**Methods:**  
+- Tree-based models  
+- Feature importance and interpretability analysis  
+
+**Status:**  
+In progress
+
+---
+
+### Climate Risk and Urban Investment Prioritization
+
+**Description:**  
+Exploring how climate vulnerability metrics can be incorporated into urban capital investment decision-making.
+
+**Focus:**  
+- Flood and heat risk  
+- Public infrastructure planning  
+
+**Status:**  
+Conceptual framework development

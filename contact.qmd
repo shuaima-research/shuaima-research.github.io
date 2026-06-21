@@ -1,0 +1,34 @@
+---
+title: "Contact"
+toc: false
+---
+
+```{=html}
+<div class="contact-section">
+
+  <p class="contact-intro">
+    I welcome inquiries about my research, potential collaborations, or PhD opportunities.
+    The best way to reach me is by email.
+  </p>
+
+  <div class="contact-grid">
+
+    <div class="contact-item">
+      <span class="contact-label">Email</span>
+      <a href="mailto:mashuai@gmail.com">mashuai@gmail.com</a>
+    </div>
+
+    <div class="contact-item">
+      <span class="contact-label">GitHub</span>
+      <a href="https://github.com/shuaima-research" target="_blank">shuaima-research</a>
+    </div>
+
+    <div class="contact-item">
+      <span class="contact-label">Location</span>
+      <span>Shanghai, China</span>
+    </div>
+
+  </div>
+
+</div>
+```

@@ -1,4 +1,426 @@
-/* css styles */
+/* ============================================================
+   GLOBAL
+   ============================================================ */
+
+:root {
+  --navy:       #1e3a5f;
+  --charcoal:   #2d3748;
+  --muted:      #64748b;
+  --border:     #dde3ec;
+  --bg-card:    #f7f8fa;
+  --bg-project: #eef2f8;
+  --white:      #ffffff;
+  --max-width:  1140px;
+}
+
+/* Hide Quarto's auto-generated title block on home page */
+#title-block-header {
+  display: none !important;
+}
+
+body {
+  color: var(--charcoal);
+}
+
+a {
+  color: var(--navy);
+}
+
+a:hover {
+  color: #2c5282;
+}
+
+/* ============================================================
+   NAVBAR
+   ============================================================ */
+
+.navbar {
+  border-bottom: 1px solid var(--border);
+}
+
+.navbar-brand {
+  display: none !important;
+}
+
+/* ============================================================
+   BUTTONS
+   ============================================================ */
+
+.btn-academic {
+  background-color: var(--navy);
+  color: #fff !important;
+  border: 1.5px solid var(--navy);
+  border-radius: 4px;
+  padding: 0.45rem 1.1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.btn-academic:hover {
+  background-color: #16304f;
+  border-color: #16304f;
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.btn-outline-academic {
+  background-color: transparent;
+  color: var(--navy) !important;
+  border: 1.5px solid var(--navy);
+  border-radius: 4px;
+  padding: 0.45rem 1.1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.btn-outline-academic:hover {
+  background-color: var(--navy);
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.btn-academic-sm {
+  background-color: var(--navy);
+  color: #fff !important;
+  border: 1.5px solid var(--navy);
+  border-radius: 4px;
+  padding: 0.35rem 0.9rem;
+  font-size: 0.82rem;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 0.5rem;
+  transition: background-color 0.15s ease;
+}
+
+.btn-academic-sm:hover {
+  background-color: #16304f;
+  color: #fff !important;
+  text-decoration: none;
+}
+
+/* ============================================================
+   HERO SECTION
+   ============================================================ */
+
+.hero-section {
+  padding: 2.5rem 2rem 4rem;
+  background-color: var(--white);
+}
+
+.hero-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 4rem;
+}
+
+/* -- Text side ----------------------------------------------- */
+
+.hero-text {
+  flex: 1 1 55%;
+}
+
+.hero-name {
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: var(--navy);
+  margin-top: 0 !important;
+  margin-bottom: 0.2rem !important;
+  letter-spacing: -0.01em;
+  line-height: 1.15;
+}
+
+.hero-subtitle {
+  font-size: 1rem;
+  color: var(--muted);
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+  font-weight: 400;
+}
+
+.hero-description {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: var(--charcoal);
+  margin-bottom: 1.25rem;
+  max-width: 560px;
+}
+
+.hero-agenda {
+  font-size: 0.875rem;
+  color: var(--muted);
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  border-left: 3px solid var(--border);
+  padding-left: 0.85rem;
+}
+
+.agenda-label {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--navy);
+  margin-bottom: 0.2rem;
+}
+
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+/* -- Image side --------------------------------------------- */
+
+.hero-image {
+  flex: 0 0 260px;
+  display: flex;
+  align-self: stretch;
+  margin-right: 4rem;
+}
+
+.profile-photo {
+  width: 260px;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.10);
+  display: block;
+}
+
+/* ============================================================
+   SHARED SECTION STYLES
+   ============================================================ */
+
+.snapshot-section,
+.project-section {
+  padding: 1.75rem 2rem;
+}
+
+.snapshot-section {
+  background-color: var(--bg-card);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.project-section {
+  background-color: var(--white);
+}
+
+.section-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.section-heading {
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--navy);
+  margin-top: 0 !important;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 2px solid var(--border);
+}
+
+/* ============================================================
+   RESEARCH SNAPSHOT CARDS
+   ============================================================ */
+
+.snapshot-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 1.5rem;
+}
+
+.snapshot-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1.1rem 1.4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.snapshot-card h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--navy);
+  margin-top: 0 !important;
+  margin-bottom: 0.6rem;
+  line-height: 1.4;
+}
+
+.snapshot-card p {
+  font-size: 0.875rem;
+  color: var(--muted);
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* ============================================================
+   CURRENT PROJECT BLOCK
+   ============================================================ */
+
+.project-block {
+  background-color: var(--bg-project);
+  border-left: 4px solid var(--navy);
+  border-radius: 0 6px 6px 0;
+  padding: 1.75rem 2rem;
+  max-width: 780px;
+}
+
+.project-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--navy);
+  margin-bottom: 0.3rem;
+  line-height: 1.4;
+}
+
+.project-tagline {
+  font-size: 0.875rem;
+  color: var(--muted);
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.project-description {
+  font-size: 0.9rem;
+  color: var(--charcoal);
+  line-height: 1.75;
+  margin-bottom: 0.25rem;
+}
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 3rem 1.25rem 2.5rem;
+  }
+
+  .hero-inner {
+    flex-direction: column-reverse;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .hero-image {
+    flex: none;
+  }
+
+  .profile-photo {
+    width: 160px;
+    height: 200px;
+    margin: 0 auto;
+  }
+
+  .hero-name {
+    font-size: 2rem;
+  }
+
+  .hero-description {
+    max-width: 100%;
+  }
+
+  .hero-agenda {
+    text-align: left;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+
+  .snapshot-section,
+  .project-section {
+    padding: 2.5rem 1.25rem;
+  }
+
+  .snapshot-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .project-block {
+    padding: 1.25rem 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-name {
+    font-size: 1.75rem;
+  }
+
+  .hero-description {
+    font-size: 0.95rem;
+  }
+}
+
+/* ============================================================
+   CONTACT PAGE
+   ============================================================ */
+
+.contact-section {
+  max-width: 600px;
+  padding-top: 1rem;
+}
+
+.contact-intro {
+  font-size: 1rem;
+  color: var(--muted);
+  line-height: 1.75;
+  margin-bottom: 2rem;
+}
+
+.contact-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.contact-label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--navy);
+  min-width: 80px;
+}
+
+.contact-item a,
+.contact-item span:last-child {
+  font-size: 0.95rem;
+  color: var(--charcoal);
+}
+
+.contact-item a:hover {
+  color: var(--navy);
+}
+
+/* ============================================================
+   CV PAGE
+   ============================================================ */
 
 /* Smaller subtitle under profile photo */
 .quarto-about-trestles .subtitle.lead {
@@ -8,20 +430,20 @@
   text-align: left;
 }
 
-/* Hide published date on CV page */
+/* Hide published date */
 .quarto-title-meta,
 .quarto-title-meta-heading,
 .quarto-title-meta-contents {
   display: none !important;
 }
 
-/* Make the left profile area narrower in trestles template */
+/* Narrower left panel */
 .quarto-about-trestles .about-entity {
   flex: 0 0 200px !important;
   max-width: 200px !important;
 }
 
-/* Widen the overall CV content area */
+/* Wider content area */
 .quarto-about-trestles {
   max-width: 1400px !important;
 }
@@ -29,13 +451,3 @@
 .quarto-about-trestles .about-contents {
   flex: 1 1 auto !important;
 }
-
-/* Make the table of contents sidebar narrower on other pages */
-/* #quarto-margin-sidebar {
-  width: 180px !important;
-  flex: 0 0 180px !important;
-}
-
-.margin-sidebar {
-  width: 180px !important;
-} */
