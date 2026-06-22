@@ -6,6 +6,11 @@ format:
   html:
     theme: cosmo
     toc: false
+    include-in-header:
+      text: |
+        <style>
+          #title-block-header { display: block !important; }
+        </style>
 about:
   template: trestles
   image: image7.jpeg
