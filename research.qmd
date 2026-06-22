@@ -63,6 +63,9 @@ toc: false
         <span class="rp-list-year">2021</span>
       </div>
       <p class="rp-list-desc">Collected and modeled ~3,000 rental listings using OLS regression, stepwise variable selection, PCA, and clustering to evaluate key rent determinants across structural and location attributes.</p>
+      <div style="margin-top: 0.5rem;">
+        <a href="projects/PA-16-Guangzhou_Residential_Rental_Market/papers/Guangzhou_Residential_Rental_Market.html" class="btn btn-academic-sm">View Report</a>
+      </div>
     </div>
 
     <div class="rp-list-item">

@@ -7,3 +7,6 @@
 
 # Rendered output — managed by GitHub Actions
 /docs/
+
+# R model binary files (too large for git)
+**/*.rds
