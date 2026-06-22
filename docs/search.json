@@ -1,5 +1,61 @@
 [
   {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Research Prospectus\n  \n    Prepared in support of PhD program applications · 2025–2026\n    \n      Who Benefits from Flood-Mitigation Investment?\n      Housing Capitalization, Spatial Spillovers, and Distributional Effects in Flood-Prone Communities\n    \n    \n      Research Agenda: Place-Based Public Investment, Housing Markets, and Spatial Inequality\n    \n    \n      This brief outlines my doctoral research agenda. I examine how flood-mitigation investments are capitalized into nearby housing values, how far their effects extend across space, and how benefits and costs are distributed across neighborhoods with different income levels, tenure structures, and social vulnerability.\n    \n    \n      View Research Prospectus\n    \n  \n\n\n\n\n  Current Project\n  \n    Writing Sample · Hedonic Price Study\n    \n      Hazard or Amenity? Flood Risk, Waterway Proximity, and Neighborhood Inequality in Housing Prices\n    \n    \n      A hedonic study of 47,763 single-family home sales in Pierce County, Washington, linking parcel-level transactions with FEMA flood-risk designations, waterway proximity, and neighborhood socioeconomic data. The study shows that estimates of flood-risk capitalization are substantially confounded by waterfront amenity values and neighborhood context, and that flood-risk discounts vary significantly across income and racial composition of neighborhoods — raising distributional questions about who bears the cost of climate risk in housing markets.\n    \n    \n      Hedonic Pricing\n      FEMA Flood Data\n      Spatial Analysis\n      Neighborhood Effects\n    \n    \n      Abstract\n      Full Paper\n      Code\n    \n  \n\n\n\n\n  Selected Research Projects\n  Applied research and analytical projects from professional practice. Individual project pages coming soon.\n\n  \n\n     \n      \n        Empirical Analysis of Guangzhou Residential Rental Markets\n        2021\n      \n      Collected and modeled ~3,000 rental listings using OLS regression, stepwise variable selection, PCA, and clustering to evaluate key rent determinants across structural and location attributes.\n    \n\n    \n      \n        Sponge City and Low-Impact Development Technical Research and Application\n        2017\n      \n      Synthesized sponge-city policies and LID technologies into technical guidance covering runoff control, rainwater reuse, water-quality treatment, and urban flood-risk reduction across multiple Chinese cities.\n    \n\n    \n      \n        Serviced Apartment and Long-Term Rental Housing Sector Studies\n        2016; 2021\n      \n      Mixed-methods market research using field visits and web-scraped data; analyzed 987 Guangzhou listings with descriptive statistics, chi-square tests, and tree-based feature-importance models.\n    \n\n    \n      \n        Comparative Policy Study of New Industrial Land (M0) in the Greater Bay Area\n        2021\n      \n      Compared M0 land-use policies across seven GBA cities, examining industry eligibility, FAR requirements, land tenure, and regulatory design for industrial upgrading versus speculative real-estate conversion.\n    \n\n    \n      \n        Highest and Best Use (HBU) Optimization for Business-Park Development\n        2021\n      \n      Led an internal analytics study using Python PuLP linear programming to optimize product mix across 16 typologies under FAR, height, and green-space constraints for a Foshan business-park site.\n    \n\n    \n      \n        Jiangsu Provincial Low-Carbon Urban System Strategy\n        2011\n      \n      Core ARUP team member; contributed to an IPCC-based carbon-audit framework and province-scale baseline emissions estimation, translating results into planning-relevant evidence for low-carbon strategy."
+  },
+  {
+    "objectID": "practice.html",
+    "href": "practice.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Below are selected ongoing or completed projects related to my research interests.\n\n\n\nDescription:\nDeveloping machine-learning models to analyze housing affordability dynamics across U.S. metropolitan areas.\nData:\n- U.S. Census / ACS\n- Housing price indices\n- Climate risk indicators\nMethods:\n- Tree-based models\n- Feature importance and interpretability analysis\nStatus:\nIn progress\n\n\n\n\nDescription:\nExploring how climate vulnerability metrics can be incorporated into urban capital investment decision-making.\nFocus:\n- Flood and heat risk\n- Public infrastructure planning\nStatus:\nConceptual framework development"
+  },
+  {
+    "objectID": "practice.html#selected-projects",
+    "href": "practice.html#selected-projects",
+    "title": "Projects",
+    "section": "",
+    "text": "Below are selected ongoing or completed projects related to my research interests.\n\n\n\nDescription:\nDeveloping machine-learning models to analyze housing affordability dynamics across U.S. metropolitan areas.\nData:\n- U.S. Census / ACS\n- Housing price indices\n- Climate risk indicators\nMethods:\n- Tree-based models\n- Feature importance and interpretability analysis\nStatus:\nIn progress\n\n\n\n\nDescription:\nExploring how climate vulnerability metrics can be incorporated into urban capital investment decision-making.\nFocus:\n- Flood and heat risk\n- Public infrastructure planning\nStatus:\nConceptual framework development"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "I welcome inquiries about my research, potential collaborations, or PhD opportunities.\n    The best way to reach me is by email.\n  \n\n  \n\n    \n      Email\n      mashuai@gmail.com\n    \n\n    \n      GitHub\n      shuaima-research\n    \n\n    \n      Location\n      Shanghai, China"
+  },
+  {
+    "objectID": "pierce_county_abstract.html",
+    "href": "pierce_county_abstract.html",
+    "title": "\n    Hazard or Amenity? Flood Risk, Waterway Proximity, and Uneven Housing Market Effects in Pierce County\n  ",
+    "section": "",
+    "text": "Working Paper · 2025–2026\n  \n    Hazard or Amenity? Flood Risk, Waterway Proximity, and Uneven Housing Market Effects in Pierce County\n  \n  \n    Shuai Ma\n  \n\n\n\n  Abstract\n  \n    A home exposed to flooding should, by the usual reasoning, sell at a discount. Yet many of the most flood-prone parcels are also the most water-adjacent, where shoreline access and neighborhood advantage push value in the opposite direction. This paper asks how flood hazard, water proximity, and neighborhood inequality are reflected together in residential prices in Pierce County, Washington. I join 47,763 arm's-length single-family sales from 2021 to 2025 with parcel, environmental, and neighborhood records, and combine hedonic regression with spatial analysis, a flood–income–waterway typology, and machine-learning checks.\n    Ordinary structural and neighborhood characteristics explain most of the variation in price. Waterway proximity adds a small premium that wavers across specifications, and Federal Emergency Management Agency (FEMA) high-flood-risk designation carries no reliable discount. The missing discount is not evidence that buyers ignore flood risk. High-risk parcels are scarce and spatially concentrated, and most sit amid the waterfront conditions that raise value. Because they fall in both higher- and lower-income neighborhoods, a single coefficient averages across market settings that have little in common. Flexible machine-learning models preserve the same predictor ordering, so the result does not hinge on functional form.\n    The paper reframes flood-risk capitalization as a problem of spatial bundling rather than a test of an average discount, and argues that where hazard and amenity share the same ground, prices alone are an unreliable guide to who bears flood risk and who profits from the same location."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Below are selected ongoing or completed projects related to my research interests.\n\n\n\nDescription:\nDeveloping machine-learning models to analyze housing affordability dynamics across U.S. metropolitan areas.\nData:\n- U.S. Census / ACS\n- Housing price indices\n- Climate risk indicators\nMethods:\n- Tree-based models\n- Feature importance and interpretability analysis\nStatus:\nIn progress\n\n\n\n\nDescription:\nExploring how climate vulnerability metrics can be incorporated into urban capital investment decision-making.\nFocus:\n- Flood and heat risk\n- Public infrastructure planning\nStatus:\nConceptual framework development"
+  },
+  {
+    "objectID": "projects.html#selected-projects",
+    "href": "projects.html#selected-projects",
+    "title": "Projects",
+    "section": "",
+    "text": "Below are selected ongoing or completed projects related to my research interests.\n\n\n\nDescription:\nDeveloping machine-learning models to analyze housing affordability dynamics across U.S. metropolitan areas.\nData:\n- U.S. Census / ACS\n- Housing price indices\n- Climate risk indicators\nMethods:\n- Tree-based models\n- Feature importance and interpretability analysis\nStatus:\nIn progress\n\n\n\n\nDescription:\nExploring how climate vulnerability metrics can be incorporated into urban capital investment decision-making.\nFocus:\n- Flood and heat risk\n- Public infrastructure planning\nStatus:\nConceptual framework development"
+  },
+  {
     "objectID": "cv.html",
     "href": "cv.html",
     "title": "Shuai Ma",
@@ -70,34 +126,6 @@
     "text": "Honors and Awards\n\nDean’s Honor List, Albers School of Business and Economics, Seattle University, Fall 2018.\nBest Graduate Design Award, Hebei University of Technology, 2008.\nSecond Prize, National Undergraduate Urban Design Competition, Urban Planning Discipline Steering Committee, Ministry of Construction, China, 2007."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Shuai Ma",
-    "section": "",
-    "text": "Shuai Ma\n      Urban Planning Researcher \n        Housing Markets, Public Investment, and Urban Informatics\n\n      \n        I study how place-based public investments reshape housing and land markets, and how those market responses redistribute wealth, risk, and residential opportunity across communities. Methodologically, my work combines spatial data science, causal inference, and interpretable machine learning to analyze urban and housing-market dynamics.\n      \n\n      \n        Research Agenda\n        Place-Based Public Investment, Housing Markets, and Spatial Inequality\n      \n\n      \n        Research\n        CV\n        Research Prospectus\n      \n    \n\n    \n      \n    \n\n  \n\n\n\n\n  \n    Research Areas\n    \n\n      \n        Housing & Land Markets\n        I examine how public investments, infrastructure, and policy interventions are capitalized into housing prices and land values.\n      \n\n      \n        Public Investment & Climate Adaptation\n        I study how climate-adaptation investments, especially flood-mitigation projects, affect property values, risk perceptions, and development patterns in vulnerable communities.\n      \n\n      \n        Spatial Inequality & Distributional Effects\n        I analyze whether the benefits of place-based investments reach the households and neighborhoods that need them most, or whether market responses concentrate gains among already-advantaged groups.\n      \n\n      \n        Urban Informatics & Spatial Data Science\n        I use GIS, causal inference, spatial data science, and interpretable machine learning to study housing markets, public investment, and neighborhood change.\n      \n\n    \n  \n\n\n\n\n  \n    Research Prospectus\n    \n      \n        Who Benefits from Flood-Mitigation Investment?\n      \n      \n        Housing Capitalization, Spatial Spillovers, and Distributional Effects\n        in Flood-Prone Communities\n      \n      \n        This project examines whether flood-mitigation investments are capitalized\n        into nearby housing values, how far their effects extend across space, and\n        how benefits and costs are distributed across neighborhoods with different\n        income levels, tenure structures, and social vulnerability.\n      \n      Read more →"
-  },
-  {
-    "objectID": "practice.html",
-    "href": "practice.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Below are selected ongoing or completed projects related to my research interests.\n\n\n\nDescription:\nDeveloping machine-learning models to analyze housing affordability dynamics across U.S. metropolitan areas.\nData:\n- U.S. Census / ACS\n- Housing price indices\n- Climate risk indicators\nMethods:\n- Tree-based models\n- Feature importance and interpretability analysis\nStatus:\nIn progress\n\n\n\n\nDescription:\nExploring how climate vulnerability metrics can be incorporated into urban capital investment decision-making.\nFocus:\n- Flood and heat risk\n- Public infrastructure planning\nStatus:\nConceptual framework development"
-  },
-  {
-    "objectID": "practice.html#selected-projects",
-    "href": "practice.html#selected-projects",
-    "title": "Projects",
-    "section": "",
-    "text": "Below are selected ongoing or completed projects related to my research interests.\n\n\n\nDescription:\nDeveloping machine-learning models to analyze housing affordability dynamics across U.S. metropolitan areas.\nData:\n- U.S. Census / ACS\n- Housing price indices\n- Climate risk indicators\nMethods:\n- Tree-based models\n- Feature importance and interpretability analysis\nStatus:\nIn progress\n\n\n\n\nDescription:\nExploring how climate vulnerability metrics can be incorporated into urban capital investment decision-making.\nFocus:\n- Flood and heat risk\n- Public infrastructure planning\nStatus:\nConceptual framework development"
-  },
-  {
-    "objectID": "pierce_county_abstract.html",
-    "href": "pierce_county_abstract.html",
-    "title": "\n    Hazard or Amenity? Flood Risk, Waterway Proximity, and Uneven Housing Market Effects in Pierce County\n  ",
-    "section": "",
-    "text": "Working Paper · 2025–2026\n  \n    Hazard or Amenity? Flood Risk, Waterway Proximity, and Uneven Housing Market Effects in Pierce County\n  \n  \n    Shuai Ma\n  \n\n\n\n  Abstract\n  \n    A home exposed to flooding should, by the usual reasoning, sell at a discount. Yet many of the most flood-prone parcels are also the most water-adjacent, where shoreline access and neighborhood advantage push value in the opposite direction. This paper asks how flood hazard, water proximity, and neighborhood inequality are reflected together in residential prices in Pierce County, Washington. I join 47,763 arm's-length single-family sales from 2021 to 2025 with parcel, environmental, and neighborhood records, and combine hedonic regression with spatial analysis, a flood–income–waterway typology, and machine-learning checks.\n    Ordinary structural and neighborhood characteristics explain most of the variation in price. Waterway proximity adds a small premium that wavers across specifications, and Federal Emergency Management Agency (FEMA) high-flood-risk designation carries no reliable discount. The missing discount is not evidence that buyers ignore flood risk. High-risk parcels are scarce and spatially concentrated, and most sit amid the waterfront conditions that raise value. Because they fall in both higher- and lower-income neighborhoods, a single coefficient averages across market settings that have little in common. Flexible machine-learning models preserve the same predictor ordering, so the result does not hinge on functional form.\n    The paper reframes flood-risk capitalization as a problem of spatial bundling rather than a test of an average discount, and argues that where hazard and amenity share the same ground, prices alone are an unreliable guide to who bears flood risk and who profits from the same location."
-  },
-  {
     "objectID": "research_brief.html",
     "href": "research_brief.html",
     "title": "\n    Who Benefits from Flood-Mitigation Investment?\n    Housing Capitalization, Spatial Spillovers, and Distributional Effects in Flood-Prone Communities\n  ",
@@ -140,38 +168,10 @@
     "text": "Expected Contributions\nThe project advances research on place-based public investment by supplying causal evidence on how mitigation investment is transmitted through housing markets and across space, extending beyond conventional estimates of flood-risk capitalization. For housing and climate-adaptation policy, it examines when public investment generates housing-wealth gains, affordability pressures, or neighborhood change, and whether these market benefits accrue to socially vulnerable communities or disproportionately to advantaged owners and neighborhoods.\nThe project’s methodological contribution is an urban-informatics framework that integrates causal inference, spatial exposure modeling, and heterogeneous-effects analysis, transferable to other evaluations of the spatial and distributional consequences of place-based investment. Flood mitigation is the primary doctoral application of this broader agenda, which can later inform the evaluation of other spatially targeted interventions—such as transportation, green infrastructure, and environmental remediation—that reshape housing and land markets."
   },
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Shuai Ma",
     "section": "",
-    "text": "Research Prospectus\n  \n    Prepared in support of PhD program applications · 2025–2026\n    \n      Who Benefits from Flood-Mitigation Investment?\n      Housing Capitalization, Spatial Spillovers, and Distributional Effects in Flood-Prone Communities\n    \n    \n      Research Agenda: Place-Based Public Investment, Housing Markets, and Spatial Inequality\n    \n    \n      This brief outlines my doctoral research agenda. I examine how flood-mitigation investments are capitalized into nearby housing values, how far their effects extend across space, and how benefits and costs are distributed across neighborhoods with different income levels, tenure structures, and social vulnerability.\n    \n    \n      View Research Prospectus\n    \n  \n\n\n\n\n  Current Project\n  \n    Writing Sample · Hedonic Price Study\n    \n      Hazard or Amenity? Flood Risk, Waterway Proximity, and Neighborhood Inequality in Housing Prices\n    \n    \n      A hedonic study of 47,763 single-family home sales in Pierce County, Washington, linking parcel-level transactions with FEMA flood-risk designations, waterway proximity, and neighborhood socioeconomic data. The study shows that estimates of flood-risk capitalization are substantially confounded by waterfront amenity values and neighborhood context, and that flood-risk discounts vary significantly across income and racial composition of neighborhoods — raising distributional questions about who bears the cost of climate risk in housing markets.\n    \n    \n      Hedonic Pricing\n      FEMA Flood Data\n      Spatial Analysis\n      Neighborhood Effects\n    \n    \n      Abstract\n      Full Paper\n      Code\n    \n  \n\n\n\n\n  Selected Research Projects\n  Applied research and analytical projects from professional practice. Individual project pages coming soon.\n\n  \n\n     \n      \n        Empirical Analysis of Guangzhou Residential Rental Markets\n        2021\n      \n      Collected and modeled ~3,000 rental listings using OLS regression, stepwise variable selection, PCA, and clustering to evaluate key rent determinants across structural and location attributes.\n    \n\n    \n      \n        Sponge City and Low-Impact Development Technical Research and Application\n        2017\n      \n      Synthesized sponge-city policies and LID technologies into technical guidance covering runoff control, rainwater reuse, water-quality treatment, and urban flood-risk reduction across multiple Chinese cities.\n    \n\n    \n      \n        Serviced Apartment and Long-Term Rental Housing Sector Studies\n        2016; 2021\n      \n      Mixed-methods market research using field visits and web-scraped data; analyzed 987 Guangzhou listings with descriptive statistics, chi-square tests, and tree-based feature-importance models.\n    \n\n    \n      \n        Comparative Policy Study of New Industrial Land (M0) in the Greater Bay Area\n        2021\n      \n      Compared M0 land-use policies across seven GBA cities, examining industry eligibility, FAR requirements, land tenure, and regulatory design for industrial upgrading versus speculative real-estate conversion.\n    \n\n    \n      \n        Highest and Best Use (HBU) Optimization for Business-Park Development\n        2021\n      \n      Led an internal analytics study using Python PuLP linear programming to optimize product mix across 16 typologies under FAR, height, and green-space constraints for a Foshan business-park site.\n    \n\n    \n      \n        Jiangsu Provincial Low-Carbon Urban System Strategy\n        2011\n      \n      Core ARUP team member; contributed to an IPCC-based carbon-audit framework and province-scale baseline emissions estimation, translating results into planning-relevant evidence for low-carbon strategy."
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "I welcome inquiries about my research, potential collaborations, or PhD opportunities.\n    The best way to reach me is by email.\n  \n\n  \n\n    \n      Email\n      mashuai@gmail.com\n    \n\n    \n      GitHub\n      shuaima-research\n    \n\n    \n      Location\n      Shanghai, China"
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Below are selected ongoing or completed projects related to my research interests.\n\n\n\nDescription:\nDeveloping machine-learning models to analyze housing affordability dynamics across U.S. metropolitan areas.\nData:\n- U.S. Census / ACS\n- Housing price indices\n- Climate risk indicators\nMethods:\n- Tree-based models\n- Feature importance and interpretability analysis\nStatus:\nIn progress\n\n\n\n\nDescription:\nExploring how climate vulnerability metrics can be incorporated into urban capital investment decision-making.\nFocus:\n- Flood and heat risk\n- Public infrastructure planning\nStatus:\nConceptual framework development"
-  },
-  {
-    "objectID": "projects.html#selected-projects",
-    "href": "projects.html#selected-projects",
-    "title": "Projects",
-    "section": "",
-    "text": "Below are selected ongoing or completed projects related to my research interests.\n\n\n\nDescription:\nDeveloping machine-learning models to analyze housing affordability dynamics across U.S. metropolitan areas.\nData:\n- U.S. Census / ACS\n- Housing price indices\n- Climate risk indicators\nMethods:\n- Tree-based models\n- Feature importance and interpretability analysis\nStatus:\nIn progress\n\n\n\n\nDescription:\nExploring how climate vulnerability metrics can be incorporated into urban capital investment decision-making.\nFocus:\n- Flood and heat risk\n- Public infrastructure planning\nStatus:\nConceptual framework development"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
+    "text": "Shuai Ma\n      Urban Planning Researcher \n        Housing Markets, Public Investment, and Urban Informatics\n\n      \n        I study how place-based public investments reshape housing and land markets, and how those market responses redistribute wealth, risk, and residential opportunity across communities. Methodologically, my work combines spatial data science, causal inference, and interpretable machine learning to analyze urban and housing-market dynamics.\n      \n\n      \n        Research Agenda\n        Place-Based Public Investment, Housing Markets, and Spatial Inequality\n      \n\n      \n        Research\n        CV\n        Research Prospectus\n      \n    \n\n    \n      \n    \n\n  \n\n\n\n\n  \n    Research Areas\n    \n\n      \n        Housing & Land Markets\n        I examine how public investments, infrastructure, and policy interventions are capitalized into housing prices and land values.\n      \n\n      \n        Public Investment & Climate Adaptation\n        I study how climate-adaptation investments, especially flood-mitigation projects, affect property values, risk perceptions, and development patterns in vulnerable communities.\n      \n\n      \n        Spatial Inequality & Distributional Effects\n        I analyze whether the benefits of place-based investments reach the households and neighborhoods that need them most, or whether market responses concentrate gains among already-advantaged groups.\n      \n\n      \n        Urban Informatics & Spatial Data Science\n        I use GIS, causal inference, spatial data science, and interpretable machine learning to study housing markets, public investment, and neighborhood change.\n      \n\n    \n  \n\n\n\n\n  \n    Research Prospectus\n    \n      \n        Who Benefits from Flood-Mitigation Investment?\n      \n      \n        Housing Capitalization, Spatial Spillovers, and Distributional Effects\n        in Flood-Prone Communities\n      \n      \n        This project examines whether flood-mitigation investments are capitalized\n        into nearby housing values, how far their effects extend across space, and\n        how benefits and costs are distributed across neighborhoods with different\n        income levels, tenure structures, and social vulnerability.\n      \n      Read more →"
   }
 ]
