@@ -13,9 +13,13 @@
   --max-width:  1140px;
 }
 
-/* Hide Quarto's auto-generated title block on home page */
+/* Hide Quarto's auto-generated title block globally, but restore it inside the CV trestles sidebar */
 #title-block-header {
   display: none !important;
+}
+
+.about-entity #title-block-header {
+  display: block !important;
 }
 
 body {
@@ -375,6 +379,81 @@ a:hover {
 }
 
 /* ============================================================
+   RESEARCH BRIEF PAGE
+   ============================================================ */
+
+.rb-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.rb-name {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--navy);
+}
+
+.rb-affil {
+  font-size: 0.875rem;
+  color: var(--muted);
+  margin-top: 0.2rem;
+}
+
+.rb-context {
+  font-size: 0.78rem;
+  color: var(--muted);
+  font-style: italic;
+  margin-top: 0.2rem;
+}
+
+.rb-title-block {
+  margin-bottom: 2.5rem;
+}
+
+.rb-label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  margin-bottom: 0.75rem;
+}
+
+.rb-working-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--navy);
+  line-height: 1.35;
+  margin-bottom: 0.75rem;
+}
+
+.rb-title-sub {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: var(--charcoal);
+  margin-top: 0.3rem;
+}
+
+.rb-agenda-line {
+  font-size: 0.9rem;
+  color: var(--muted);
+  border-left: 3px solid var(--border);
+  padding-left: 0.85rem;
+  margin-top: 1rem;
+}
+
+.rb-footer {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+
+/* ============================================================
    CONTACT PAGE
    ============================================================ */
 
@@ -427,10 +506,40 @@ a:hover {
 
 /* Smaller subtitle under profile photo */
 .quarto-about-trestles .subtitle.lead {
-  font-size: 0.85rem;
-  color: #666;
   line-height: 1.6;
   text-align: left;
+}
+
+.cv-role {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--charcoal);
+}
+
+.cv-keywords {
+  display: block;
+  margin-top: 0.4rem;
+  font-size: 0.75rem;
+  color: var(--charcoal);
+  line-height: 1.8;
+}
+
+.quarto-about-trestles .about-entity h1.title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.quarto-about-trestles .about-entity #title-block-header .quarto-title {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.quarto-about-trestles .about-entity p.subtitle.lead {
+  margin-top: -0.15rem !important;
+  padding-top: 0 !important;
 }
 
 /* Hide published date */
