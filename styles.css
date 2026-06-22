@@ -121,16 +121,16 @@ a:hover {
 .hero-inner {
   max-width: var(--max-width);
   margin: 0 auto;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns: 1.45fr 0.85fr;
   gap: 4rem;
+  align-items: center;
 }
 
 /* -- Text side ----------------------------------------------- */
 
 .hero-text {
-  flex: 1 1 55%;
+  min-width: 0;
 }
 
 .hero-name {
@@ -187,18 +187,16 @@ a:hover {
 /* -- Image side --------------------------------------------- */
 
 .hero-image {
-  flex: 0 0 260px;
-  display: flex;
-  align-self: stretch;
+  justify-self: center;
+  transform: translate(-18px, 20px);
 }
 
 .profile-photo {
-  width: 260px;
-  height: 100%;
-  object-fit: cover;
-  object-position: center top;
-  border-radius: 10px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.10);
+  width: 100%;
+  max-width: 260px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
   display: block;
 }
 
@@ -318,22 +316,21 @@ a:hover {
   }
 
   .hero-inner {
-    flex-direction: column-reverse;
+    grid-template-columns: 1fr;
     gap: 2rem;
     text-align: center;
   }
 
   .hero-image {
-    flex: none;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-self: auto;
+    transform: none;
+    justify-self: center;
+    order: -1;
+    margin-top: 1rem;
   }
 
   .profile-photo {
-    width: 200px;
-    height: 240px;
+    max-width: 200px;
+    height: auto;
     margin: 0 auto;
   }
 
