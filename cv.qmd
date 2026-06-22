@@ -1,6 +1,6 @@
 ---
-title: "Shuai Ma" 
-subtitle: "📧 mashuai@gmail.com <br> 🌐 shuaima-research.github.io <br> 📍 Shanghai, China"
+title: "Shuai Ma"
+subtitle: "<span class='cv-role'>Urban Planning Researcher</span><br><span class='cv-keywords'>Housing Markets<br>Public Investment<br>Urban Informatics</span>"
 date: today
 format:
   html:
@@ -11,6 +11,9 @@ about:
   image: image7.jpeg
   image-shape: round
   image-width: 10em
+  links:
+    - text: "↓ Download CV (PDF)"
+      href: files/Shuai_Ma_CV.pdf
 execute:
   echo: false
 ---

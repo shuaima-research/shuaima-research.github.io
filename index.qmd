@@ -11,7 +11,8 @@ toc: false
 
     <div class="hero-text">
       <div class="hero-name">Shuai Ma</div>
-      <p class="hero-subtitle">Urban Planning, Housing Policy, and Urban Informatics</p>
+      <p class="hero-subtitle">Urban Planning Researcher <br>
+        Housing Markets, Public Investment, and Urban Informatics</p>
 
       <p class="hero-description">
         I study how place-based public investments reshape housing and land markets, and how those market responses redistribute wealth, risk, and residential opportunity across communities. Methodologically, my work combines spatial data science, causal inference, and interpretable machine learning to analyze urban and housing-market dynamics.
@@ -25,7 +26,7 @@ toc: false
       <div class="hero-buttons">
         <a href="research.html" class="btn btn-academic">Research</a>
         <a href="cv.html" class="btn btn-outline-academic">CV</a>
-        <a href="files/Research_Brief.pdf" class="btn btn-outline-academic" target="_blank">Research Brief ↗</a>
+        <a href="research_brief.html" class="btn btn-outline-academic">Current Project</a>
       </div>
     </div>
 
