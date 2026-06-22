@@ -13,7 +13,7 @@ format:
         </style>
 about:
   template: trestles
-  image: image7.jpeg
+  image: images/image7.jpeg
   image-shape: round
   image-width: 10em
   links:

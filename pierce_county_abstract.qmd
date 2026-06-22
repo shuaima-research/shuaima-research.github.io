@@ -1,0 +1,25 @@
+---
+title: ""
+toc: false
+---
+
+```{=html}
+<div class="cp-header">
+  <div class="cp-tag">Working Paper · 2025–2026</div>
+  <h1 class="cp-title">
+    Hazard or Amenity? Flood Risk, Waterway Proximity, and Uneven Housing Market Effects in Pierce County
+  </h1>
+  <div class="cp-meta">
+    <span class="cp-author">Shuai Ma</span>
+  </div>
+</div>
+
+<div class="cp-body">
+  <h2 class="cp-section-heading">Abstract</h2>
+  <div class="cp-abstract">
+    <p>A home exposed to flooding should, by the usual reasoning, sell at a discount. Yet many of the most flood-prone parcels are also the most water-adjacent, where shoreline access and neighborhood advantage push value in the opposite direction. This paper asks how flood hazard, water proximity, and neighborhood inequality are reflected together in residential prices in Pierce County, Washington. I join 47,763 arm's-length single-family sales from 2021 to 2025 with parcel, environmental, and neighborhood records, and combine hedonic regression with spatial analysis, a flood–income–waterway typology, and machine-learning checks.</p>
+    <p>Ordinary structural and neighborhood characteristics explain most of the variation in price. Waterway proximity adds a small premium that wavers across specifications, and Federal Emergency Management Agency (FEMA) high-flood-risk designation carries no reliable discount. The missing discount is not evidence that buyers ignore flood risk. High-risk parcels are scarce and spatially concentrated, and most sit amid the waterfront conditions that raise value. Because they fall in both higher- and lower-income neighborhoods, a single coefficient averages across market settings that have little in common. Flexible machine-learning models preserve the same predictor ordering, so the result does not hinge on functional form.</p>
+    <p>The paper reframes flood-risk capitalization as a problem of spatial bundling rather than a test of an average discount, and argues that where hazard and amenity share the same ground, prices alone are an unreliable guide to who bears flood risk and who profits from the same location.</p>
+  </div>
+</div>
+```

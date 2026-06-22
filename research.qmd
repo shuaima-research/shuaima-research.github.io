@@ -1,36 +1,110 @@
 ---
 title: "Research"
+toc: false
 ---
 
-## Research Overview
+```{=html}
+<!-- ── Section 1: PhD Research Brief ─────────────────────── -->
+<section class="rp-section">
+  <h2 class="rp-heading">Research Prospectus</h2>
+  <div class="rp-brief-card">
+    <div class="rp-brief-meta">Prepared in support of PhD program applications · 2025–2026</div>
+    <h3 class="rp-brief-title">
+      Who Benefits from Flood-Mitigation Investment?
+      <span class="rp-brief-sub">Housing Capitalization, Spatial Spillovers, and Distributional Effects in Flood-Prone Communities</span>
+    </h3>
+    <p class="rp-brief-agenda">
+      <strong>Research Agenda:</strong> Place-Based Public Investment, Housing Markets, and Spatial Inequality
+    </p>
+    <p class="rp-brief-summary">
+      This brief outlines my doctoral research agenda. I examine how flood-mitigation investments are capitalized into nearby housing values, how far their effects extend across space, and how benefits and costs are distributed across neighborhoods with different income levels, tenure structures, and social vulnerability.
+    </p>
+    <div class="rp-brief-buttons">
+      <a href="research_brief.html" class="btn btn-academic">View Research Prospectus</a>
+    </div>
+  </div>
+</section>
 
-My research interests lie at the intersection of **urban planning, housing and real estate economics, climate resilience, and artificial intelligence**.
+<!-- ── Section 2: Current Project ────────────────────────── -->
+<section class="rp-section">
+  <h2 class="rp-heading">Current Project</h2>
+  <div class="rp-project-card">
+    <div class="rp-project-tag">Writing Sample · Hedonic Price Study</div>
+    <h3 class="rp-project-title">
+      Hazard or Amenity? Flood Risk, Waterway Proximity, and Neighborhood Inequality in Housing Prices
+    </h3>
+    <p class="rp-project-desc">
+      A hedonic study of 47,763 single-family home sales in Pierce County, Washington, linking parcel-level transactions with FEMA flood-risk designations, waterway proximity, and neighborhood socioeconomic data. The study shows that estimates of flood-risk capitalization are substantially confounded by waterfront amenity values and neighborhood context, and that flood-risk discounts vary significantly across income and racial composition of neighborhoods — raising distributional questions about who bears the cost of climate risk in housing markets.
+    </p>
+    <div class="rp-project-methods">
+      <span class="rp-method-tag">Hedonic Pricing</span>
+      <span class="rp-method-tag">FEMA Flood Data</span>
+      <span class="rp-method-tag">Spatial Analysis</span>
+      <span class="rp-method-tag">Neighborhood Effects</span>
+    </div>
+    <div class="rp-brief-buttons" style="margin-top: 1.25rem;">
+      <a href="pierce_county_abstract.html" class="btn btn-academic">Abstract</a>
+      <a href="#" class="btn btn-outline-academic">Full Paper</a>
+      <a href="#" class="btn btn-outline-academic">Code</a>
+    </div>
+  </div>
+</section>
 
-I am particularly interested in developing **interpretable and policy-relevant machine-learning models** that can inform public investment and planning decisions.
+<!-- ── Section 3: Selected Research Projects ─────────────── -->
+<section class="rp-section">
+  <h2 class="rp-heading">Selected Research Projects</h2>
+  <p class="rp-section-note">Applied research and analytical projects from professional practice. Individual project pages coming soon.</p>
 
-## Urban Development & Planning
+  <div class="rp-project-list">
 
-I study how urban form, land-use regulation, and infrastructure investment influence long-term urban resilience and social equity.
+     <div class="rp-list-item">
+      <div class="rp-list-header">
+        <span class="rp-list-title">Empirical Analysis of Guangzhou Residential Rental Markets</span>
+        <span class="rp-list-year">2021</span>
+      </div>
+      <p class="rp-list-desc">Collected and modeled ~3,000 rental listings using OLS regression, stepwise variable selection, PCA, and clustering to evaluate key rent determinants across structural and location attributes.</p>
+    </div>
 
-Key themes include:
-- Urban spatial structure and risk exposure  
-- Planning institutions and policy constraints  
-- Climate adaptation in metropolitan regions  
+    <div class="rp-list-item">
+      <div class="rp-list-header">
+        <span class="rp-list-title">Sponge City and Low-Impact Development Technical Research and Application</span>
+        <span class="rp-list-year">2017</span>
+      </div>
+      <p class="rp-list-desc">Synthesized sponge-city policies and LID technologies into technical guidance covering runoff control, rainwater reuse, water-quality treatment, and urban flood-risk reduction across multiple Chinese cities.</p>
+    </div>
 
-## Housing & Real Estate
+    <div class="rp-list-item">
+      <div class="rp-list-header">
+        <span class="rp-list-title">Serviced Apartment and Long-Term Rental Housing Sector Studies</span>
+        <span class="rp-list-year">2016; 2021</span>
+      </div>
+      <p class="rp-list-desc">Mixed-methods market research using field visits and web-scraped data; analyzed 987 Guangzhou listings with descriptive statistics, chi-square tests, and tree-based feature-importance models.</p>
+    </div>
 
-My work explores housing affordability and real estate dynamics under climate and economic uncertainty.
+    <div class="rp-list-item">
+      <div class="rp-list-header">
+        <span class="rp-list-title">Comparative Policy Study of New Industrial Land (M0) in the Greater Bay Area</span>
+        <span class="rp-list-year">2021</span>
+      </div>
+      <p class="rp-list-desc">Compared M0 land-use policies across seven GBA cities, examining industry eligibility, FAR requirements, land tenure, and regulatory design for industrial upgrading versus speculative real-estate conversion.</p>
+    </div>
 
-Key topics:
-- Housing supply constraints and zoning  
-- Climate risk pricing in real estate markets  
-- Housing policy evaluation  
+    <div class="rp-list-item">
+      <div class="rp-list-header">
+        <span class="rp-list-title">Highest and Best Use (HBU) Optimization for Business-Park Development</span>
+        <span class="rp-list-year">2021</span>
+      </div>
+      <p class="rp-list-desc">Led an internal analytics study using Python PuLP linear programming to optimize product mix across 16 typologies under FAR, height, and green-space constraints for a Foshan business-park site.</p>
+    </div>
 
-## AI & Machine Learning Methods
+    <div class="rp-list-item">
+      <div class="rp-list-header">
+        <span class="rp-list-title">Jiangsu Provincial Low-Carbon Urban System Strategy</span>
+        <span class="rp-list-year">2011</span>
+      </div>
+      <p class="rp-list-desc">Core ARUP team member; contributed to an IPCC-based carbon-audit framework and province-scale baseline emissions estimation, translating results into planning-relevant evidence for low-carbon strategy.</p>
+    </div>
 
-Methodologically, I focus on:
-- Interpretable machine-learning models  
-- Equity-aware and fairness-constrained modeling  
-- Spatial and temporal prediction  
-
-with an emphasis on **translating model insights into actionable policy rules**.
+  </div>
+</section>
+```

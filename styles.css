@@ -288,6 +288,7 @@ a:hover {
   font-size: 1.1rem;
   font-weight: 600;
   color: var(--navy);
+  margin-top: 0;
   margin-bottom: 0.3rem;
   line-height: 1.4;
 }
@@ -373,6 +374,235 @@ a:hover {
   .hero-description {
     font-size: 0.95rem;
   }
+}
+
+/* ============================================================
+   RESEARCH PAGE
+   ============================================================ */
+
+.rp-section {
+  margin-bottom: 3.5rem;
+}
+
+.rp-heading {
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--navy);
+  padding-bottom: 0.6rem;
+  border-bottom: 2px solid var(--border);
+  margin-bottom: 1.5rem;
+}
+
+/* Brief card */
+.rp-brief-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--navy);
+  border-radius: 0 8px 8px 0;
+  padding: 1.75rem 2rem;
+}
+
+.rp-brief-meta {
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin-bottom: 0.6rem;
+}
+
+.rp-brief-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--navy);
+  line-height: 1.35;
+  margin-bottom: 0.75rem;
+}
+
+.rp-brief-sub {
+  display: block;
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: var(--charcoal);
+  margin-top: 0.25rem;
+}
+
+.rp-brief-agenda {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-bottom: 0.75rem;
+}
+
+.rp-brief-summary {
+  font-size: 0.925rem;
+  color: var(--charcoal);
+  line-height: 1.75;
+  margin-bottom: 1.25rem;
+}
+
+.rp-brief-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+/* Current project card */
+.rp-project-card {
+  background: var(--bg-project);
+  border-left: 4px solid var(--navy);
+  border-radius: 0 8px 8px 0;
+  padding: 1.75rem 2rem;
+}
+
+.rp-project-tag {
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin-bottom: 0.6rem;
+}
+
+.rp-project-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--navy);
+  line-height: 1.4;
+  margin-bottom: 0.85rem;
+}
+
+.rp-project-desc {
+  font-size: 0.925rem;
+  color: var(--charcoal);
+  line-height: 1.75;
+  margin-bottom: 1rem;
+}
+
+.rp-project-methods {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.rp-method-tag {
+  font-size: 0.75rem;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  padding: 0.2rem 0.55rem;
+  color: var(--charcoal);
+}
+
+/* Project list */
+.rp-section-note {
+  font-size: 0.875rem;
+  color: var(--muted);
+  margin-bottom: 1.5rem;
+}
+
+.rp-project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.rp-list-item {
+  padding: 1.1rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.rp-list-item:first-child {
+  border-top: 1px solid var(--border);
+}
+
+.rp-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 0.35rem;
+}
+
+.rp-list-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--navy);
+}
+
+.rp-list-year {
+  font-size: 0.8rem;
+  color: var(--muted);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.rp-list-desc {
+  font-size: 0.875rem;
+  color: var(--charcoal);
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* ============================================================
+   CURRENT PROJECT PAGE
+   ============================================================ */
+
+.cp-header {
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.cp-tag {
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  margin-bottom: 0.75rem;
+}
+
+.cp-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--navy);
+  line-height: 1.35;
+  margin-bottom: 0.75rem;
+}
+
+.cp-meta {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.cp-author {
+  font-style: italic;
+}
+
+.cp-section-heading {
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--navy);
+  margin-bottom: 1rem;
+}
+
+.cp-abstract {
+  border-left: 3px solid var(--border);
+  padding-left: 1.25rem;
+}
+
+.cp-abstract p {
+  font-size: 0.975rem;
+  line-height: 1.85;
+  color: var(--charcoal);
+  margin-bottom: 1rem;
+}
+
+.cp-abstract p:last-child {
+  margin-bottom: 0;
 }
 
 /* ============================================================
