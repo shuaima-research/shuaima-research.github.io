@@ -4084,6 +4084,25 @@ background-color: #16304f;
 color: #fff !important;
 text-decoration: none;
 }
+.btn-outline-academic-sm {
+background-color: transparent;
+color: var(--navy) !important;
+border: 1.5px solid var(--navy);
+border-radius: 4px;
+padding: 0.35rem 0.9rem;
+font-size: 0.82rem;
+font-weight: 500;
+text-decoration: none;
+display: inline-block;
+margin-top: 0.5rem;
+margin-left: 0.4rem;
+transition: background-color 0.15s ease, color 0.15s ease;
+}
+.btn-outline-academic-sm:hover {
+background-color: var(--navy);
+color: #fff !important;
+text-decoration: none;
+}
 
 .hero-section {
 padding: 2.5rem 2rem 4rem;
@@ -4694,7 +4713,9 @@ flex: 1 1 auto !important;
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#empirical-analysis-of-guangzhou-residential-rental-markets" id="toc-empirical-analysis-of-guangzhou-residential-rental-markets" class="nav-link active" data-scroll-target="#empirical-analysis-of-guangzhou-residential-rental-markets">Empirical Analysis of Guangzhou Residential Rental Markets</a>
+  <ul class="collapse">
+  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract">Abstract</a></li>
   <li><a href="#research-question-and-analytical-perspective" id="toc-research-question-and-analytical-perspective" class="nav-link" data-scroll-target="#research-question-and-analytical-perspective">1. Research question and analytical perspective</a></li>
   <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">2. Data</a>
   <ul class="collapse">
@@ -4718,6 +4739,7 @@ flex: 1 1 auto !important;
   <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">6. Conclusion</a></li>
   <li><a href="#appendix-a.-exploratory-market-segmentation" id="toc-appendix-a.-exploratory-market-segmentation" class="nav-link" data-scroll-target="#appendix-a.-exploratory-market-segmentation">Appendix A. Exploratory market segmentation</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -4749,6 +4771,9 @@ flex: 1 1 auto !important;
 </header>
 
 
+<section id="empirical-analysis-of-guangzhou-residential-rental-markets" class="level1">
+<h1>Empirical Analysis of Guangzhou Residential Rental Markets</h1>
+<p>Shuai Ma · September 2021 · <a href="https://github.com/shuaima-research/PA-16-Guangzhou_Residential_Rental_Market-Github" target="_blank">Code (GitHub)</a></p>
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
 <p>This report studies the correlates of monthly asking rents in Guangzhou using 3,000 publicly available online rental listings collected and cleaned by the author for a September 2021 project. A hedonic regression framework relates rent to floor area, dwelling configuration, floor level, rental form, and district. The benchmark levels model explains approximately 59% of the cross-sectional variation in asking rents. Because rents are strongly right-skewed and the levels model is heteroskedastic, the preferred specification models log rent and reports heteroskedasticity-robust standard errors. Its results indicate that floor area is the dominant structural correlate: a 10% increase in area is associated with approximately 7.15% higher rent, holding observed attributes constant. Bathrooms and the building floor are also positively associated with rent, while an additional bedroom at a fixed floor area is associated with a small discount, consistent with more intensive subdivision of the same space. Location remains important after controlling for dwelling characteristics. Relative to Baiyun, the preferred model estimates conditional rent premiums of approximately 51% in Tianhe, 42% in Yuexiu, and 27% in Haizhu. These estimates describe market capitalization patterns; they should not be read as causal effects because the listings omit exact location, accessibility, building age, furnishing, and other quality dimensions.</p>
@@ -5502,6 +5527,7 @@ Figure 6: Ward hierarchical clustering dendrogram.
 <p>White, H. 1980. “A Heteroskedasticity-Consistent Covariance Matrix Estimator and a Direct Test for Heteroskedasticity.” <em>Econometrica</em> 48 (4): 817–838.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
