@@ -109,6 +109,27 @@ a:hover {
   text-decoration: none;
 }
 
+.btn-outline-academic-sm {
+  background-color: transparent;
+  color: var(--navy) !important;
+  border: 1.5px solid var(--navy);
+  border-radius: 4px;
+  padding: 0.35rem 0.9rem;
+  font-size: 0.82rem;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 0.5rem;
+  margin-left: 0.4rem;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.btn-outline-academic-sm:hover {
+  background-color: var(--navy);
+  color: #fff !important;
+  text-decoration: none;
+}
+
 /* ============================================================
    HERO SECTION
    ============================================================ */

@@ -1,0 +1,9 @@
+#title-block-header {
+  display: block !important;
+}
+
+.quarto-title-meta,
+.quarto-title-meta-heading,
+.quarto-title-meta-contents {
+  display: revert !important;
+}

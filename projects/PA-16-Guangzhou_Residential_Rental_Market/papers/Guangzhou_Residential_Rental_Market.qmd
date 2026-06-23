@@ -43,6 +43,8 @@ format_p <- function(value) {
   ifelse(value < 0.001, "<0.001", sprintf("%.3f", value))
 }
 ```
+# Empirical Analysis of Guangzhou Residential Rental Markets
+Shuai Ma · September 2021 · <a href="https://github.com/shuaima-research/PA-16-Guangzhou_Residential_Rental_Market-Github" target="_blank">Code (GitHub)</a>
 
 ## Abstract
 
