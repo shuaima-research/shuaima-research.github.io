@@ -1,40 +1,80 @@
 ---
-title: "Projects"
+title: "Practice"
+toc: false
 ---
 
-## Selected Projects
+```{=html}
+<section class="rp-section">
+  <p class="rp-section-note" style="margin-bottom: 2rem;">Selected professional projects from urban planning, design, and real-estate finance practice.</p>
 
-Below are selected ongoing or completed projects related to my research interests.
+  <div class="rp-project-list">
 
----
+    <div class="rp-list-item">
+      <div class="rp-list-header">
+        <span class="rp-list-title">Urban Design Portfolio — TOD, Master Planning &amp; Strategic Spatial Concepts</span>
+        <span class="rp-list-year">2011–2015</span>
+      </div>
+      <p class="rp-list-desc">Produced urban design and master-planning schemes across multiple projects, including transit-oriented (TOD) station-area design, new-area master plans, and strategic spatial frameworks.</p>
+      <div class="rp-list-meta">
+        <span class="rp-meta-item"><span class="rp-meta-label">Role</span> Urban designer — core design &amp; documentation (Atkins)</span>
+      </div>
+    </div>
 
-### AI-Based Housing Affordability Modeling
+    <div class="rp-list-item">
+      <div class="rp-list-header">
+        <span class="rp-list-title">Expo 2010 Shanghai — Urban Best Practices Area (UBPA): LEED-ND &amp; Low-Carbon Planning</span>
+        <span class="rp-list-year">2009–2013</span>
+      </div>
+      <p class="rp-list-desc">One of China's earliest neighborhood-scale sustainability certifications — LEED for Neighborhood Development and low-carbon implementation planning for the regeneration of the Expo 2010 legacy district.</p>
+      <div class="rp-list-meta">
+        <span class="rp-meta-item"><span class="rp-meta-label">Role</span> Planner, sustainability team (Arup)</span>
+      </div>
+    </div>
 
-**Description:**  
-Developing machine-learning models to analyze housing affordability dynamics across U.S. metropolitan areas.
+    <div class="rp-list-item">
+      <div class="rp-list-header">
+        <span class="rp-list-title">Karamay City Climate Vision (KCCV) — Low-Carbon Transition for China's First Oil City</span>
+        <span class="rp-list-year">2013–2016</span>
+      </div>
+      <p class="rp-list-desc">Developed a city-scale low-carbon transition vision linking carbon-reduction targets to economic diversification and spatial restructuring for a resource-dependent oil city.</p>
+      <div class="rp-list-meta">
+        <span class="rp-meta-item"><span class="rp-meta-label">Role</span> Lead author, vision &amp; strategy (Atkins)</span>
+      </div>
+    </div>
 
-**Data:**  
-- U.S. Census / ACS  
-- Housing price indices  
-- Climate risk indicators  
+    <div class="rp-list-item">
+      <div class="rp-list-header">
+        <span class="rp-list-title">Tishman Speyer Mixed-Use Development, Shanghai — Green Building &amp; LEED Certification</span>
+        <span class="rp-list-year">2011–2015</span>
+      </div>
+      <p class="rp-list-desc">Delivered dual green-building (China GBL) and LEED certification for a large mixed-use development, including building energy analysis and water-system / sustainability technical work.</p>
+      <div class="rp-list-meta">
+        <span class="rp-meta-item"><span class="rp-meta-label">Role</span> Sustainability consultant, green building certification (Atkins)</span>
+      </div>
+    </div>
 
-**Methods:**  
-- Tree-based models  
-- Feature importance and interpretability analysis  
+    <div class="rp-list-item">
+      <div class="rp-list-header">
+        <span class="rp-list-title">Deqing Industry New Town — Planning &amp; Design Management (PPP)</span>
+        <span class="rp-list-year">2016–2018</span>
+      </div>
+      <p class="rp-list-desc">Managed regulatory planning, urban design, municipal infrastructure, parks, and resettlement housing for a public-private-partnership new town where the developer assumed quasi-governmental responsibilities.</p>
+      <div class="rp-list-meta">
+        <span class="rp-meta-item"><span class="rp-meta-label">Role</span> Planning &amp; design manager (CFLD)</span>
+      </div>
+    </div>
 
-**Status:**  
-In progress
+    <div class="rp-list-item">
+      <div class="rp-list-header">
+        <span class="rp-list-title">Industrial-Park Investment Underwriting Model System</span>
+        <span class="rp-list-year">2020–2024</span>
+      </div>
+      <p class="rp-list-desc">Built an in-house DCF/IRR underwriting model suite for industrial-park development and stock-asset acquisition, benchmarked against Longfor, CapitaLand, and A.CRE models.</p>
+      <div class="rp-list-meta">
+        <span class="rp-meta-item"><span class="rp-meta-label">Role</span> Model developer / lead analyst (Ping An)</span>
+      </div>
+    </div>
 
----
-
-### Climate Risk and Urban Investment Prioritization
-
-**Description:**  
-Exploring how climate vulnerability metrics can be incorporated into urban capital investment decision-making.
-
-**Focus:**  
-- Flood and heat risk  
-- Public infrastructure planning  
-
-**Status:**  
-Conceptual framework development
+  </div>
+</section>
+```
