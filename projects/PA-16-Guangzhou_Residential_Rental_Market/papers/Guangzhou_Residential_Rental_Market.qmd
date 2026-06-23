@@ -1,6 +1,5 @@
 ---
 title: "Empirical Analysis of Guangzhou Residential Rental Markets"
-author: "Shuai Ma"
 date: "September 2021"
 lang: en
 format:
@@ -8,21 +7,11 @@ format:
     toc: true
     toc-depth: 3
     number-sections: false
-    theme:
-      - cosmo
-    css: ../../../styles.css
+    theme: default
     html-math-method: mathml
-    embed-resources: false
+    embed-resources: true
     code-fold: true
     code-summary: "Show supporting code"
-    include-after-body:
-      text: |
-        <script>
-          document.addEventListener('DOMContentLoaded', function() {
-            var el = document.getElementById('title-block-header');
-            if (el) el.style.setProperty('display', 'block', 'important');
-          });
-        </script>
 execute:
   echo: false
   warning: false
