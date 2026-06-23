@@ -11,12 +11,15 @@ toc: false
 
     <div class="rp-list-item">
       <div class="rp-list-header">
-        <span class="rp-list-title">Urban Design Portfolio — TOD, Master Planning &amp; Strategic Spatial Concepts</span>
-        <span class="rp-list-year">2011–2015</span>
+        <span class="rp-list-title">Genwan Zen Retreat and Resort: An Integrated Eco-Development Vision</span>
+        <span class="rp-list-year">2013–2014</span>
       </div>
-      <p class="rp-list-desc">Produced urban design and master-planning schemes across multiple projects, including transit-oriented (TOD) station-area design, new-area master plans, and strategic spatial frameworks.</p>
+      <p class="rp-list-desc">A lakeside cultural resort integrating Zen-inspired placemaking, climate-responsive design, ecological water systems, efficient energy infrastructure, and resource recovery to create a resilient destination in Wuxi.</p>
       <div class="rp-list-meta">
-        <span class="rp-meta-item"><span class="rp-meta-label">Role</span> Urban designer — core design &amp; documentation (Atkins)</span>
+        <span class="rp-meta-item"><span class="rp-meta-label">Role</span> Master Planner, Project Leader (Atkins)</span>
+      </div>
+      <div style="margin-top: 0.5rem;">
+        <a href="projects/ATK-24-Gengwan/genwan.html" class="btn btn-academic-sm">Project Brief</a>
       </div>
     </div>
 
