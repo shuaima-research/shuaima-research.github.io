@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Shuai Ma"
+  google-analytics: "G-4PQ33SR2WK"
   navbar:
     left:
       - href: index.qmd
