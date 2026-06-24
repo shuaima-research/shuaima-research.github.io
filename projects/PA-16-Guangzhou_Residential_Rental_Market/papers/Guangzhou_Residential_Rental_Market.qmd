@@ -52,7 +52,7 @@ format_p <- function(value) {
 }
 ```
 <p style="font-size:0.9rem; color:var(--muted); margin-top:-0.5rem; margin-bottom:2rem;">
-  Shuai Ma &nbsp;·&nbsp; September 2021 &nbsp;·&nbsp; <a href="https://github.com/shuaima-research/PA-16-Guangzhou_Residential_Rental_Market-Github" target="_blank">Code (GitHub)</a>
+  Shuai Ma &nbsp;·&nbsp; Internal Research Report &nbsp;·&nbsp; Ping An Grounp &nbsp;·&nbsp; September 2021 &nbsp;·&nbsp; <a href="https://github.com/shuaima-research/PA-16-Guangzhou_Residential_Rental_Market-Github" target="_blank">Code (GitHub)</a>
 </p>
 
 ## Abstract
@@ -63,9 +63,9 @@ This report studies the correlates of monthly asking rents in Guangzhou using 3,
 
 Housing is a bundle of attributes rather than a homogeneous commodity. Tenants jointly purchase interior space, room configuration, building position, neighborhood access, and a location within the metropolitan labor and amenity system. The hedonic framework developed by Lancaster (1966) and Rosen (1974) provides a natural empirical language for this market: observed rent is modeled as the price of a bundle of housing and location characteristics.
 
-The central question is:
+The central question is: 
 
-> Which observed dwelling and district characteristics are most strongly associated with residential asking rents in Guangzhou?
+**Which observed dwelling and district characteristics are most strongly associated with residential asking rents in Guangzhou?**
 
 The word *associated* is important. The data are a cross-section of online listings, not a randomized intervention or a panel of repeated transactions. The regressions identify conditional price differences within this sample. They do not isolate causal effects of district boundaries, floor area, or housing design.
 

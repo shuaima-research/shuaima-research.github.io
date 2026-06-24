@@ -71,10 +71,13 @@ toc: false
 
     <div class="rp-list-item">
       <div class="rp-list-header">
-        <span class="rp-list-title">Sponge City and Low-Impact Development Technical Research and Application</span>
+        <span class="rp-list-title">Living Safely with Water: Sponge-City Design for the Urban Waterfront</span>
         <span class="rp-list-year">2017</span>
       </div>
-      <p class="rp-list-desc">Synthesized sponge-city policies and LID technologies into technical guidance covering runoff control, rainwater reuse, water-quality treatment, and urban flood-risk reduction across multiple Chinese cities.</p>
+      <p class="rp-list-desc">Six waterfront sponge-city projects (2011–2017), from watershed to single plot, compared into a site-conditioned framework: which LID configuration cuts flood, drainage, and pollution risk where, and why.</p>
+      <div style="margin-top: 0.5rem;">
+        <a href="projects/ATK-28-Sponge_City_and_Low-Impact_Development/sponge_city.html" class="btn btn-academic-sm">Research Brief</a>
+      </div>
     </div>
 
     <div class="rp-list-item">
