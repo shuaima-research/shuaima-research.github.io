@@ -64,7 +64,7 @@ toc: false
       </div>
       <p class="rp-list-desc">Collected and modeled ~3,000 rental listings using OLS regression, stepwise variable selection, PCA, and clustering to evaluate key rent determinants across structural and location attributes.</p>
       <div style="margin-top: 0.5rem;">
-        <a href="projects/PA-16-Guangzhou_Residential_Rental_Market/papers/Guangzhou_Residential_Rental_Market.html" class="btn btn-academic-sm">View Report</a>
+        <a href="projects/PA-16-Guangzhou_Residential_Rental_Market/papers/Guangzhou_Residential_Rental_Market.html" class="btn btn-academic-sm">Research Brief</a>
         <a href="https://github.com/shuaima-research/PA-16-Guangzhou_Residential_Rental_Market-Github" class="btn btn-outline-academic-sm" target="_blank">Code</a>
       </div>
     </div>
