@@ -44,5 +44,11 @@
   },
   "projects/ATK-24-Gengwan/project_introduction.md": {
     "project_introduction.html": "d4bf9c50"
+  },
+  "projects/ATK-28-Sponge_City_and_Low-Impact_Development/sponge_city.qmd": {
+    "sponge_city.html": "5e3d929a"
+  },
+  "projects/ATK-28-Sponge_City_and_Low-Impact_Development/research_brief.md": {
+    "research_brief.html": "3855c6a6"
   }
 }
