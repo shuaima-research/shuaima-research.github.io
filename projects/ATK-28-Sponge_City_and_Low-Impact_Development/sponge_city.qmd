@@ -18,7 +18,7 @@ format:
 </div>
 ```
 
-## Abstract
+## Introduction
 
 Waterfront development reshapes the very water system that makes a site attractive: it raises runoff and peak flow, interrupts drainage, and pushes polluted water into rivers and lakes faster. Sponge-city (low-impact development) practice is typically applied as a uniform checklist; this brief argues instead that the workable configuration is conditioned by site type. Drawing on six water-environment and sponge-city projects I worked on between 2011 and 2017, spanning watershed planning to a single CBD plot, it treats them as comparative cases read along three axes: site typology, where the treatment train places its emphasis (source control → conveyance and treatment → storage and reuse → controlled overflow), and measured performance. The methods range from SWMM hydraulic simulation to rational-method calculation, multi-criteria storage trade-offs, and watershed strategy. Five propositions emerge from the comparison: terrain governs source-zone design; low permeability and high groundwater rule out infiltration; density makes storage a residual and cost the binding constraint, so the largest harvesting system is rarely optimal; industrial sites need clean/dirty source separation before treatment; and at basin scale, plot-level LID must be paired with hydromorphological restoration. One rule holds throughout: an amenity water body reduces risk only when its storage, freeboard, water quality, and connectivity are quantified. Because the models were design tools rather than monitored systems, what I offer is a site-conditioned design framework, not claims about verified in-service performance.
 
