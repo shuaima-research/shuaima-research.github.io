@@ -1,6 +1,5 @@
 ---
 title: "Empirical Analysis of Guangzhou Residential Rental Markets"
-date: "September 2021"
 lang: en
 toc: true
 toc-depth: 3
@@ -12,14 +11,6 @@ format:
     embed-resources: false
     code-fold: true
     code-summary: "Show supporting code"
-    include-after-body:
-      text: |
-        <script>
-          document.addEventListener('DOMContentLoaded', function() {
-            var el = document.getElementById('title-block-header');
-            if (el) el.style.setProperty('display', 'block', 'important');
-          });
-        </script>
 execute:
   echo: false
   warning: false
@@ -51,9 +42,15 @@ format_p <- function(value) {
   ifelse(value < 0.001, "<0.001", sprintf("%.3f", value))
 }
 ```
-<p style="font-size:0.9rem; color:var(--muted); margin-top:-0.5rem; margin-bottom:2rem;">
-  Shuai Ma &nbsp;·&nbsp; Internal Research Report &nbsp;·&nbsp; Ping An Grounp &nbsp;·&nbsp; September 2021 &nbsp;·&nbsp; <a href="https://github.com/shuaima-research/PA-16-Guangzhou_Residential_Rental_Market-Github" target="_blank">Code (GitHub)</a>
-</p>
+```{=html}
+<div class="cp-header">
+  <div class="cp-tag">Research Brief · Internal Research Report · Ping An Group · September 2021</div>
+  <h1 class="cp-title">Empirical Analysis of Guangzhou Residential Rental Markets</h1>
+  <div class="cp-meta">
+    <span class="cp-author">Shuai Ma</span> &nbsp;·&nbsp; <a href="https://github.com/shuaima-research/PA-16-Guangzhou_Residential_Rental_Market-Github" target="_blank">Code (GitHub)</a>
+  </div>
+</div>
+```
 
 ## Abstract
 

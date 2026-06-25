@@ -1,26 +1,22 @@
 ---
 title: "Living Safely with Water: Sponge-City Design for the Urban Waterfront"
-subtitle: "A cross-case framework matching LID configurations to waterfront site types"
-date: "2017"
 lang: en
 toc: true
 toc-depth: 2
 format:
   html:
     css: ../../styles.css
-    include-after-body:
-      text: |
-        <script>
-          document.addEventListener('DOMContentLoaded', function() {
-            var el = document.getElementById('title-block-header');
-            if (el) el.style.setProperty('display', 'block', 'important');
-          });
-        </script>
 ---
 
-<p style="font-size:0.9rem; color:var(--muted); margin-top:-0.5rem; margin-bottom:2rem;">
-  Shuai Ma &nbsp;·&nbsp; Internal Research Report &nbsp;·&nbsp; Atkins &nbsp;·&nbsp; 2017
-</p>
+```{=html}
+<div class="cp-header">
+  <div class="cp-tag">Research Brief · Internal Research Report · Atkins · 2017</div>
+  <h1 class="cp-title">Living Safely with Water: Sponge-City Design for the Urban Waterfront</h1>
+  <div class="cp-meta">
+    <span class="cp-author">Shuai Ma</span>
+  </div>
+</div>
+```
 
 ## Abstract
 

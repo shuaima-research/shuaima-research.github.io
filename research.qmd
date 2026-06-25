@@ -44,9 +44,9 @@ toc: false
     </div>
     <div class="rp-brief-buttons" style="margin-top: 1.25rem;">
       <a href="pierce_county_abstract.html" class="btn btn-academic">Abstract</a>
-      <a href="#" class="btn btn-outline-academic">Full Paper</a>
       <a href="https://github.com/shuaima-research/pierce_county_project_github" class="btn btn-outline-academic" target="_blank">Code</a>
     </div>
+    <p style="margin-top: 0.75rem; font-size: 0.82rem; color: var(--muted);">Full paper available on request.</p>
   </div>
 </section>
 
