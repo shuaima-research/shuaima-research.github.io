@@ -1,139 +1,141 @@
-# Living Safely with Water: Sponge-City Design for the Urban Waterfront
-## A cross-case framework matching LID configurations to waterfront site types
+---
+title: "Land Use as a Hydrological Variable"
+lang: en
+toc: true
+toc-depth: 2
+format:
+  html:
+    css: ../../styles.css
+---
 
-**Shuai Ma**  
-**Role:** Research Leader  
-**Type:** Internal Research Report
-**Date:** 2017
+```{=html}
+<div class="cp-header">
+  <div class="cp-tag">Research Brief · Urban Planning, Water, and Ecological Infrastructure · Retrospective Comparative Case Study · Atkins · 2011–2017</div>
+  <h1 class="cp-title">Land Use as a Hydrological Variable</h1>
+  <div class="cp-meta">
+    <strong>A site-conditioned framework for low-impact development across six Chinese urban development types (2011–2017)</strong><br>
+    <span class="cp-author">Shuai Ma</span>
+  </div>
+</div>
+```
 
 ## Abstract
 
-Waterfront development reshapes the very water system that makes a site attractive: it raises runoff and peak flow, interrupts drainage, and pushes polluted water into rivers and lakes faster. Sponge-city (low-impact development) practice is typically applied as a uniform checklist; this brief argues instead that the workable configuration is conditioned by site type. Drawing on six water-environment and sponge-city projects I worked on between 2011 and 2017, spanning watershed planning to a single CBD plot, it treats them as comparative cases read along three axes: site typology, where the treatment train places its emphasis (source control → conveyance and treatment → storage and reuse → controlled overflow), and measured performance. The methods range from SWMM hydraulic simulation to rational-method calculation, multi-criteria storage trade-offs, and watershed strategy. Five propositions emerge from the comparison: terrain governs source-zone design; low permeability and high groundwater rule out infiltration; density makes storage a residual and cost the binding constraint, so the largest harvesting system is rarely optimal; industrial sites need clean/dirty source separation before treatment; and at basin scale, plot-level LID must be paired with hydromorphological restoration. One rule holds throughout: an amenity water body reduces risk only when its storage, freeboard, water quality, and connectivity are quantified. Because the models were design tools rather than monitored systems, what I offer is a site-conditioned design framework, not claims about verified in-service performance.
+Sponge-city and low-impact development (LID) practice in China is commonly deployed as a uniform menu of measures applied to a parcel without regard to what the parcel is. This brief advances a different claim: the workable LID configuration is conditioned by land use. Land-use type and intensity, together with the soils, groundwater, dominant pollution source, and receiving-water sensitivity that travel with them, reset the urban water balance, and therefore decide which part of the stormwater treatment train must lead. Drawing on six water-environment and sponge-city projects I contributed to between 2011 and 2017, spanning a citywide river network down to a single central-business-district (CBD) plot, I read the projects as a comparative case series along three axes: land-use typology, treatment-train configuration, and modeled performance. Five conditional propositions emerge, linking terrain to source control, low permeability to detention, density to storage economics, industrial land to clean–dirty separation, and basin scale to hydromorphological restoration. Because the underlying models were design tools rather than monitored systems, the contribution is a land-use-conditioned *design framework* and a future research agenda, not a claim of verified in-service performance.
 
-**Research question.** Under what site conditions, and through which configurations, can sponge-city (low-impact development) systems reduce a waterfront's flood, drainage, and pollution risk *and* create ecological value at the same time?
+## 1. Introduction: land use and the urban water balance
 
-Sponge-city practice is often applied as a uniform checklist of measures. Drawing on six water-environment and sponge-city projects I worked on between 2011 and 2017 - spanning watershed planning down to a single CBD plot - I treat the projects as comparative cases and ask what *changes* from site to site: which part of the treatment train should lead, and which performance objective binds, under each type of waterfront. The result is a set of *conditional* design propositions rather than a generic best-practice list.
+Urban planning has long understood land use as, among other things, a hydrological decision. Converting permeable ground to roofs, roads, and hardscape raises the runoff coefficient, increases runoff volume and peak flow, shortens the time to peak, and speeds pollutant delivery to receiving waters — the relationship formalized in the impervious-cover literature and central to the design-with-nature tradition. Stormwater is thus not a downstream engineering residual but a direct expression of land-use type and intensity.
 
-Three sub-questions organize the comparison:
+China's Sponge City Program (national guidance in 2014; pilot cities from 2015) institutionalized low-impact development as the preferred response, promoting infiltration, retention, storage, purification, conveyance, and reuse in place of purely "grey" pipe networks. In practice, however, LID is often specified as a standardized checklist — a fixed percentage of permeable paving, green roof, and bioretention — applied identically to a greenfield suburb, a dense infill block, and an industrial yard. This decoupling of technique from land use is the problem this research addresses.
 
-- *Diagnostic* - how does waterfront urbanization change runoff volume, peak flow, and pollutant load across site types? (Kunshan, Houhai)
-- *Evaluative* - how well does a sponge treatment train reduce those risks under design storms, and where does residual risk remain? (Gengwan)
-- *Comparative* - how do site conditions decide the trade-off between flood control, water quality, reuse, ecology, and cost? (Suhewan, Mawan, Jinjiang)
+The premise is that the same measure performs differently, and belongs at a different point in the treatment sequence, depending on the land use it serves. A vegetated swale that purifies a low-density street is the wrong lead measure on a refuse-truck production road; an amenity lake that safely stores runoff on a mountain-to-lake new town is a liability on a flat, high-groundwater site. The planning question is therefore not *which measures*, but *which configuration, under which land-use conditions, and to meet which binding objective*.
 
-## Analytical framework
+## 2. Research questions
 
-I read each project along three axes:
+The brief is organized around one primary question and three sub-questions:
 
-1. **Site typology** - scale, terrain, soil and groundwater, land use, dominant pollution source, and sensitivity of the receiving water.
-2. **Configuration** - where a project places the emphasis of the treatment train: *source control → conveyance and treatment → storage and reuse → controlled overflow*.
-3. **Performance** - runoff-volume and peak control, water quality, residual flooding, reuse yield, ecological value, and cost.
+**Primary.** Under what land-use conditions, and through which configurations, can sponge-city / LID systems reduce a site's flood, drainage, and pollution risk *while* creating ecological value?
 
-The method is the same loop in every case - diagnose the hazard, set measurable targets, build a treatment train, then test residual risk and refine - but the projects differ in how far they could run that loop, from a full hydraulic model to a single-plot volume calculation.
+- *Diagnostic* — how does each land-use type reshape runoff volume, peak flow, and pollutant load? (Kunshan, Houhai)
+- *Evaluative* — how well does a treatment train reduce those risks under design storms, and where does residual risk persist? (Gengwan)
+- *Comparative* — how do land-use conditions decide the trade-off among flood control, water quality, reuse, ecology, and cost? (Suhewan, Mawan, Jinjiang)
 
-The measures were compared on standard performance terms:
+## 3. Conceptual framework
 
-| Sponge measure | Runoff-volume control | Peak-flow control | Reported SS removal |
-| --- | --- | --- | --- |
-| Permeable paving | Medium–strong | Medium | 80–90% |
-| Green roof | Strong | Medium | 70–80% |
-| Rainwater wetland | Strong | Strong | 50–80% |
-| Vegetated swale | Strong | Strong | 35–90% |
+I treat **land use as the independent variable** and read each project along three linked axes. *Typology* captures scale, development intensity (imperviousness / composite runoff coefficient), soils and groundwater, land use and dominant pollution source, and the sensitivity of the receiving water. *Configuration* describes where a project places the emphasis of a four-stage treatment train — source control → conveyance and treatment → storage and reuse → controlled overflow (Figure 2). *Performance* records runoff-volume and peak control, water quality, residual flooding, reuse yield, ecological value, and cost.
 
-## Methodology and cases
+Plotting the six cases by scale and intensity (Figure 1) shows the argument visually: as land use moves from low-intensity greenfield toward the dense CBD, and from the plot up to the watershed, the leading stage of the train migrates — from source control, to conveyance, to storage economics, to receiving-water restoration.
 
-This is a retrospective comparative multi-case study. The six cases were selected to span a *scale ladder* (watershed → district → plot) and contrasting site conditions, so that differences in configuration can be read against differences in site type rather than scale alone. The methods are matched to what each project needed: SWMM hydraulic simulation at Gengwan; rational-method and volume-budget calculation at Kunshan and Houhai; multi-criteria storage trade-off at Suhewan; pollution-risk-based spatial allocation at Mawan; and a staged watershed strategy at Jinjiang.
+![Figure 1](assets/fig1-landuse-typology.png){width=88%}
+*Figure 1. The six cases positioned by land-use scale and development intensity; marker colour denotes which treatment-train stage leads. The diagonal expresses a recurring finding — plot-scale LID is necessary but not sufficient as scale increases.*
 
-**On the strength of the evidence.** These were professional design projects. The models were decision tools, generally *not* calibrated against gauged data or validated by post-construction monitoring, and the standards cited were those current at the time. The findings below are therefore design propositions grounded in modeled and calculated evidence, not claims about verified in-service performance. I treat that limit as part of the method: the same framework would be sharpened by monitoring data, which is one of the directions I want to pursue.
+![Figure 2](assets/fig2-treatment-train.png){width=88%}
+*Figure 2. The four-stage treatment train used as a common vocabulary across cases. Land use shifts where the emphasis falls rather than which measures exist.*
 
-## Cross-case comparison
+The measures themselves were compared on standard performance terms drawn from the project evidence and literature. Single LID facilities typically achieve 30–70% peak-flow reduction through infiltration and 50–90% removal of TSS, TN, TP, COD, and BOD through filtration:
 
-| Project | Scale | Waterfront type & binding constraint | Dominant configuration | Leading objective | Key evidence |
-| --- | --- | --- | --- | --- | --- |
-| **Jinjiang** | Watershed / river network | Citywide river system; diffuse and point pollution, single water source, over-hardened channels | Staged basin strategy: point-source → non-point → restore self-purification; softened banks, buffers, re-meandering | Receiving-water recovery | Runoff coeff. target 0.85 → 0.55; 30 m riparian buffer; design velocity 0.012–0.046 m/s |
-| **Gengwan** | District / new town | Steep mountain catchments draining to engineered amenity lakes; polluted first flush to sensitive water | Source dispersal (gullies, dry creek) → graded swales by road type → lakeside filter trench → lakes as controlled storage; SWMM-tested | Flood and quality, with modeled residual risk | 100 m swale/ha → outlet TSS < 10 mg/L; refined 50-yr storm: 6,551 m³ to lake, +0.12 m, no site flooding |
-| **Mawan** | District / industrial | Waste-to-energy plant; vegetated slope and refuse-truck production roads; mixed pollution; limited green area | Clean/dirty source separation; distributed LID and a 2–3-stage rainwater wetland for clean runoff; dirty roads to controlled collection | Pollution control and ecological demonstration | Full reuse target not feasible → sponge used for pollution control and habitat/education |
-| **Kunshan** | District → plot / residential | Flat former farmland; low soil permeability, high groundwater | Shift from infiltration to detention: bioretention + underdrain + overflow + permeable surfaces; pond as detention | Restore pre-development water balance | Runoff coeff. 0.25 → 0.553; +2,171.5 m³ and peak 709 → 1,568 L/s (2-yr storm) |
-| **Houhai** | District / dense infill | Dense urban infill; clay and loam soils; space-limited; policy-target-driven | Land-cover conversion (permeable paving, green roof, sunken green) + engineered storage to close the gap | Meet annual runoff-control target | 60% (clay) / 70% (loam) control; 40% non-point reduction; 5-yr drainage storm; +340 m³ tank |
-| **Suhewan** | Plot / CBD | Ultra-dense CBD; 216 m tower over underground space; reuse economics | Roof-focused harvesting + right-sized storage; oversized max-collection option rejected | Storage economics and water quality | Max-collection 1,077 m³ rejected → 350 m³ (Parcel 46), 370 m³ (Parcel 44) |
+| LID measure | Runoff-volume control | Peak-flow control | Pollution control | Reported SS removal | Relative cost | Amenity value |
+| --- | --- | --- | --- | --- | --- | --- |
+| Permeable paving | Medium–strong | Medium | Medium | 80–90% | Medium | — |
+| Green roof | Strong | Medium | Medium | 70–80% | Medium | Good |
+| Rainwater wetland | Strong | Strong | Strong | 50–80% | Medium | Good |
+| Vegetated swale | Strong | Strong | Weak | 35–90% | Low | Good |
 
-## Conditional findings
+*Table 1. Comparative performance of the four core measures (composite of project reports and cited literature). Note the swale's strong hydraulic but weak stand-alone pollution performance — the reason it leads conveyance but is paired with wetlands or filter strips for quality.*
 
-The configuration that works is conditioned by the site:
+## 4. Methodology
 
-1. **Terrain leads at the source.** On steep mountain-to-water sites, the binding risk is upland energy and a polluted first flush reaching sensitive receiving water, so the train must lead with source-zone dispersal and use amenity water bodies as terminal controlled storage - sized by simulation, not by an infiltration assumption. *(Gengwan)*
-2. **Soil and groundwater can void infiltration.** On flat, low-permeability, high-groundwater greenfield sites, infiltration cannot be assumed; the train shifts to detention with underdrained bioretention and overflow, and the goal becomes restoring the pre-development volume and peak rather than draining water away faster. *(Kunshan)*
-3. **Density makes storage the residual, and cost the constraint.** On dense infill and CBD plots, surface LID is space-limited: land-cover conversion gets partway and engineered storage closes the gap, at which point the binding question is storage cost and water quality. The largest harvesting system is not the optimum - Suhewan's 1,077 m³ maximum was rejected for a 350 m³ design. *(Houhai, Suhewan)*
-4. **Pollution sources demand separation before treatment.** On industrial or mixed waterfronts, the decisive move is separating clean from dirty runoff, not applying uniform LID; once the dirty routes are isolated, the landscape train is free to double as habitat and public education. *(Mawan)*
-5. **Plot-level LID is necessary but not sufficient at basin scale.** At watershed scale, site measures must be paired with staged pollutant control and hydromorphological change - softened banks, buffers, re-meandering - to restore the receiving water's own self-purification. *(Jinjiang)*
+This is a **retrospective comparative multi-case study**. The six cases were purposively selected to span a *scale ladder* (watershed → district → plot) and contrasting land-use and site conditions, so that differences in configuration can be read against differences in land use rather than scale alone. Case selection prioritized variation on the framework's typology axis: a citywide river network (Jinjiang), a mountain-to-lake new town (Gengwan), an industrial waste-to-energy park (Mawan), a flat greenfield residential district (Kunshan), a dense urban-infill block (Houhai), and an ultra-dense CBD plot (Suhewan).
 
-Across all six, one rule holds: an amenity water body lowers risk only when its storage, freeboard, water quality, and drainage connectivity are quantified.
+Methods were matched to what each project required and to the data each generated: SWMM hydraulic-hydrologic simulation at Gengwan; rational-method and volume-budget calculation at Kunshan and Houhai; multi-criteria storage trade-off at Suhewan; pollution-risk-based spatial allocation and a supply–demand water balance at Mawan; and a staged basin strategy with hydromorphological design at Jinjiang. Evidence comprises the original design reports, calculation sheets, a standards-based rainfall series, and the SWMM network. The analytic loop is identical across cases — diagnose the hazard, set measurable targets, assemble a treatment train, then test residual risk and refine — but the cases differ in how far that loop could run.
 
-## Case evidence
+**On the strength of the evidence.** These were professional design commissions. The models were decision tools, generally *not* calibrated against gauged data or validated by post-construction monitoring, and the standards cited were those current at the time. The findings are therefore design propositions grounded in modeled and calculated evidence, not claims of verified in-service performance. I treat that boundary as part of the method and as a principal motivation for the doctoral work proposed below.
 
-### Gengwan — mountain-to-lake new district (the fully modeled case)
+## 5. Cross-case findings
 
-Local drainage was designed for only a 1–3-year storm while steep catchments, hardscape, and engineered lakes created several failure paths at once. I mapped the gullies, subcatchments, channels, lakes, and outlets, kept the floodway separate from the amenity-water system, and converted the map into a SWMM network to locate where flooding occurred and which links needed enlarging.
+The configuration that reduces risk is conditioned by land use. Five propositions, with one cross-cutting rule, organize the comparison (Table 2):
 
-![Original Gengwan ecological drainage network diagram](assets/gengwan-ecological-drainage-network-original.png)
+1. **Terrain leads at the source.** On steep mountain-to-water land, the binding risk is upland energy and a polluted first flush reaching sensitive receiving water; the train must lead with source-zone dispersal and treat amenity water bodies as *terminal, sized* storage — dimensioned by simulation, not by an infiltration assumption. *(Gengwan)*
+2. **Soil and groundwater can void infiltration.** On flat, low-permeability, high-groundwater greenfield land, infiltration cannot be assumed; the train shifts to detention with under-drained bioretention and overflow, and the objective becomes restoring the pre-development volume and peak rather than draining water away faster. *(Kunshan)*
+3. **Density makes storage a residual, and cost the binding constraint.** On dense infill and CBD plots, surface LID is space-limited: land-cover conversion gets part way and engineered storage closes the gap, at which point the binding question is storage cost and water quality. The largest harvesting system is not the optimum. *(Houhai, Suhewan)*
+4. **Industrial land demands separation before treatment.** On mixed industrial waterfronts the decisive move is separating clean from dirty runoff, not applying uniform LID; once dirty routes are isolated, the landscape train is free to double as habitat and public education. *(Mawan)*
+5. **Plot-level LID is necessary but not sufficient at basin scale.** At watershed scale, site measures must be paired with staged pollutant control and hydromorphological change — softened banks, riparian buffers, re-meandering — to restore the receiving water's own self-purification. *(Jinjiang)*
 
-*Figure 1. Drainage network, flow directions, lake system, and outlets, extracted from the original project deck.*
+Across all six, one rule holds: *an amenity water body lowers risk only when its storage, freeboard, water quality, and drainage connectivity are quantified.*
 
-![Original SWMM model of Gengwan](assets/swmm-gengwan-model.jpg)
+| Project | Scale | Land-use type & binding constraint | Leading configuration | Key quantified evidence |
+| --- | --- | --- | --- | --- |
+| **Jinjiang** | Watershed | Citywide river network; single source, over-hardened channels | Staged: point-source → non-point → restore self-purification; softened banks, 30 m buffer | Runoff coeff. target 0.85 → 0.55; design velocity 0.012–0.046 m/s |
+| **Gengwan** | District (new town) | Steep catchments draining to amenity lakes; polluted first flush | Source dispersal → graded swales → lakeside filter → lakes as sized storage (SWMM) | ~100 m swale/ha → outlet TSS < 10 mg/L; refined 50-yr: 6,551 m³ to lake, +0.12 m, no flooding |
+| **Mawan** | District (industrial) | Waste-to-energy plant; refuse-truck roads; limited green area | Clean/dirty separation; distributed LID + 2–3-stage wetland for clean runoff | Reuse infeasible (217k m³ supply vs 18M m³ demand) → pollution control + demonstration |
+| **Kunshan** | District → plot (residential) | Flat former farmland; low permeability, high groundwater | Detention: bioretention + under-drain + overflow + permeable surfaces | Runoff coeff. 0.25 → 0.553; +2,172 m³ and peak 709 → 1,568 L/s (2-yr storm) |
+| **Houhai** | District (dense infill) | Clay/loam infill; space-limited; policy-target-driven | Land-cover conversion + engineered storage to close the gap | 60% (clay) / 70% (loam) control; 40% non-point reduction; +340 m³ tank |
+| **Suhewan** | Plot (CBD) | 216 m tower over dense underground space; reuse economics | Roof-focused harvesting + right-sized storage | Max-collection 1,077 m³ rejected → 350 m³ (P46), 370 m³ (P44) |
 
-*Figure 2. Original SWMM study-area model: terrain, subcatchments, nodes, and outlets.*
+*Table 2. Cross-case synthesis: land use governs the binding constraint and the leading configuration.*
 
-Simulation linked quantity and quality. Pollutants concentrated in the first ~20 minutes, larger storms diluted average TSS, and at about 100 m of swale per hectare the modeled outlet TSS fell below 10 mg/L. The landscape lake stayed a controlled store rather than a hazard:
+## 6. Case evidence
 
-| Storm | Runoff to lake (m³) | Lake-level rise (m) | Modeled TSS (mg/L) |
-| ---: | ---: | ---: | ---: |
-| 1-yr | 1,969 | 0.026 | 13.00 |
-| 3-yr | 2,929 | 0.039 | 10.83 |
-| 50-yr | 6,221 | 0.083 | 7.96 |
-| 100-yr | 6,922 | 0.092 | 7.62 |
+**Gengwan — the fully modeled case.** Local drainage was designed for only a 1–3-year storm while steep catchments, hardscape, and engineered lakes created several failure paths at once. I separated the floodway from the amenity-water system, mapped subcatchments, channels, lakes, and outlets, and built a SWMM network. Simulation linked quantity and quality: pollutants concentrated in the first ~20 minutes, larger storms diluted average TSS, and at about 100 m of swale per hectare the modeled outlet TSS fell below the 10 mg/L lake reuse standard (Figure 3). The lake remained a controlled store — only a +0.092 m rise even under the 100-year storm — but one low-lying subcatchment persisted as a ponding hotspot. The fix was spatial: more swale length and depressed detention at the flagged nodes. In the refined 50-year run about 6,551 m³ entered the lake for a +0.12 m rise with no site flooding — the lake absorbed more water *by design* once the layout was tuned.
 
-Node-level results still showed one low-lying subcatchment as the dominant ponding hotspot (a second 50-yr run reached ~1,053 m³ there with shorter swales), so the fix was spatial: more swale length and depressed detention at the flagged nodes. In the refined 50-yr scenario ~6,551 m³ entered the lake for a +0.12 m rise with no site flooding - the lake absorbed more water *by design* once the layout was tuned.
+![Figure 3](assets/fig3-gengwan-swmm.png){width=88%}
+*Figure 3. Gengwan SWMM results across four design storms: the lake functions as controlled storage (a) while modeled TSS stays at or below the reuse standard (b).*
 
-![Original dry-creek reference photograph](assets/gengwan-dry-creek-reference-original.jpg)
+**Kunshan — infiltration cannot be assumed.** On flat former farmland near Shanghai, development raised the composite runoff coefficient from 0.25 to 0.553; for a 2-year, 86.8 mm storm the calculated runoff rose by 2,172 m³ and peak flow more than doubled, from 709 to 1,568 L/s (Figure 4). Because soil permeability was low (K ≈ 1.16 × 10⁻⁶ m/s) and groundwater high, a "green" facility was not automatically infiltrative; the design combined bioretention, under-drainage, overflow, and permeable surfaces rather than relying on soakage, with the landscape pond serving as detention.
 
-*Figure 3. Stepped rock channel: it dissipates energy and turns conveyance into a landscape feature.*
+![Figure 4](assets/fig4-kunshan-hydrology.png){width=88%}
+*Figure 4. Kunshan — flat-site land conversion sharply increases runoff volume and peak flow, the diagnostic basis for a detention-led rather than infiltration-led train.*
 
-### Mawan — industrial waterfront (source separation)
+**Suhewan — storage as residual, economics as constraint.** At a 216 m tower over dense underground space in Shanghai, the question was how large a reuse system to build. Collecting all hardscape and roof runoff implied a 1,077 m³ tank (a LEED maximum); weighed against demand, water quality, and cost — and rejected by the owner as impractical — a roof-focused design of 350 m³ (Parcel 46) and 370 m³ (Parcel 44) was adopted instead (Figure 5). The largest system was demonstrably not the optimum.
 
-At the Mawan Energy Ecological Park, a waste-to-energy plant on the Shenzhen waterfront, the catchment mixed the vegetated Xiaonanshan slope, roofs, visitor areas, and refuse-truck production roads. Clean roof and pedestrian runoff entered a distributed LID system and a 2–3-stage rainwater wetland, while the production roads kept inlets on both sides so their dirtier runoff stayed under controlled collection. Limited green area meant the site could not meet Shenzhen's full reuse standard, so the scheme used sponge methods for pollution control and a demonstration landscape rather than maximum harvesting.
+![Figure 5](assets/fig5-suhewan-storage.png){width=88%}
+*Figure 5. Suhewan storage-sizing alternatives. On dense land, the binding constraint is storage economics, not collection potential.*
 
-![Original Mawan sponge-city plan](assets/mawan-sponge-city-plan-original.jpg)
+**Mawan — separation before treatment.** At a waterfront waste-to-energy park in Shenzhen, the 0.5 km² catchment mixed a vegetated upper slope (runoff coefficient ~0.15) with a built lower zone (~0.65). A supply–demand balance showed full reuse was infeasible — roughly 217,000 m³ of annual harvestable runoff against an 18-million-m³ freshwater cooling demand — so the scheme used sponge methods for pollution control and ecological demonstration rather than maximum harvesting. The decisive move was land-use-based: refuse-truck production roads kept inlets on both sides so their dirty runoff stayed under controlled collection, while clean roof and pedestrian runoff fed distributed LID and a two-to-three-stage rainwater wetland that doubles as habitat and public education (image below).
 
-*Figure 4. Mawan site plan (original landscape report): blue corridors route runoff through green space and wetland around the buildings.*
+![Mawan wetland](assets/mawan-rainwater-wetland-render.jpg){width=88%}
+*The Mawan rainwater wetland: clean runoff is filtered and detained while the boardwalk turns treatment into a public amenity (project rendering).*
 
-![Original Mawan rainwater-wetland rendering](assets/mawan-rainwater-wetland-render-original.jpg)
+**Jinjiang — plot LID is not enough.** At river-network scale the strategy was staged: near-term point-source treatment, mid-term diffuse-runoff control, and only then restoration of the river's self-purification — straightened reaches re-meandered, banks and beds softened, and a 30 m planted buffer set back above the wet-season line, with channel velocities held to roughly 0.012–0.046 m/s. The parallel land target pulls the citywide runoff coefficient from about 0.85 toward 0.55. Landscape treatment alone cannot repair a river unless the pollutant load and the hydraulics change with it. Conveyance measures such as the stepped dry-creek channel below dissipate energy and turn drainage into landscape, but they operate within this larger basin logic.
 
-*Figure 5. The wetland detains and filters runoff while doubling as habitat and a public route.*
+![Dry creek](assets/gengwan-dry-creek-reference.jpg){width=82%}
+*Stepped rock (dry-creek) channel: a conveyance measure that dissipates energy and aerates flow while reading as landscape (reference image).*
 
-### Kunshan — flat, high-groundwater residential (infiltration cannot be assumed)
+## 7. Discussion, limitations, and a doctoral agenda
 
-On flat former farmland near Shanghai, development raised the runoff coefficient from 0.25 to 0.553; for a 2-year storm (86.8 mm) the calculated runoff rose by 2,171.5 m³ and peak flow from 709 to 1,568 L/s. Because soil permeability was low and groundwater high, a green facility was not automatically infiltrative, so the design combined bioretention, underdrainage, overflow, and permeable surfaces rather than relying on soakage.
+Read together, the six commissions support a single planning proposition: **land use is a first-order determinant of stormwater design, and treating LID as land-use-neutral is the recurring error.** A configuration that reduces risk on one land-use type can fail on another — infiltration that works on permeable greenfield is void on Kunshan's clays; an amenity lake that stores runoff safely at Gengwan would be a hazard without quantified freeboard; the maximal harvesting system that satisfies a checklist is wrong on Suhewan's dense plot.
 
-![Original bioretention-section illustration](assets/kunshan-bioretention-section-original.jpg)
+The principal limitation is evidentiary: these were design-stage models and calculations, not monitored systems, and standards were those of their time. That boundary defines the doctoral work I propose — first, to test these propositions against post-construction monitoring; and second, to formalize the framework into a *land-use-conditioned decision model* that maps measurable site attributes (scale, imperviousness, soil permeability, groundwater depth, dominant pollution source, receiving-water sensitivity) to treatment-train emphasis and storage strategy, so sponge-city investment is allocated by land-use evidence rather than uniform percentages. Coupling that model with land-use and zoning instruments — so hydrological performance is set when land use is decided — is the longer-term aim.
 
-*Figure 6. Bioretention section (Kunshan stormwater report): the planted depression stores, filters, and infiltrates beside the developed surface.*
+## Evidence base
 
-### Houhai and Suhewan — dense infill and CBD plot (storage as residual, economics as constraint)
+- *20170818-海绵城市技术-Shuai.pptx* — Gengwan planning, SWMM modeling, LID design; Jinjiang river strategy.
+- *LID部分措施.pptx* — comparative performance of permeable paving, green roofs, wetlands, and swales (Table 1).
+- *KS_Talent_Residence_LC_SUSD_110927_CHN.docx* — Kunshan runoff calculations, infiltration design, storage, reuse, overflow.
+- *10223.01-华润苏河湾雨水回用水量分析报告.pdf* — Suhewan runoff-control and storage alternatives.
+- *Exhibit A — Project Introduction.pdf* and *Exhibit I — 海绵城市设计专篇.pdf* — Houhai site context and quantitative controls.
+- *妈湾城市能源生态园方案设计初稿成果（景观专业20170305）.pdf* — Mawan industrial sponge-city and ecological landscape.
+- *SWMM Gengwan.jpg* — Gengwan drainage-network model.
 
-At Shenzhen Houhai a policy target became a site water budget: 60% annual control on clay (70% on loam), 40% non-point-source reduction, and a 5-year drainage storm. Land-cover conversion supplied part of the control and a ~340 m³ tank closed the remaining gap. At Shanghai Suhewan, a 216 m tower over dense underground space, the question was how large a reuse system to build. Collecting all hardscape and roof runoff implied a 1,077 m³ tank; weighed against demand, water quality, and cost, a roof-focused design of 350 m³ (Parcel 46) and 370 m³ (Parcel 44) was recommended instead.
-
-| Suhewan storage basis | Volume (m³) |
-| --- | ---: |
-| Sponge runoff-control requirement (Parcel 46) | 343.24 |
-| LEED collection of all hardscape + roof runoff | 1,077.30 |
-| Three days' demand, incl. toilet flushing | 470.00 |
-| Three days' demand, excl. toilet flushing | 340.00 |
-| Final roof-focused recommendation (Parcel 46) | 350.00 |
-| Final recommendation (Parcel 44) | 370.00 |
-
-### Jinjiang — watershed (plot LID is not enough)
-
-At river-network scale the strategy was staged: near-term point-source treatment, mid-term diffuse-runoff control, and only then restoration of the river's self-purification - straightened reaches re-meandered, banks and beds softened, and a 30 m planted buffer set back above the wet-season line, with channel velocities held to roughly 0.012–0.046 m/s. The parallel land target pulls the citywide runoff coefficient from about 0.85 toward 0.55. Landscape treatment alone cannot repair a river unless the pollutant load and the hydraulics change with it.
-
-## Implications and next steps
-
-Looking back across the six commissions, the clearest finding is that the configuration that reduces risk in one setting can fail in another. Testing these propositions against post-construction monitoring - and building a formal site-condition decision model that maps site attributes to treatment-train emphasis and storage strategy - is the work I want to pursue in doctoral study.
+*Figures 1–5 are original analytical diagrams and charts prepared for this brief from the project data; the wetland and dry-creek images are drawn from the original project materials. Source documents cite standards current when prepared; this brief presents the projects' planning logic and recorded calculations as comparative research evidence, not as a regulatory-compliance certification, and the models were design tools rather than monitored, validated systems.*
