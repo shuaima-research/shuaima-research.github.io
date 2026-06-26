@@ -79,29 +79,17 @@ Mahsud, R., and Ma, S. Presented by Shuai Ma.
 
 ## Selected Analytical Projects
 
-**Sponge City and Low-Impact Development Technical Research and Application** \hfill 2017  
-Research leader; led a two-person, three-month applied research effort on stormwater adaptation
+**Pro Forma Urbanism: Financial Feasibility Modeling and Land Value Capture in Shenzhen Urban Renewal** \hfill 2025  
+Sole-authored research brief; reconstructs a developer feasibility model as the interface where planning rules become built form
 
-- Synthesized sponge-city policies, Low Impact Development (LID) technologies, and multi-city case materials into technical guidance for runoff control, rainwater reuse, water-quality treatment, and urban flood-risk reduction.
-- Evaluated permeable paving, green roofs, bioswales, rain gardens, wetlands, detention facilities, and runoff-control scenarios using catchment analysis, water-balance calculations, and stormwater simulation outputs.
+- Reconstructed the dual-track (static and dynamic) project appraisal as reproducible spreadsheets, reproducing the source's reported IRR of 27.45% and NPV of approximately ¥2.44 billion.
+- Reverse-engineered the FAR-graduated, tenure-contingent land-pricing algorithm and showed it operates as a land value capture instrument: roughly 86% of the ¥4.66 billion premium falls on net-new density, raising the case equity floor land price about 50% above benchmark.
 
 **Empirical Analysis of Guangzhou Residential Rental Markets** \hfill 2021  
-Sole-authored applied econometric project using scraped public rental-listing data
+Sole-authored hedonic study; shows dwelling size and central location are jointly capitalized into asking rents
 
-- Collected and cleaned approximately 3,000 publicly available online rental listings and modeled Guangzhou rent variation using structural housing attributes, rental type, floor information, and district-level location indicators.
-- Applied OLS regression, stepwise variable selection, VIF/kappa multicollinearity diagnostics, PCA, and exploratory clustering to evaluate key rental-price determinants.
-
-**Serviced Apartment and Long-Term Rental Housing Sector Studies** \hfill 2016; 2021  
-Sole-authored mixed-methods housing-market research using field visits, web-scraped data, R, and Python
-
-- Conducted field visits to dozens of serviced-apartment projects and compiled public online listing data to compare rents, occupancy, tenant profiles, product layouts, amenities, operators, and location patterns.
-- Analyzed 987 Guangzhou serviced-apartment listings using descriptive statistics, cross-tabulation, chi-square tests, and tree-based feature-importance models to evaluate brand, district, accessibility, and unit-level rent drivers.
-
-**Comparative Policy Study of New Industrial Land (M0) in the Greater Bay Area** \hfill 2021  
-Sole-authored study of land-use regulation, industrial redevelopment, and zoning-like reform
-
-- Compared M0 land-use policies across Shenzhen, Guangzhou, Dongguan, Foshan, Huizhou, Zhongshan, and Zhuhai, examining industry eligibility, site-selection rules, FAR requirements, subdivision and transfer restrictions, land tenure, and performance monitoring.
-- Synthesized national, provincial, and municipal policy documents to evaluate how regulatory design supports industrial upgrading while limiting speculative real-estate conversion of industrial land.
+- Collected and cleaned approximately 3,000 public rental listings and estimated a log-log hedonic rent model, addressing right-skew through log transformation and reporting HC1 heteroskedasticity-robust standard errors after a Breusch-Pagan test.
+- Found floor area the dominant structural correlate (rent elasticity 0.715) and a center-oriented spatial gradient: conditional on dwelling attributes, listings rent roughly 51% higher in Tianhe than in reference-district Baiyun.
 
 **Highest and Best Use (HBU) Optimization for Business-Park Development** \hfill 2021  
 Initiated and led internal real estate analytics study using market research, regulatory constraints, and Python linear programming
@@ -110,11 +98,23 @@ Initiated and led internal real estate analytics study using market research, re
 - Formulated a Python PuLP optimization model to maximize gross development value under FAR, building-height, plot-coverage, and green-space-ratio constraints.
 - Tested alternative product-mix scenarios to compare value maximization with market absorption, translating HBU analysis into a data-driven development strategy.
 
-**Jiangsu Provincial Low-Carbon Urban System Strategy** \hfill 2011  
-Core ARUP project-team member; early-career foundation in regional carbon accounting and low-carbon planning
+**Engineering Controlled Flexibility: New-type Industrial Land (M0) and the Governance of Innovation Space in the Pearl River Delta** \hfill 2021  
+Sole-authored comparative policy analysis; reads M0 as controlled flexibility via conditional property rights
 
-- Contributed to an IPCC-based carbon-audit framework linking urban-system planning with activity-data and emissions-factor methods across land use, buildings, industry, transportation, water, waste, ecological space, and alternative energy.
-- Supported province-scale baseline emissions estimation for Jiangsu's urban system, translating carbon-accounting results into planning-relevant evidence for low-carbon strategy and policy design.
+- Coded M0 regulatory provisions across seven Pearl River Delta cities into a six-dimension matrix (admission, intensity, functional mix, transfer and tenure, value capture, monitoring), triangulated against a 2021 market scan.
+- Found Shenzhen pairs the lowest FAR floor with the highest saleable-area cap (65% vs. 49–50%), offsetting tradability through the Industrial Block-Line; for-sale supply drifted toward saleable product, with over 1,800 R&D units listed against factory stock in only two projects.
+
+**Land Use as a Hydrological Variable: A Site-Conditioned Framework for Low-Impact Development** \hfill 2011–2017  
+Sole-authored retrospective multi-case study; argues land use is a first-order determinant of stormwater design
+
+- Read six sponge-city and water-environment commissions across Shanghai, Shenzhen, Kunshan, and Jinjiang as a comparative case series along a watershed-to-plot scale ladder, pairing SWMM simulation, rational-method and water-balance calculation, and multi-criteria storage trade-offs.
+- Derived five land-use-conditioned design propositions linking terrain to source control, low permeability to detention, density to storage economics, industrial land to clean-dirty separation, and basin scale to hydromorphological restoration.
+
+**Jiangsu Provincial Low-Carbon Urban System Strategy** \hfill 2011  
+Core project-team member, Arup; province-scale carbon-accounting and policy-scenario analysis
+
+- Helped build a multi-sector accounting model integrating activity data across land use, buildings, industry, transportation, water, waste, and ecological space for a 13-city provincial urban system.
+- Produced baseline and policy-scenario estimates for 2005–2030 using per-capita and per-GDP intensity indicators, translating spatial and administrative data into planning-relevant quantitative evidence.
 
 ## Technical Skills
 
