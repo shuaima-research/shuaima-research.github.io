@@ -91,12 +91,11 @@ Sole-authored hedonic study; shows dwelling size and central location are jointl
 - Collected and cleaned approximately 3,000 public rental listings and estimated a log-log hedonic rent model, addressing right-skew through log transformation and reporting HC1 heteroskedasticity-robust standard errors after a Breusch-Pagan test.
 - Found floor area the dominant structural correlate (rent elasticity 0.715) and a center-oriented spatial gradient: conditional on dwelling attributes, listings rent roughly 51% higher in Tianhe than in reference-district Baiyun.
 
-**Highest and Best Use (HBU) Optimization for Business-Park Development** \hfill 2021  
-Initiated and led internal real estate analytics study using market research, regulatory constraints, and Python linear programming
+**Operationalizing Highest and Best Use: A GDV-Oriented Integer-Programming Approach to Product-Mix Optimization for Business-Park Development** \hfill 2021  
+Initiated and led an internal real-estate analytics study at Ping An Group, combining field market research, regulatory analysis, and Python integer programming
 
-- Surveyed 11 competing business-park projects in Foshan to parameterize 16 candidate product typologies, including multi-floor manufacturing buildings, detached warehouses, and independent offices.
-- Formulated a Python PuLP optimization model to maximize gross development value under FAR, building-height, plot-coverage, and green-space-ratio constraints.
-- Tested alternative product-mix scenarios to compare value maximization with market absorption, translating HBU analysis into a data-driven development strategy.
+- Surveyed 11 competing business parks in Foshan's Nanhai District to parameterize 16 product typologies, then formulated and solved an integer linear program in Python (PuLP / COIN-OR CBC) maximizing gross development value (GDV) under floor-area-ratio and plot-coverage constraints, returning a certified-optimal building mix in seconds.
+- Demonstrated that the value-maximizing mix pairs multi-floor manufacturing with offices and excludes low-margin warehouses, then ran sensitivity scenarios quantifying the GDV cost of adding warehouses to improve market absorption, translating Highest-and-Best-Use logic into a reproducible, data-driven development strategy.
 
 **Engineering Controlled Flexibility: New-type Industrial Land (M0) and the Governance of Innovation Space in the Pearl River Delta** \hfill 2021  
 Sole-authored comparative policy analysis; reads M0 as controlled flexibility via conditional property rights

@@ -56,5 +56,11 @@
   },
   "projects/PA-25-Shenzhen M0/M0_Research_Brief.md": {
     "M0_Research_Brief.html": "d2deb93f"
+  },
+  "projects/PA-23-HBU/Research-Brief_HBU-Optimization.md": {
+    "Research-Brief_HBU-Optimization.html": "36afbbbe"
+  },
+  "projects/PA-23-HBU/hbu_optimization.qmd": {
+    "hbu_optimization.html": "2f73561d"
   }
 }
