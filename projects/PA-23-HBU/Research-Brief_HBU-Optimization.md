@@ -1,8 +1,25 @@
-# Operationalizing Highest and Best Use: A GDV-Oriented Integer-Programming Approach to Product-Mix Optimization for Business-Park Development
+---
+title: "Operationalizing Highest and Best Use"
+lang: en
+toc: true
+toc-depth: 2
+format:
+  html:
+    css: ../../styles.css
+---
 
-Shuai Ma, Internal Research Project, Ping An Group, 2021
-Field: Urban Planning, Land-Use Economics, and Computational Decision Support
-Empirical setting: an industrial and R&D land parcel in Nanhai District, Foshan, China
+```{=html}
+<div class="cp-header">
+  <div class="cp-tag">Research Brief · Internal Research Project · Ping An Group · 2021</div>
+  <h1 class="cp-title">Operationalizing Highest and Best Use</h1>
+  <div class="cp-subtitle">A GDV-Oriented Integer-Programming Approach to Product-Mix Optimization for Business-Park Development</div>
+  <div class="cp-meta">
+    <span class="cp-author">Shuai Ma</span><br>
+    Urban Planning, Land-Use Economics, and Computational Decision Support<br>
+    Empirical setting: an industrial and R&amp;D land parcel in Nanhai District, Foshan, China
+  </div>
+</div>
+```
 
 ## Abstract
 

@@ -116,10 +116,13 @@ toc: false
 
     <div class="rp-list-item">
       <div class="rp-list-header">
-        <span class="rp-list-title">Jiangsu Provincial Low-Carbon Urban System Strategy</span>
+        <span class="rp-list-title">Auditing Carbon at the Scale of the Urban System: A Spatial Planning Emissions Model for Jiangsu Province, 2005–2030</span>
         <span class="rp-list-year">2011</span>
       </div>
-      <p class="rp-list-desc">Core ARUP team member; contributed to an IPCC-based carbon-audit framework and province-scale baseline emissions estimation, translating results into planning-relevant evidence for low-carbon strategy.</p>
+      <p class="rp-list-desc">An eight-module carbon audit model for Jiangsu's urban-system plan, estimating emissions and intensity across 13 cities under three scenarios, 2005–2030.</p>
+      <div style="margin-top: 0.5rem;">
+        <a href="projects/ARP-Jiangsu%20Low%20Carbon/Jiangsu_Low-Carbon_Research_Brief.html" class="btn btn-academic-sm">Research Brief</a>
+      </div>
     </div>
 
   </div>

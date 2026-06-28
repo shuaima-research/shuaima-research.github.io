@@ -12,8 +12,8 @@ format:
 <div class="cp-header">
   <div class="cp-tag">Research Brief · Urban Planning, Water, and Ecological Infrastructure · Retrospective Comparative Case Study · Atkins · 2011–2017</div>
   <h1 class="cp-title">Land Use as a Hydrological Variable</h1>
+  <div class="cp-subtitle">A site-conditioned framework for low-impact development across six Chinese urban development types (2011–2017)</div>
   <div class="cp-meta">
-    <strong>A site-conditioned framework for low-impact development across six Chinese urban development types (2011–2017)</strong><br>
     <span class="cp-author">Shuai Ma</span>
   </div>
 </div>

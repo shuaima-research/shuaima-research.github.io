@@ -11,7 +11,7 @@ toc: false
 
     <div class="rp-list-item">
       <div class="rp-list-header">
-        <span class="rp-list-title">Genwan Zen Retreat and Resort: An Integrated Eco-Development Vision</span>
+        <span class="rp-list-title">Gengwan Zen Retreat and Resort: An Integrated Eco-Development Vision</span>
         <span class="rp-list-year">2013–2014</span>
       </div>
       <p class="rp-list-desc">A lakeside cultural resort integrating Zen-inspired placemaking, climate-responsive design, ecological water systems, efficient energy infrastructure, and resource recovery to create a resilient destination in Wuxi.</p>
@@ -36,12 +36,15 @@ toc: false
 
     <div class="rp-list-item">
       <div class="rp-list-header">
-        <span class="rp-list-title">Karamay City Climate Vision (KCCV) — Low-Carbon Transition for China's First Oil City</span>
+        <span class="rp-list-title">Karamay Cloud Computing Valley (KCCV) — Low-Carbon Transition for China's First Oil City</span>
         <span class="rp-list-year">2013–2016</span>
       </div>
       <p class="rp-list-desc">Developed a city-scale low-carbon transition vision linking carbon-reduction targets to economic diversification and spatial restructuring for a resource-dependent oil city.</p>
       <div class="rp-list-meta">
-        <span class="rp-meta-item"><span class="rp-meta-label">Role</span> Lead author, vision &amp; strategy (Atkins)</span>
+        <span class="rp-meta-item"><span class="rp-meta-label">Role</span> Master Planner, Sustainability Expert</span>
+      </div>
+      <div style="margin-top: 0.5rem;">
+        <a href="projects/ATK-KCCV/Project_Brief_KCCV.html" class="btn btn-academic-sm">Project Brief</a>
       </div>
     </div>
 

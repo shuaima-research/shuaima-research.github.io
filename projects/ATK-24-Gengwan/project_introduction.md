@@ -1,8 +1,23 @@
-# Genwan Zen Retreat and Resort: An Integrated Eco-Development Vision
+---
+title: "Gengwan Zen Retreat and Resort"
+lang: en
+toc: true
+toc-depth: 2
+format:
+  html:
+    css: ../../styles.css
+---
 
-**Shuai Ma**  
-**Role:** Master Planner, Project Leader  
-**Date:** 2013-2014
+```{=html}
+<div class="cp-header">
+  <div class="cp-tag">Project Brief · Eco-Development and Resort Planning · Atkins · 2013–2014</div>
+  <h1 class="cp-title">Gengwan Zen Retreat and Resort</h1>
+  <div class="cp-subtitle">An Integrated Eco-Development Vision</div>
+  <div class="cp-meta">
+    <span class="cp-author">Shuai Ma</span> · Master Planner, Project Leader
+  </div>
+</div>
+```
 
 ![Aerial vision of the Genwan resort and its Taihu waterfront](assets/project_vision.jpeg)
 

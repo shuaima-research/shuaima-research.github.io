@@ -12,7 +12,7 @@ format:
 <div class="cp-header">
   <div class="cp-tag">Research Brief · Urban Planning &amp; Real Estate Development · Beamlinked Consulting · 2025</div>
   <h1 class="cp-title">Pro Forma Urbanism</h1>
-  <p style="font-size:1rem; font-weight:600; color:var(--charcoal); margin-top:0.25rem; margin-bottom:0.75rem; line-height:1.4;">Financial Feasibility Modeling as an Instrument of Land Value Capture in Shenzhen's Market-Led Urban Renewal</p>
+  <div class="cp-subtitle">Financial Feasibility Modeling as an Instrument of Land Value Capture in Shenzhen's Market-Led Urban Renewal</div>
   <div class="cp-meta">
     <span class="cp-author">Shuai Ma</span>
   </div>

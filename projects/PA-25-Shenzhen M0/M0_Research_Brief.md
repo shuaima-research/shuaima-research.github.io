@@ -12,8 +12,8 @@ format:
 <div class="cp-header">
   <div class="cp-tag">Research Brief · Urban Planning &amp; Land Policy · Internal Research Report · Ping An Group · 2021</div>
   <h1 class="cp-title">Engineering Controlled Flexibility</h1>
+  <div class="cp-subtitle">New-type Industrial Land (M0) and the Governance of Innovation Space in Shenzhen and the Pearl River Delta</div>
   <div class="cp-meta">
-    <strong>New-type Industrial Land (M0) and the Governance of Innovation Space in Shenzhen and the Pearl River Delta</strong><br>
     <span class="cp-author">Shuai Ma</span>
   </div>
 </div>

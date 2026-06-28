@@ -13,7 +13,7 @@ format:
 <div class="cp-header">
   <div class="cp-tag">Research Brief · Internal Research Project · Ping An Group · 2021</div>
   <h1 class="cp-title">Operationalizing Highest and Best Use</h1>
-  <p style="font-size:1rem; font-weight:600; color:var(--charcoal); margin-top:0.25rem; margin-bottom:0.75rem; line-height:1.4;">A GDV-Oriented Integer-Programming Approach to Product-Mix Optimization for Business-Park Development</p>
+  <div class="cp-subtitle">A GDV-Oriented Integer-Programming Approach to Product-Mix Optimization for Business-Park Development</div>
   <div class="cp-meta">
     <span class="cp-author">Shuai Ma</span>
   </div>

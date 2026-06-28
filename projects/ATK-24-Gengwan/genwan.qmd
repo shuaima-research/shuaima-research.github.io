@@ -1,26 +1,24 @@
 ---
-title: "Genwan Zen Retreat and Resort"
-subtitle: "An Integrated Eco-Development Vision"
-date: "2013–2014"
+title: "Gengwan Zen Retreat and Resort"
+lang: en
 toc: true
 toc-depth: 2
 format:
   html:
-    css:
-      - ../../styles.css
-    include-after-body:
-      text: |
-        <script>
-          document.addEventListener('DOMContentLoaded', function() {
-            var el = document.getElementById('title-block-header');
-            if (el) el.style.setProperty('display', 'block', 'important');
-          });
-        </script>
+    css: ../../styles.css
 ---
 
-<p style="font-size:0.9rem; color:var(--muted); margin-top:-0.5rem; margin-bottom:2rem;">
-  Shuai Ma &nbsp;·&nbsp; Master Planner, Project Leader &nbsp;·&nbsp; Atkins
-</p>
+```{=html}
+<div class="cp-header">
+  <div class="cp-tag">Project Brief · Eco-Development and Resort Planning · Atkins · 2013–2014</div>
+  <h1 class="cp-title">Gengwan Zen Retreat and Resort</h1>
+  <div class="cp-subtitle">An Integrated Eco-Development Vision</div>
+  <div class="cp-meta">
+    <span class="cp-author">Shuai Ma</span> · Master Planner, Project Leader<br>
+    Lingshan, Wuxi, China · ~100 ha planned cultural tourism and leisure destination
+  </div>
+</div>
+```
 
 ![Aerial vision of the Genwan resort and its Taihu waterfront](assets/project_vision.jpeg){width=100%}
 
@@ -33,10 +31,6 @@ The Genwan project is a planned cultural tourism and leisure destination in Ling
 The core proposition is that ecological performance should be part of the visitor experience and the Lingshan brand. In this interpretation, Zen is expressed through calm water, shaded paths, changing seasonal vegetation, sheltered courtyards, and a close relationship with the existing mountains and lake. Sustainability therefore serves three connected purposes: creating a comfortable and memorable place, reducing long-term resource demand, and strengthening the commercial identity of the development.
 
 ## Spatial Structure and Urban Design
-
-![Genwan final planning master plan](assets/genwan_master_plan.jpeg){width=100%}
-
-*Figure 2. Final master plan showing the elongated site between Lake Taihu and the surrounding hills.*
 
 The master plan responds to a narrow, topographically constrained waterfront site. A mixed-use town forms the central spine, while lower-density resort accommodation extends into quieter hillside and lakeside areas. Hotels, conference uses, cultural facilities, commercial streets, residential-style vacation properties, wetlands, canals, and public open spaces are organized as a connected sequence rather than isolated enclaves. The artificial lake and internal waterways act as both placemaking elements and environmental infrastructure, while the shoreline landscape provides a transition to Lake Taihu.
 

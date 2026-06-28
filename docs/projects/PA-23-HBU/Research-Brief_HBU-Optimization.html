@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>research-brief_hbu-optimization – Shuai Ma</title>
+<title>Operationalizing Highest and Best Use – Shuai Ma</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -20,7 +20,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */
   vertical-align: middle;
 }
 </style>
@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-bba5ebae505b5c03f3f0d8040a416a6b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-158031087360bce0ff56dc785ce39e06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -113,7 +113,7 @@ window.Quarto = {
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -131,25 +131,25 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
+    <a class="nav-link" href="../../index.html">
 <span class="menu-text">Home</span></a>
-  </li>  
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../research.html"> 
+    <a class="nav-link" href="../../research.html">
 <span class="menu-text">Research</span></a>
-  </li>  
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../practice.html"> 
+    <a class="nav-link" href="../../practice.html">
 <span class="menu-text">Practice</span></a>
-  </li>  
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../cv.html"> 
+    <a class="nav-link" href="../../cv.html">
 <span class="menu-text">CV</span></a>
-  </li>  
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../contact.html"> 
+    <a class="nav-link" href="../../contact.html">
 <span class="menu-text">Contact</span></a>
-  </li>  
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -161,16 +161,55 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+
+  <ul class="collapse">
+  <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#introduction-and-research-problem" id="toc-introduction-and-research-problem" class="nav-link" data-scroll-target="#introduction-and-research-problem">1. Introduction and Research Problem</a></li>
+  <li><a href="#conceptual-framework-hbu-and-land-use-optimization" id="toc-conceptual-framework-hbu-and-land-use-optimization" class="nav-link" data-scroll-target="#conceptual-framework-hbu-and-land-use-optimization">2. Conceptual Framework: HBU and Land-Use Optimization</a></li>
+  <li><a href="#study-context-and-data" id="toc-study-context-and-data" class="nav-link" data-scroll-target="#study-context-and-data">3. Study Context and Data</a></li>
+  <li><a href="#methodology-formulating-the-product-mix-problem-as-an-integer-program" id="toc-methodology-formulating-the-product-mix-problem-as-an-integer-program" class="nav-link" data-scroll-target="#methodology-formulating-the-product-mix-problem-as-an-integer-program">4. Methodology: Formulating the Product-Mix Problem as an Integer Program</a></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">5. Results</a></li>
+  <li><a href="#discussion-planning-implications-and-limitations" id="toc-discussion-planning-implications-and-limitations" class="nav-link" data-scroll-target="#discussion-planning-implications-and-limitations">6. Discussion: Planning Implications and Limitations</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">7. Conclusion</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Operationalizing Highest and Best Use</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
 
 
 
 
-<section id="operationalizing-highest-and-best-use-a-gdv-oriented-integer-programming-approach-to-product-mix-optimization-for-business-park-development" class="level1">
-<h1>Operationalizing Highest and Best Use: A GDV-Oriented Integer-Programming Approach to Product-Mix Optimization for Business-Park Development</h1>
-<p>Shuai Ma, Internal Research Project, Ping An Group, 2021 Field: Urban Planning, Land-Use Economics, and Computational Decision Support Empirical setting: an industrial and R&amp;D land parcel in Nanhai District, Foshan, China</p>
+  </div>
+
+
+
+</header>
+
+
+<div class="cp-header">
+  <div class="cp-tag">Research Brief · Internal Research Project · Ping An Group · 2021</div>
+  <h1 class="cp-title">Operationalizing Highest and Best Use</h1>
+  <div class="cp-subtitle">A GDV-Oriented Integer-Programming Approach to Product-Mix Optimization for Business-Park Development</div>
+  <div class="cp-meta">
+    <span class="cp-author">Shuai Ma</span><br>
+    Urban Planning, Land-Use Economics, and Computational Decision Support<br>
+    Empirical setting: an industrial and R&amp;D land parcel in Nanhai District, Foshan, China
+  </div>
+</div>
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
 <p>Highest and Best Use (HBU) is a foundational idea in land economics and real-estate appraisal, yet in practice it is usually resolved through expert judgment rather than explicit computation. This brief reframes a product-mix decision for a Chinese business park as a constrained optimization problem structured by the logic of the four classical HBU tests. Legal permissibility and physical possibility enter as constraints, while the maximally productive use is approximated by maximizing Gross Development Value (GDV); a complete financial-feasibility test that nets out construction cost, financing, phasing, and discounting lies beyond this single-objective formulation and is flagged as future work. Solved as an integer linear program (ILP) over sixteen predefined building products and the binding zoning parameters of the site, the model maximizes GDV subject to floor area ratio (FAR) and plot-coverage limits. The optimum favors multi-floor manufacturing buildings combined with independent offices and excludes detached warehouses entirely. A sensitivity analysis then quantifies the GDV penalty of reintroducing warehouses for liquidity reasons, surfacing the trade-off between value maximization and market absorption that pure optimization tends to obscure. The study illustrates how operations research can make early-stage product-positioning analysis more transparent, reproducible, and fast.</p>
@@ -521,7 +560,6 @@ window.Quarto = {
 
 
 </section>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -535,7 +573,7 @@ window.Quarto = {
     anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
-        if (clz.startsWith('code-annotation-')) {                     
+        if (clz.startsWith('code-annotation-')) {
           return true;
         }
       }
@@ -555,11 +593,11 @@ window.Quarto = {
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
         button.setAttribute("data-bs-title", "Copied!");
-        tooltip = new bootstrap.Tooltip(button, 
-          { trigger: "manual", 
+        tooltip = new bootstrap.Tooltip(button,
+          { trigger: "manual",
             customClass: "code-copy-button-tooltip",
             offset: [0, -8]});
-        tooltip.show();    
+        tooltip.show();
       }
       setTimeout(function() {
         if (tooltip) {
@@ -636,7 +674,7 @@ window.Quarto = {
       if (onUntriggerFn) {
         config.onUntrigger = onUntriggerFn;
       }
-      window.tippy(el, config); 
+      window.tippy(el, config);
     }
     const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
     for (var i=0; i<noterefs.length; i++) {
@@ -711,7 +749,7 @@ window.Quarto = {
       tippyHover(xref, undefined, function(instance) {
         instance.disable();
         let url = xref.getAttribute('href');
-        let hash = undefined; 
+        let hash = undefined;
         if (url.startsWith('#')) {
           hash = url;
         } else {
@@ -739,7 +777,7 @@ window.Quarto = {
               if (note !== null) {
                 const html = processXRef(id, note);
                 instance.setContent(html);
-              } 
+              }
             }).finally(() => {
               instance.enable();
               instance.show();
@@ -763,7 +801,7 @@ window.Quarto = {
               }
               const html = processXRef(null, note);
               instance.setContent(html);
-            } 
+            }
           }).finally(() => {
             instance.enable();
             instance.show();
@@ -803,7 +841,7 @@ window.Quarto = {
               height = bottom - top;
             }
             if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
+              // cook up a div (if necessary) and position it
               let div = window.document.getElementById("code-annotation-line-highlight");
               if (div === null) {
                 div = window.document.createElement("div");
