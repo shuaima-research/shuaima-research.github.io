@@ -10,6 +10,30 @@ format:
       text: |
         <style>
           #title-block-header { display: block !important; }
+          .cv-line {
+            display: block;
+          }
+          .cv-right {
+            float: right;
+            color: #64748b;
+            font-weight: 400;
+            margin-left: 1rem;
+            text-align: right;
+          }
+          .cv-line::after {
+            clear: both;
+            content: "";
+            display: block;
+          }
+          @media (max-width: 640px) {
+            .cv-right {
+              display: block;
+              float: none;
+              margin-left: 0;
+              text-align: left;
+              margin-top: 0.1rem;
+            }
+          }
         </style>
 about:
   template: trestles
@@ -31,137 +55,133 @@ execute:
 
 ## Education
 
-**Seattle University** \hfill Seattle, WA, United States  
-Albers School of Business & Economics  
-**M.S. in Business Analytics**, STEM-designated \hfill 2018--2020
+[**Seattle University** `\hfill`{=latex} [Seattle, WA, United States]{.cv-right}]{.cv-line}\
+Albers School of Business and Economics\
+[**M.S. in Business Analytics**, STEM-designated `\hfill`{=latex} [2018--2020]{.cv-right}]{.cv-line}
 
 - Relevant coursework: programming for business analytics, applied econometrics, statistical learning, forecasting, big-data analytics, data management, data visualization, and data architecture.
-- Capstone: *Influential Factors on Residential Property Prices Using Data-Mining Methods*; analyzed Pierce County housing transactions using statistical and machine-learning methods.
+- Capstone: *Influential Factors on Residential Property Prices Using Data-Mining Methods*; analyzed Pierce County housing transactions using statistical and machine-learning method to predict residential prices.
 
-**University of Cincinnati** \hfill Cincinnati, OH, United States  
-College of Design, Architecture, Art, and Planning  
-**M.S. in Architecture**, research-based program with an Urban Development focus \hfill 2009--2011
+[**University of Cincinnati** `\hfill`{=latex} [Cincinnati, OH, United States]{.cv-right}]{.cv-line}\
+College of Design, Architecture, Art, and Planning\
+[**M.S. in Architecture**, research-based program; research and thesis focused on urban development `\hfill`{=latex} [2009--2011]{.cv-right}]{.cv-line}
 
 - Research training: urban theory, research methods, pre-thesis research, social-science research for planners, land-use control, international development policy, and thesis-based scholarly writing.
 - Thesis: *Impact of High-Speed Rail Station Development on Surrounding Urban Form: The Beijing--Tianjin Case*.
 
-**Hebei University of Technology** \hfill Tianjin, China  
-Project 211 and Double First-Class university  
-**B.Eng. in Urban Planning and Design** \hfill 2003--2008
+[**Hebei University of Technology** `\hfill`{=latex} [Tianjin, China]{.cv-right}]{.cv-line}\
+Project 211 and Double First-Class university\
+[**B.Eng. in Urban Planning and Design** `\hfill`{=latex} [2003--2008]{.cv-right}]{.cv-line}
 
 - Undergraduate planning foundation: planning studios, regional planning, urban design, urban economics, urban geography, transportation planning, urban ecology, planning code, and spatial information technology.
 - NACES course-by-course evaluation: equivalent to a U.S. bachelor's degree in Urban and Regional Planning.
 
 ## Research Interests
 
-Housing capitalization of flood risk and mitigation investment; distributional and environmental-justice effects of climate-adaptation policy in flood-prone communities; land-use regulation and real estate markets; causal inference and urban informatics, including GIS and explainable machine learning, for policy evaluation.
+**Substantive:** housing and urban policy; climate adaptation and flood mitigation; place-based public investment; land-market capitalization; affordability, neighborhood sorting, and distributional effects.
+
+**Methods:** causal inference and quasi-experimental policy evaluation; spatial econometrics; GIS and urban data science.
 
 ## Research Papers and Writing Samples
 
-**Hazard or Amenity? Flood Risk, Waterway Proximity, and Neighborhood Inequality in Housing Prices** \hfill 2025--Present  
+[**Hazard or Amenity? Flood Risk, Waterway Proximity, and Neighborhood Inequality** `\hfill`{=latex} [2025--Present]{.cv-right}]{.cv-line}\
 Sole-authored PhD writing sample; empirical study of Pierce County, Washington
 
-- Examines how flood risk, waterway proximity, and neighborhood inequality are capitalized into housing prices using 47,763 single-family sales linked to parcel, FEMA flood-risk, and neighborhood data.
-- Estimates hedonic regression models with tract-clustered standard errors and conducts spatial analysis to evaluate whether flood-risk effects are bundled with waterfront amenity. 
-- Uses flood-income-waterway typologies, machine-learning models, and SHAP interpretation to motivate a future causal research agenda on flood-mitigation investment and distributional effects.
+- Examines how flood risk, waterway proximity, and neighborhood inequality are jointly reflected in residential prices, using 47,763 single-family sales (2021–2025) linked to parcel, FEMA flood-risk, and neighborhood data; recasts whether flood risk is discounted into how hazard, amenity, and neighborhood advantage occupy the same ground.
+- Combines hedonic regression (tract-clustered standard errors) with spatial analysis (Moran's I, LISA), a flood–income–waterway typology, and machine-learning checks, finding no reliable flood-risk discount because hazard and waterfront amenity are too co-located for price alone to separate.
+- Shows that where hazard and amenity share the same parcels, prices cannot reveal who bears flood risk, so value-oriented flood-mitigation investment tends to flow to already-advantaged neighborhoods.
 
-**Strategic Management's Foundational Silence** \hfill 2025--Present  
-First-author coauthored manuscript in revision with Rubina Mahsud and Greg Prussia; developed from a 2020 Strategic Management Society conference proposal
+[**Strategic Management's Foundational Silence** `\hfill`{=latex} [2025--Present]{.cv-right}]{.cv-line}\
+First-author manuscript in revision, coauthored with Rubina Mahsud and Greg Prussia; developed from a 2020 Strategic Management Society conference proposal
 
-- Built and cleaned a corpus of 3,202 Strategic Management Journal articles and applied classical natural language processing (NLP) methods, local open-source large language models (LLMs), and cloud-based LLMs to analyze the field's dominant vocabulary.
+- Built and cleaned a corpus of 3,202 Strategic Management Journal articles and applied classical natural language processing methods, local open-source large language models, and cloud-based models to analyze the field's dominant vocabulary.
 - Develops the concept of "foundational silence" to argue that poverty, war, disease, hunger, homelessness, and related human concerns should be treated as central social contexts rather than peripheral externalities.
 
 ## Conference Presentations
 
-**Strategic Management Society 2060: From Effectiveness to Impact, from Success to Significance** \hfill October 2020  
-Strategic Management Society Annual Conference, London, United Kingdom  
-Mahsud, R., and Ma, S. Presented by Shuai Ma.  
+[**Strategic Management Society 2060: From Effectiveness to Impact, from Success to Significance** `\hfill`{=latex} [October 2020]{.cv-right}]{.cv-line}\
+*Strategic Management Society Annual Conference, Virtual*\
+Mahsud, R., and Ma, S. Presented by Shuai Ma. Conference proposal, later developed into a first-authored manuscript.
 
-## Selected Analytical Projects
+## Selected Research and Analytical Projects
 
-**Pro Forma Urbanism: Financial Feasibility Modeling and Land Value Capture in Shenzhen Urban Renewal** \hfill 2025  
-Sole-authored research brief; reconstructs a developer feasibility model as the interface where planning rules become built form
+[**Pro Forma Urbanism: Financial Feasibility Modeling and Land Value Capture in Shenzhen Urban Renewal** `\hfill`{=latex} [2025]{.cv-right}]{.cv-line}\
+Sole-authored research brief\
 
-- Reconstructed the dual-track (static and dynamic) project appraisal as reproducible spreadsheets, reproducing the source's reported IRR of 27.45% and NPV of approximately ¥2.44 billion.
-- Reverse-engineered the FAR-graduated, tenure-contingent land-pricing algorithm and showed it operates as a land value capture instrument: roughly 86% of the ¥4.66 billion premium falls on net-new density, raising the case equity floor land price about 50% above benchmark.
+- Reverse-engineered a state-owned developer's 45-slide feasibility deck, rebuilding its static and dynamic discounted-cash-flow pro forma as reproducible spreadsheets and validating them against the source's reported outputs (IRR 27.45 percent; NPV ≈ ¥2.44 billion), to show how the model prices land and decides what gets built.
+- Reconstructed Shenzhen's FAR-graduated, tenure-contingent land-pricing rules to trace how density entitlements convert into a payable land premium, finding that roughly 86 percent of the premium falls on the new, market-priced density the plan creates—floor-area ratio functioning as a value-capture instrument.
 
-**Empirical Analysis of Guangzhou Residential Rental Markets** \hfill 2021  
-Sole-authored hedonic study; shows dwelling size and central location are jointly capitalized into asking rents
+[**Empirical Analysis of Guangzhou Residential Rental Markets** `\hfill`{=latex} [2021]{.cv-right}]{.cv-line}\
+Sole-authored hedonic study\
 
-- Collected and cleaned approximately 3,000 public rental listings and estimated a log-log hedonic rent model, addressing right-skew through log transformation and reporting HC1 heteroskedasticity-robust standard errors after a Breusch-Pagan test.
-- Found floor area the dominant structural correlate (rent elasticity 0.715) and a center-oriented spatial gradient: conditional on dwelling attributes, listings rent roughly 51% higher in Tianhe than in reference-district Baiyun.
+- Collected and cleaned 3,000 Guangzhou rental listings and built a hedonic log-rent model with robust standard errors and multicollinearity diagnostics, finding floor area to be the dominant structural correlate of rent (elasticity ≈ 0.72).
+- Estimated conditional district rent differentials to characterize the spatial structure of the rental market, finding that central, employment- and transit-rich districts retain substantial premiums after dwelling attributes are controlled (approximately 51 percent in Tianhe, 42 percent in Yuexiu, and 27 percent in Haizhu relative to Baiyun), and interpreting these as capitalization patterns rather than causal effects given the data's measurement limits.
 
-**Operationalizing Highest and Best Use: A GDV-Oriented Integer-Programming Approach to Product-Mix Optimization for Business-Park Development** \hfill 2021  
-Initiated and led an internal real-estate analytics study at Ping An Group, combining field market research, regulatory analysis, and Python integer programming
+[**Operationalizing Highest and Best Use: A GDV-Oriented Integer-Programming Approach to Product-Mix Optimization for Business-Park Development** `\hfill`{=latex} [2021]{.cv-right}]{.cv-line}\
+Initiated and led an internal real-estate analytics study\
 
-- Surveyed 11 competing business parks in Foshan's Nanhai District to parameterize 16 product typologies, then formulated and solved an integer linear program in Python (PuLP / COIN-OR CBC) maximizing gross development value (GDV) under floor-area-ratio and plot-coverage constraints, returning a certified-optimal building mix in seconds.
-- Demonstrated that the value-maximizing mix pairs multi-floor manufacturing with offices and excludes low-margin warehouses, then ran sensitivity scenarios quantifying the GDV cost of adding warehouses to improve market absorption, translating Highest-and-Best-Use logic into a reproducible, data-driven development strategy.
+- Operationalized Highest and Best Use as an integer linear program that optimizes a business park's product mix under floor-area-ratio and plot-coverage constraints, solved to optimality in seconds with open-source tools.
+- Used sensitivity analysis to quantify the GDV cost of prioritizing market absorption over pure value maximization, turning a single-objective optimum into a risk-aware product-mix recommendation.
 
-**Engineering Controlled Flexibility: New-type Industrial Land (M0) and the Governance of Innovation Space in the Pearl River Delta** \hfill 2021  
-Sole-authored comparative policy analysis; reads M0 as controlled flexibility via conditional property rights
+[**Engineering Controlled Flexibility: New-type Industrial Land (M0) and the Governance of Innovation Space** `\hfill`{=latex} [2021]{.cv-right}]{.cv-line}\
+Sole-authored comparative policy analysis\
 
-- Coded M0 regulatory provisions across seven Pearl River Delta cities into a six-dimension matrix (admission, intensity, functional mix, transfer and tenure, value capture, monitoring), triangulated against a 2021 market scan.
-- Found Shenzhen pairs the lowest FAR floor with the highest saleable-area cap (65% vs. 49–50%), offsetting tradability through the Industrial Block-Line; for-sale supply drifted toward saleable product, with over 1,800 R&D units listed against factory stock in only two projects.
+- Coded industrial land-use policy across seven Pearl River Delta cities along six regulatory dimensions to theorize Shenzhen's M0 land category as "controlled flexibility" enforced through conditional property rights.
+- Triangulated policy texts with 2021 market evidence to show how flexible industrial zoning drifts toward saleable office-like product, requiring continual loophole-closing and a spatial block-line counterweight.
 
-**Land Use as a Hydrological Variable: A Site-Conditioned Framework for Low-Impact Development** \hfill 2011–2017  
-Sole-authored retrospective multi-case study; argues land use is a first-order determinant of stormwater design
+[**Land Use as a Hydrological Variable: A Site-Conditioned Framework for Low-Impact Development** `\hfill`{=latex} [2011–2017]{.cv-right}]{.cv-line}\
+Sole-authored retrospective multi-case study\
 
-- Read six sponge-city and water-environment commissions across Shanghai, Shenzhen, Kunshan, and Jinjiang as a comparative case series along a watershed-to-plot scale ladder, pairing SWMM simulation, rational-method and water-balance calculation, and multi-criteria storage trade-offs.
-- Derived five land-use-conditioned design propositions linking terrain to source control, low permeability to detention, density to storage economics, industrial land to clean-dirty separation, and basin scale to hydromorphological restoration.
+- Synthesized six sponge-city/LID commissions from watershed to CBD-plot scale into a comparative case series, arguing that land use is a first-order determinant of stormwater design and deriving five site-conditioned propositions linking terrain, soil, groundwater, and density to treatment-train configuration.
+- Conducted the underlying hydrological modeling, including SWMM simulation of lake storage and ponding risk under design storms and runoff calculations showing land conversion doubling peak flow on a low-permeability site, to ground a land-use-conditioned LID design framework.
 
-**Jiangsu Provincial Low-Carbon Urban System Strategy** \hfill 2011  
-Core project-team member, Arup; province-scale carbon-accounting and policy-scenario analysis
+[**Auditing Carbon at the Scale of the Urban System: A Spatial Planning Emissions Model for Jiangsu Province** `\hfill`{=latex} [2011]{.cv-right}]{.cv-line}\
+Core project-team member\
 
-- Helped build a multi-sector accounting model integrating activity data across land use, buildings, industry, transportation, water, waste, and ecological space for a 13-city provincial urban system.
-- Produced baseline and policy-scenario estimates for 2005–2030 using per-capita and per-GDP intensity indicators, translating spatial and administrative data into planning-relevant quantitative evidence.
+- Co-developed a multi-sector carbon accounting model integrating activity data across land use, buildings, industry, transportation, water, waste, and ecological space, and produced baseline and policy-scenario emission estimates (2005–2030) using per-capita and per-GDP intensity indicators for a 13-city provincial urban system.
 
 ## Technical Skills
 
-**Programming and Data Analysis:** Python (pandas, NumPy, GeoPandas, statsmodels, scikit-learn, SHAP, PuLP, Matplotlib, web scraping); R (tidyverse, ggplot2/GGally, R Markdown); SQL.
+**Econometric and Quantitative Methods:** Applied econometrics (hedonic price modeling; OLS with clustered standard errors; model selection and multicollinearity diagnostics); statistical learning and forecasting; scenario and baseline modeling
 
-**Statistical and Econometric Methods:** hedonic price modeling, OLS regression with clustered standard errors, model selection and diagnostics, PCA, clustering, and scenario analysis.
+**Spatial and Data Methods:** GIS and spatial analysis; spatial data integration and geoprocessing; integration and cleaning of large-scale, multi-source and multimodal data (spatial, tabular, and text); data visualization
 
-**Machine Learning and Model Interpretation:** tree-based models (decision trees, random forests), feature-importance analysis, and SHAP-based model interpretation.
-
-**Text and AI-Based Analysis:** natural language processing (NLP), keyword-extraction methods, corpus construction, and large language models (LLMs), including open-source and cloud-based models.
-
-**GIS, Spatial, and Environmental Analysis:** QGIS; spatial data processing, floodplain mapping, spatial autocorrelation, catchment and water-balance analysis, stormwater simulation outputs, and IPCC-based carbon accounting.
-
-**Research Workflow and Reporting:** Quarto, LaTeX, Zotero (Better BibTeX), Git/GitHub, and Microsoft Excel.
+**Programming and Software:** Python, R, SQL; GeoPandas, PuLP; ArcGIS/QGIS, SWMM; Quarto, Git/GitHub; Tableau, Excel, Adobe Illustrator
 
 ## Professional Experience
 
-**Founder & Principal Researcher, Beamlinked Consulting Co., Ltd.** \hfill 2023--Present
+[**Founder & Principal Researcher, Beamlinked Consulting Co., Ltd.** `\hfill`{=latex} [2023--Present]{.cv-right}]{.cv-line}
 
-- Founded an independent consulting and research practice focused on urban development, real estate markets, sustainable planning, and policy-oriented analytics.
-- Leads applied research and advisory work on business-park development, housing and real estate markets, land-use policy, and climate-related planning issues.
-- Develops AI-assisted research workflows, including diffusion-model applications for spatial-design exploration and customized language-model tools for sustainability disclosure review.
+- Founded an independent research and advisory practice focused on housing and real estate markets, land-use policy, and urban development, with project engagements in Shandong, Guangzhou, Chongqing, and other regions across China.
+- Conducted market, policy, and spatial analyses for housing, business-park, and urban-development projects, integrating administrative information, publicly available market data, land-use controls, and GIS to assess market demand, development feasibility, and product positioning.
+- Developed quantitative and spatial workflows using Python, R, GIS, and administrative and publicly available data to support research and advisory assignments.
 
-**Vice Director, Property Asset Management, Ping An Group** \hfill 2020--2023
+[**Vice Director, Property Asset Management, Ping An Group** `\hfill`{=latex} [2020--2023]{.cv-right}]{.cv-line}\
+*Planning, research, and investment analysis lead within a real estate business unit*
 
-- Directed planning and design review across the real estate portfolio, including new-town projects and business parks, and contributed to company-wide planning and design guidelines.
-- Served on the internal research think tank, producing regular analytical reports for senior management on real estate markets, urban policy, infrastructure investment, and industrial-park planning.
-- Participated as a core ESG committee member, reviewing project sustainability performance and supporting LEED v4.1 O+M Platinum certification work for the Ping An International Finance Center.
-- Delivered internal professional training as a company-certified lecturer, communicating planning, real estate, and sustainability knowledge to professional audiences.
+- Led housing and real estate market research and investment analysis for a business unit, producing recurring analytical reports for senior management on housing markets, urban policy, infrastructure investment, and industrial-park planning.
+- Initiated quantitative studies on product positioning and highest-and-best-use optimization, evaluating how regulatory and market constraints affected product mix and gross development value.
+- Conducted feasibility, market, and investment analysis for five industrial-park development projects with a combined planned investment of approximately RMB 3.75 billion, two of which are now operational.
 
-**Director, Planning and Development, China Fortune Land Development** \hfill 2017--2018
+[**Director, Planning and Development, China Fortune Land Development** `\hfill`{=latex} [2017--2018]{.cv-right}]{.cv-line}
 
-- Directed town planning, urban design, land-use planning, statutory-planning coordination, and water-green-system planning for two public-private-partnership development districts of roughly 3,200 acres each.
-- Co-developed a group-wide green-development guideline adopted as a standard for new real estate development projects.
+- Directed planning and design across two public-private-partnership new-town districts (~3,200 acres each), spanning land use, urban design, road and infrastructure networks, flood-control and water systems, residential neighborhoods, parks and public facilities, within development contexts involving land acquisition and resident resettlement.
+- Coordinated large-scale development across public and private actors, integrating land-use regulation, infrastructure provision, and real estate development.
+- Co-developed a group-wide development guideline adopted as a standard for new real estate projects.
 
-**Project Manager, AtkinsRéalis / Atkins** \hfill 2013--2017
+[**Project Manager, AtkinsRéalis / Atkins** `\hfill`{=latex} [2013--2017]{.cv-right}]{.cv-line}
 
-- Led planning and design teams across town planning, master planning, business and industrial parks, commercial complexes, tourism districts, and sustainability-oriented urban development projects. 
-- Directed applied research on microclimate analysis, building physics, environmental simulation, and performance-based design methods, including CFD, PMV, whole-building energy simulation, and radiation analysis. 
-- Served as an internal sustainability consultant, helping project teams apply LEED, BREEAM, WELL, China Green Building Label, EEWH, and CASBEE standards.
+- Led planning and design teams across town and master planning, business and industrial parks, commercial complexes, and urban development projects.
+- Directed applied research on environmental and performance-based analysis (microclimate, energy, and building-physics simulation), applying quantitative modeling to development and design decisions.
+- Advised project teams on green-building and sustainability standards (LEED, BREEAM, WELL, and equivalents).
 
-**Urban Planner, Arup** \hfill 2011--2013
+[**Urban Planner, Arup** `\hfill`{=latex} [2011--2013]{.cv-right}]{.cv-line}
 
-- Contributed as a project-team member to low-carbon planning, urban design, waterfront development, transit-oriented development, and regional planning projects.
-- Supported carbon-audit, green-building economics, low-carbon ecological planning, and cross-scalar planning research for department-level studies and publications.
-- Supported a National Basic Research Program study and contributed research materials later incorporated into two published department-led books: *Low-Carbon Ecological Space: Rethinking Cross-Dimensional Planning Methods* and *Study on the Economics of Green Buildings in China*.
+- Contributed to urban regeneration and redevelopment projects, including the Shanghai Expo Urban Best Practices Area (UBPA) and Knowledge & Innovation Community (KIC) renewal, alongside waterfront, transit-oriented, and regional planning with spatial and GIS-based analysis.
+- Contributed to the Jiangsu Provincial Low-Carbon Urban System Strategy, supporting carbon-audit modeling and province-scale scenario analysis.
+- Supported a National Basic Research Program study and contributed research materials incorporated into two published department-led books: *Low-Carbon Ecological Space: Rethinking Cross-Dimensional Planning Methods* and *Study on the Economics of Green Buildings in China*.
 
-**Assistant Planner, Tongji University Urban Planning and Design Institute** \hfill 2007--2009
+[**Assistant Planner, Part-Time, Tongji University Urban Planning and Design Institute** `\hfill`{=latex} [2007--2009]{.cv-right}]{.cv-line}
 
 - Supported regional planning, comprehensive urban development planning, tourism planning, historic-district design, and industrial-park planning projects.
 
