@@ -85,7 +85,6 @@ toc: false
         how benefits and costs are distributed across neighborhoods with different
         income levels, tenure structures, and social vulnerability.
       </p>
-      <a href="research_brief.html" class="btn btn-academic-sm">Read more →</a>
     </div>
   </div>
 </section>
