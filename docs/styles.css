@@ -800,6 +800,15 @@ a:hover {
   color: var(--charcoal);
 }
 
+.about-link {
+  border: none !important;
+  padding: 0.25em 0.4em !important;
+}
+
+.about-links {
+  column-gap: 0.4em !important;
+}
+
 .cv-keywords {
   display: block;
   margin-top: 0.4rem;

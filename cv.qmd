@@ -1,6 +1,6 @@
 ---
 title: "Shuai Ma"
-subtitle: "<span class='cv-role'>Urban Planning Researcher</span><br><span class='cv-keywords'>Housing Markets<br>Public Investment<br>Urban Informatics</span>"
+subtitle: "<span class='cv-role'>Urban Planning Researcher</span>"
 date: today
 format:
   html:
@@ -41,6 +41,12 @@ about:
   image-shape: round
   image-width: 10em
   links:
+    - icon: github
+      text: "GitHub"
+      href: https://github.com/shuaima-research
+    - icon: envelope
+      text: "Email"
+      href: mailto:mashuai@gmail.com
     - text: "↓ Download CV (PDF)"
       href: files/Shuai_Ma_CV.pdf
 execute:
