@@ -46,3 +46,46 @@ Binding these moves together, an integrated architecture–landscape concept dra
 
 ![Aerial photograph of the completed and operational campus.](images/04_completed_aerial_photo.jpeg)
 *Figure 4. The completed campus in operation, closely realizing the original design intent.*
+
+## Project Portfolio
+
+```{=html}
+<div id="kccvCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#kccvCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#kccvCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#kccvCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#kccvCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#kccvCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#kccvCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../../images/KCCV-portfolio/page-10.jpg" class="d-block w-100" alt="KCCV portfolio page 10">
+    </div>
+    <div class="carousel-item">
+      <img src="../../images/KCCV-portfolio/page-11.jpg" class="d-block w-100" alt="KCCV portfolio page 11">
+    </div>
+    <div class="carousel-item">
+      <img src="../../images/KCCV-portfolio/page-12.jpg" class="d-block w-100" alt="KCCV portfolio page 12">
+    </div>
+    <div class="carousel-item">
+      <img src="../../images/KCCV-portfolio/page-13.jpg" class="d-block w-100" alt="KCCV portfolio page 13">
+    </div>
+    <div class="carousel-item">
+      <img src="../../images/KCCV-portfolio/page-14.jpg" class="d-block w-100" alt="KCCV portfolio page 14">
+    </div>
+    <div class="carousel-item">
+      <img src="../../images/KCCV-portfolio/page-15.jpg" class="d-block w-100" alt="KCCV portfolio page 15">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#kccvCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#kccvCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+```

@@ -651,6 +651,17 @@ a:hover {
   margin-bottom: 0;
 }
 
+.carousel {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  margin-bottom: 1.5rem;
+}
+
+.carousel-item img {
+  border-radius: 8px;
+}
+
 /* ============================================================
    RESEARCH BRIEF PAGE
    ============================================================ */
