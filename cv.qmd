@@ -23,7 +23,7 @@ format:
           .cv-line::after {
             clear: both;
             content: "";
-            display: block;
+            display: table;
           }
           @media (max-width: 640px) {
             .cv-right {
