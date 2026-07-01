@@ -84,7 +84,6 @@ toc: false
       </div>
       <p class="rp-list-desc">An integer-programming approach that operationalizes Highest and Best Use, selecting a business park's building mix to maximize Gross Development Value within legal zoning limits.</p>
       <div style="margin-top: 0.5rem;">
-        <a href="projects/PA-23-HBU/hbu_optimization.html" class="btn btn-academic-sm">Research Brief</a>
         <a href="https://github.com/shuaima-research/HBU" class="btn btn-outline-academic-sm" target="_blank">Code</a>
       </div>
     </div>
@@ -95,9 +94,6 @@ toc: false
         <span class="rp-list-year">2021</span>
       </div>
       <p class="rp-list-desc">A research on New-type Industrial Land (M0) in Shenzhen and the Pearl River Delta, examining how planners balance land intensification, industrial upgrading, and protection against real-estate financialization.</p>
-      <div style="margin-top: 0.5rem;">
-        <a href="projects/PA-25-Shenzhen%20M0/M0_Research_Brief.html" class="btn btn-academic-sm">Research Brief</a>
-      </div>
     </div>
 
     <div class="rp-list-item">
@@ -106,9 +102,6 @@ toc: false
         <span class="rp-list-year">2017</span>
       </div>
       <p class="rp-list-desc">Compares six Chinese sponge-city projects, from watershed to CBD plot, showing how land use, site conditions, and development intensity shape low-impact stormwater design.</p>
-      <div style="margin-top: 0.5rem;">
-        <a href="projects/ATK-28-Sponge_City_and_Low-Impact_Development/research_brief.html" class="btn btn-academic-sm">Research Brief</a>
-      </div>
     </div>
 
     <div class="rp-list-item">
@@ -117,9 +110,6 @@ toc: false
         <span class="rp-list-year">2011</span>
       </div>
       <p class="rp-list-desc">An eight-module carbon audit model for Jiangsu's urban-system plan, estimating emissions and intensity across 13 cities under three scenarios, 2005–2030.</p>
-      <div style="margin-top: 0.5rem;">
-        <a href="projects/ARP-Jiangsu%20Low%20Carbon/Jiangsu_Low-Carbon_Research_Brief.html" class="btn btn-academic-sm">Research Brief</a>
-      </div>
     </div>
 
   </div>
