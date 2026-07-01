@@ -84,6 +84,7 @@ toc: false
       </div>
       <p class="rp-list-desc">An integer-programming approach that operationalizes Highest and Best Use, selecting a business park's building mix to maximize Gross Development Value within legal zoning limits.</p>
       <div style="margin-top: 0.5rem;">
+        <a href="projects/PA-23-HBU/Research-Brief_HBU-Optimization_Short.html" class="btn btn-academic-sm">Research Brief</a>
         <a href="https://github.com/shuaima-research/HBU" class="btn btn-outline-academic-sm" target="_blank">Code</a>
       </div>
     </div>
