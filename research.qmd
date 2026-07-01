@@ -56,12 +56,12 @@ toc: false
 
     <div class="rp-list-item">
       <div class="rp-list-header">
-        <span class="rp-list-title">Pro Forma Urbanism: Financial Feasibility Modeling as an Instrument of Land Value Capture in Shenzhen's Market-Led Urban Renewal</span>
+        <span class="rp-list-title">Pro Forma Urbanism: How a Financial Model Prices Public Land in Shenzhen's Urban Renewal</span>
         <span class="rp-list-year">2025</span>
       </div>
       <p class="rp-list-desc">A reconstruction of the feasibility pro forma as a land-value-capture instrument in Shenzhen's market-led urban renewal — linking floor-area ratio and land tenure to urban form.</p>
       <div style="margin-top: 0.5rem;">
-        <a href="projects/PA-02-Pro%20Forma%20Urbanism/Research-Brief_Pro-Forma-Urbanism_Shenzhen-Urban-Renewal.html" class="btn btn-academic-sm">Research Brief</a>
+        <a href="projects/PA-02-Pro%20Forma%20Urbanism/Research-Brief_Pro-Forma-Urbanism_Shenzhen_Short.html" class="btn btn-academic-sm">Research Brief</a>
       </div>
     </div>
 
