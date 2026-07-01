@@ -1,5 +1,5 @@
 ---
-title: "Operationalizing Highest and Best Use"
+title: "Computing Highest and Best Use"
 lang: en
 toc: true
 toc-depth: 2
@@ -11,8 +11,8 @@ format:
 ```{=html}
 <div class="cp-header">
   <div class="cp-tag">Research Brief · Urban Planning, Land Economics &amp; Computational Decision Support · 2021</div>
-  <h1 class="cp-title">Operationalizing Highest and Best Use</h1>
-  <div class="cp-subtitle">A GDV-Oriented Integer-Programming Approach to Product-Mix Optimization for Business-Park Development</div>
+  <h1 class="cp-title">Computing Highest and Best Use</h1>
+  <div class="cp-subtitle">An Integer-Programming Approach to Business-Park Product Mix</div>
   <div class="cp-meta">
     <span class="cp-author">Shuai Ma</span>
   </div>
@@ -29,7 +29,7 @@ The analysis translates a real product-positioning problem, for an industrial an
 
 ## Methods and tools
 
-The model was built in Python and solved as a pure integer linear program with PuLP and the open-source COIN-OR CBC branch-and-bound solver, returning a certified optimum in seconds and enabling rapid scenario analysis across regulatory and market inputs. Supporting work included a field survey of comparable campuses, product catalog definition, and a sensitivity analysis of the value-absorption trade-off.
+The model was built in Python and solved as a pure integer linear program with PuLP and the open-source COIN-OR CBC branch-and-bound solver, returning a certified optimum in seconds and enabling rapid scenario analysis across regulatory and market inputs. Supporting work included a field survey of comparable campuses, product catalog definition, and a sensitivity analysis of the value-absorption trade-off. The optimization code is available at [github.com/shuaima-research/HBU](https://github.com/shuaima-research/HBU).
 
 ## What it finds
 

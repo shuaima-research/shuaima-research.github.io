@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-bba5ebae505b5c03f3f0d8040a416a6b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-158031087360bce0ff56dc785ce39e06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -139,9 +139,9 @@ gtag('config', 'G-4PQ33SR2WK', { 'anonymize_ip': true});
   <ul class="collapse">
   <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a></li>
   <li><a href="#what-the-study-does" id="toc-what-the-study-does" class="nav-link" data-scroll-target="#what-the-study-does">What the study does</a></li>
+  <li><a href="#methods-and-tools" id="toc-methods-and-tools" class="nav-link" data-scroll-target="#methods-and-tools">Methods and tools</a></li>
   <li><a href="#what-it-finds" id="toc-what-it-finds" class="nav-link" data-scroll-target="#what-it-finds">What it finds</a></li>
   <li><a href="#why-it-matters" id="toc-why-it-matters" class="nav-link" data-scroll-target="#why-it-matters">Why it matters</a></li>
-  <li><a href="#methods-and-tools" id="toc-methods-and-tools" class="nav-link" data-scroll-target="#methods-and-tools">Methods and tools</a></li>
   </ul>
 </nav>
     </div>
@@ -183,6 +183,10 @@ gtag('config', 'G-4PQ33SR2WK', { 'anonymize_ip': true});
 <h2 class="anchored" data-anchor-id="what-the-study-does">What the study does</h2>
 <p>The analysis draws on 3,000 publicly available online listings, collected and cleaned by the author, relating monthly rent to floor area, room configuration, floor level, rental form, and administrative district. Because rents are strongly right-skewed and a levels model is heteroskedastic, the preferred specification models log rent with heteroskedasticity-robust standard errors and district fixed effects, explaining about 78 percent of rent variation. The hedonic framework (Lancaster, 1966; Rosen, 1974) separates two forces that a raw district average silently blends: differences in the dwellings themselves and differences in pure location.</p>
 </section>
+<section id="methods-and-tools" class="level2">
+<h2 class="anchored" data-anchor-id="methods-and-tools">Methods and tools</h2>
+<p>The study was built in R. It uses ordinary least squares hedonic regression on a log-transformed dependent variable, with HC1 heteroskedasticity-robust standard errors, district fixed effects, and joint (F) tests of significance. Supporting work included the collection and cleaning of unstructured publicly available data, multicollinearity diagnostics, and principal-component and K-means analyses; the figures were reproduced in English from the model outputs. The analysis code is available at <a href="https://github.com/shuaima-research/PA-16-Guangzhou_Residential_Rental_Market-Github">github.com/shuaima-research/PA-16-Guangzhou_Residential_Rental_Market-Github</a>.</p>
+</section>
 <section id="what-it-finds" class="level2">
 <h2 class="anchored" data-anchor-id="what-it-finds">What it finds</h2>
 <p>Two patterns organize the results. First, usable space, not partition, is the dominant rent-bearing attribute. A 10 percent increase in floor area is associated with about a 7 percent higher rent, while an additional bedroom at a fixed area carries a small discount, evidence that renters value spaciousness rather than the number of rooms a floor plan advertises.</p>
@@ -198,10 +202,6 @@ gtag('config', 'G-4PQ33SR2WK', { 'anonymize_ip': true});
 <section id="why-it-matters" class="level2">
 <h2 class="anchored" data-anchor-id="why-it-matters">Why it matters</h2>
 <p>Read as urban analysis rather than as a pricing exercise, the rental market becomes a diagnostic of where opportunity is concentrated and what it costs to reach it. The gradient reveals a familiar planning tension: the districts offering the best access to jobs and services are the least affordable, because that access is capitalized into rent. Because value attaches to usable area rather than room count, affordability at a fixed budget is often achieved by consuming less space, so headline rents can fall even as crowding rises. And because a district is far too coarse to represent a single housing submarket, the true accessibility gradient is almost certainly steeper than these estimates show, pointing toward finer geography as the next analytical gain. The estimates are associational rather than causal, since the listings omit exact location, accessibility, and building quality.</p>
-</section>
-<section id="methods-and-tools" class="level2">
-<h2 class="anchored" data-anchor-id="methods-and-tools">Methods and tools</h2>
-<p>The study was built in R. It uses ordinary least squares hedonic regression on a log-transformed dependent variable, with HC1 heteroskedasticity-robust standard errors, district fixed effects, and joint (F) tests of significance. Supporting work included the collection and cleaning of unstructured publicly available data, multicollinearity diagnostics, and principal-component and K-means analyses; the figures were reproduced in English from the model outputs.</p>
 <p><em>This is a condensed brief. The full paper develops the specification, the complete district and attribute results, and the planning interpretation in detail.</em></p>
 
 
