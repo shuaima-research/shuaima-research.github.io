@@ -51,9 +51,6 @@
   "projects/ATK-28-Sponge_City_and_Low-Impact_Development/research_brief.md": {
     "research_brief.html": "3855c6a6"
   },
-  "projects/PA-02-Pro Forma Urbanism/Research-Brief_Pro-Forma-Urbanism_Shenzhen-Urban-Renewal.md": {
-    "Research-Brief_Pro-Forma-Urbanism_Shenzhen-Urban-Renewal.html": "9215ba27"
-  },
   "projects/PA-25-Shenzhen M0/M0_Research_Brief.md": {
     "M0_Research_Brief.html": "d2deb93f"
   },
@@ -80,5 +77,14 @@
   },
   "projects/PA-Xuchang/Project_Intro_PingAn_Xuchang.md": {
     "Project_Intro_PingAn_Xuchang.html": "03d5bb16"
+  },
+  "projects/PA-02-Pro Forma Urbanism/Research-Brief_Pro-Forma-Urbanism_Shenzhen_Short.md": {
+    "Research-Brief_Pro-Forma-Urbanism_Shenzhen_Short.html": "9734ceb9"
+  },
+  "projects/PA-16-Guangzhou_Residential_Rental_Market/Research-Brief_Rent-as-Urban-Structure_Guangzhou_Short.md": {
+    "Research-Brief_Rent-as-Urban-Structure_Guangzhou_Short.html": "8e1512fd"
+  },
+  "projects/PA-23-HBU/Research-Brief_HBU-Optimization_Short.md": {
+    "Research-Brief_HBU-Optimization_Short.html": "9ad91c00"
   }
 }

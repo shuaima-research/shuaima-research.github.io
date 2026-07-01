@@ -11,6 +11,34 @@ toc: false
 
     <div class="rp-list-item">
       <div class="rp-list-header">
+        <span class="rp-list-title">Ping An · Dongguan Water-Town Innovation Park</span>
+        <span class="rp-list-year">2021-2023</span>
+      </div>
+      <p class="rp-list-desc">Set in Dongguan's water-town delta, China Ping An's Machong Innovation Park is a completed 595,000 m² vertical "factory-on-floors" 5G and electronics campus laced with canals, waterfront greenways, and wetlands.</p>
+      <div class="rp-list-meta">
+        <span class="rp-meta-item"><span class="rp-meta-label">Role</span> Master Planner, Project Director</span>
+      </div>
+      <div style="margin-top: 0.5rem;">
+        <a href="projects/PA-Dongguan/Project_Brief_PingAn_Dongguan.html" class="btn btn-academic-sm">Project Brief</a>
+      </div>
+    </div>
+
+    <div class="rp-list-item">
+      <div class="rp-list-header">
+        <span class="rp-list-title">Ping An · Zheng–Xu Smart-Manufacturing City</span>
+        <span class="rp-list-year">2021-2022</span>
+      </div>
+      <p class="rp-list-desc">Ping An's Zheng–Xu Smart-Manufacturing City is a 2021 master plan for a 1,150-mu full-chain manufacturing district in Xuchang, Henan, weaving an ecological green ring and sponge-city landscape through industry-city integration.</p>
+      <div class="rp-list-meta">
+        <span class="rp-meta-item"><span class="rp-meta-label">Role</span> Master Planner, Project Director</span>
+      </div>
+      <div style="margin-top: 0.5rem;">
+        <a href="projects/PA-Xuchang/Project_Brief_PingAn_Xuchang.html" class="btn btn-academic-sm">Project Brief</a>
+      </div>
+    </div>
+
+    <div class="rp-list-item">
+      <div class="rp-list-header">
         <span class="rp-list-title">Gengwan Zen Retreat and Resort: An Integrated Eco-Development Vision</span>
         <span class="rp-list-year">2013–2014</span>
       </div>
