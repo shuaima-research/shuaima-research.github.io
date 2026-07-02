@@ -31,7 +31,7 @@ toc: false
       Hazard or Amenity? Flood Risk, Waterway Proximity, and Neighborhood Inequality in Housing Prices
     </h3>
     <p class="rp-project-desc">
-      A hedonic study of 47,763 single-family home sales in Pierce County, Washington, linking parcel-level transactions with FEMA flood-risk designations, waterway proximity, and neighborhood socioeconomic data. The study shows that estimates of flood-risk capitalization are substantially confounded by waterfront amenity values and neighborhood context, and that flood-risk discounts vary significantly across income and racial composition of neighborhoods — raising distributional questions about who bears the cost of climate risk in housing markets.
+      This project examines how flood risk, waterfront amenity, and neighborhood inequality are jointly capitalized into housing prices in Pierce County, Washington. Using 47,763 arm's-length home sales linked with parcel, environmental, and neighborhood data, it combines hedonic price modeling, spatial analysis, neighborhood typologies, and machine-learning methods to explain why properties in high-risk flood zones often show little or no price discount. The findings suggest that flood hazard and waterfront amenity are spatially entangled, so conventional average flood-risk estimates mask substantial heterogeneity across market contexts. The study argues that flood maps identify physical exposure but cannot, on their own, reveal who ultimately bears flood risk or who benefits from location.
     </p>
     <div class="rp-project-methods">
       <span class="rp-method-tag">Hedonic Pricing</span>
