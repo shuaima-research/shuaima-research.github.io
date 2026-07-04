@@ -26,7 +26,8 @@ format:
       - cosmo
       - brand
     css: styles.css
+    include-in-header:
+      - includes/clarity.html
     toc: false
-
 
 
