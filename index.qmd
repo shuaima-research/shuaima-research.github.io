@@ -88,4 +88,132 @@ toc: false
     </div>
   </div>
 </section>
+
+<!-- ── Research Highlights ───────────────────────────────── -->
+<section class="project-section">
+  <div class="section-inner">
+    <h2 class="section-heading">Research</h2>
+    <div class="rp-project-list">
+
+      <div class="rp-list-item">
+        <div class="rp-list-header">
+          <span class="rp-list-title">Hazard or Amenity? Flood Risk, Waterway Proximity, and Neighborhood Inequality in Housing Prices</span>
+          <span class="rp-list-year">2025–Present</span>
+        </div>
+        <p class="rp-list-desc">A hedonic and spatial analysis of 47,763 Pierce County home sales showing that flood hazard and waterfront amenity are too spatially entangled for prices alone to reveal who bears flood risk.</p>
+        <div style="margin-top: 0.5rem;">
+          <a href="pierce_county_abstract.html" class="btn btn-academic-sm">Abstract</a>
+          <a href="https://github.com/shuaima-research/pierce_county_project_github" class="btn btn-outline-academic-sm" target="_blank">Code</a>
+        </div>
+      </div>
+
+      <div class="rp-list-item">
+        <div class="rp-list-header">
+          <span class="rp-list-title">Pro Forma Urbanism: How a Financial Model Prices Public Land in Shenzhen's Urban Renewal</span>
+          <span class="rp-list-year">2025</span>
+        </div>
+        <p class="rp-list-desc">A reconstruction of the feasibility pro forma as a land-value-capture instrument in Shenzhen's market-led urban renewal — linking floor-area ratio and land tenure to urban form.</p>
+        <div style="margin-top: 0.5rem;">
+          <a href="projects/PA-02-Pro%20Forma%20Urbanism/Research-Brief_Pro-Forma-Urbanism_Shenzhen_Short.html" class="btn btn-academic-sm">Research Brief</a>
+        </div>
+      </div>
+
+      <div class="rp-list-item">
+        <div class="rp-list-header">
+          <span class="rp-list-title">Rent as a Map of the City: Space, Centrality, and Guangzhou's Rental Market</span>
+          <span class="rp-list-year">2021</span>
+        </div>
+        <p class="rp-list-desc">Collected and modeled ~3,000 rental listings using OLS regression, stepwise variable selection, PCA, and clustering to evaluate key rent determinants across structural and location attributes.</p>
+        <div style="margin-top: 0.5rem;">
+          <a href="projects/PA-16-Guangzhou_Residential_Rental_Market/Research-Brief_Rent-as-Urban-Structure_Guangzhou_Short.html" class="btn btn-academic-sm">Research Brief</a>
+          <a href="https://github.com/shuaima-research/PA-16-Guangzhou_Residential_Rental_Market-Github" class="btn btn-outline-academic-sm" target="_blank">Code</a>
+        </div>
+      </div>
+
+      <div class="rp-list-item">
+        <div class="rp-list-header">
+          <span class="rp-list-title">Operationalizing Highest and Best Use: A GDV-Oriented Integer-Programming Approach to Product-Mix Optimization for Business-Park Development</span>
+          <span class="rp-list-year">2021</span>
+        </div>
+        <p class="rp-list-desc">An integer-programming approach that operationalizes Highest and Best Use, selecting a business park's building mix to maximize Gross Development Value within legal zoning limits.</p>
+        <div style="margin-top: 0.5rem;">
+          <a href="projects/PA-23-HBU/Research-Brief_HBU-Optimization_Short.html" class="btn btn-academic-sm">Research Brief</a>
+          <a href="https://github.com/shuaima-research/HBU" class="btn btn-outline-academic-sm" target="_blank">Code</a>
+        </div>
+      </div>
+
+      <div class="rp-list-item">
+        <div class="rp-list-header">
+          <span class="rp-list-title">Engineering Controlled Flexibility: New-type Industrial Land (M0) and the Governance of Innovation Space in Shenzhen and the Pearl River Delta</span>
+          <span class="rp-list-year">2021</span>
+        </div>
+        <p class="rp-list-desc">A research on New-type Industrial Land (M0) in Shenzhen and the Pearl River Delta, examining how planners balance land intensification, industrial upgrading, and protection against real-estate financialization.</p>
+        <div style="margin-top: 0.5rem;">
+          <a href="projects/PA-25-Shenzhen%20M0/M0_Research_Brief_Short.html" class="btn btn-academic-sm">Research Brief</a>
+        </div>
+      </div>
+
+    </div>
+    <div style="text-align: center; margin-top: 1.75rem;">
+      <a href="research.html" class="btn btn-outline-academic-sm">View All Research →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── Project Highlights ────────────────────────────────── -->
+<section class="snapshot-section">
+  <div class="section-inner">
+    <h2 class="section-heading">Projects</h2>
+    <div class="rp-project-list">
+
+      <div class="rp-list-item">
+        <div class="rp-list-header">
+          <span class="rp-list-title">Ping An · Dongguan Water-Town Innovation Park</span>
+          <span class="rp-list-year">2021–2023</span>
+        </div>
+        <p class="rp-list-desc">Set in Dongguan's water-town delta, China Ping An's Machong Innovation Park is a completed 595,000 m² vertical "factory-on-floors" 5G and electronics campus laced with canals, waterfront greenways, and wetlands.</p>
+        <div style="margin-top: 0.5rem;">
+          <a href="projects/PA-Dongguan/Project_Brief_PingAn_Dongguan.html" class="btn btn-academic-sm">Project Brief</a>
+        </div>
+      </div>
+
+      <div class="rp-list-item">
+        <div class="rp-list-header">
+          <span class="rp-list-title">Ping An · Zheng–Xu Smart-Manufacturing City</span>
+          <span class="rp-list-year">2021–2022</span>
+        </div>
+        <p class="rp-list-desc">Ping An's Zheng–Xu Smart-Manufacturing City is a 2021 master plan for a 1,150-mu full-chain manufacturing district in Xuchang, Henan, weaving an ecological green ring and sponge-city landscape through industry-city integration.</p>
+        <div style="margin-top: 0.5rem;">
+          <a href="projects/PA-Xuchang/Project_Brief_PingAn_Xuchang.html" class="btn btn-academic-sm">Project Brief</a>
+        </div>
+      </div>
+
+      <div class="rp-list-item">
+        <div class="rp-list-header">
+          <span class="rp-list-title">Gengwan Zen Retreat and Resort: An Integrated Eco-Development Vision</span>
+          <span class="rp-list-year">2013–2014</span>
+        </div>
+        <p class="rp-list-desc">A lakeside cultural resort integrating Zen-inspired placemaking, climate-responsive design, ecological water systems, efficient energy infrastructure, and resource recovery to create a resilient destination in Wuxi.</p>
+        <div style="margin-top: 0.5rem;">
+          <a href="projects/ATK-24-Gengwan/genwan.html" class="btn btn-academic-sm">Project Brief</a>
+        </div>
+      </div>
+
+      <div class="rp-list-item">
+        <div class="rp-list-header">
+          <span class="rp-list-title">Karamay Cloud Computing Valley (KCCV) — Low-Carbon Transition for China's First Oil City</span>
+          <span class="rp-list-year">2013–2016</span>
+        </div>
+        <p class="rp-list-desc">Developed a city-scale low-carbon transition vision linking carbon-reduction targets to economic diversification and spatial restructuring for a resource-dependent oil city.</p>
+        <div style="margin-top: 0.5rem;">
+          <a href="projects/ATK-KCCV/Project_Brief_KCCV.html" class="btn btn-academic-sm">Project Brief</a>
+        </div>
+      </div>
+
+    </div>
+    <div style="text-align: center; margin-top: 1.75rem;">
+      <a href="practice.html" class="btn btn-outline-academic-sm">View All Projects →</a>
+    </div>
+  </div>
+</section>
 ```
