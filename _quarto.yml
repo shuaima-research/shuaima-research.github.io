@@ -14,7 +14,7 @@ website:
       - href: research.qmd
         text: Research
       - href: practice.qmd
-        text: Practice
+        text: Projects
       - href: cv.qmd
         text: CV
       - href: contact.qmd
